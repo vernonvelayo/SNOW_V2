@@ -1,0 +1,5 @@
+[0.013s] Invoking command in '/home/bern/ws_snow/build/hard_con': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/hard_con -- -j12 -l12
+[0.026s] [0mCMake Error: The source directory "/home/rhys/ws_snow/src/hard_con" does not exist.
+[0.026s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.026s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.027s] Invoked command in '/home/bern/ws_snow/build/hard_con' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/hard_con -- -j12 -l12

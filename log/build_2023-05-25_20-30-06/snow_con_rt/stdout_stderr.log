@@ -1,0 +1,29 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveToAPoint(double, double, double, double, double, double*, double*, double*, double*, double, bool, double*, double*, double*, double*, double*)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:838:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::swivel(double*&, double*&, double&, double*&, double*&, double*&, double&, double&, bool&, double [4])[m[K’
+  838 |       if ([01;31m[Kswivel(pArm, uArm, t, d, v, a, targetTime, targetAngle, isHardcon, nStateSign)[m[K)
+      |           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’
+  433 |   bool [01;36m[Kswivel[m[K(
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[K  candidate expects 11 arguments, 10 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:859:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::swivel(double*&, double*&, double&, double*&, double*&, double*&, double&, double&, bool&, double [4])[m[K’
+  859 |       if ([01;31m[Kswivel(pArm, uArm, t, d, v, a, targetTime, targetAngle, isHardcon, nStateSign)[m[K)
+      |           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’
+  433 |   bool [01;36m[Kswivel[m[K(
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[K  candidate expects 11 arguments, 10 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:878:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::swivel(double*&, double*&, double&, double*&, double*&, double*&, double&, double&, bool&, double [4])[m[K’
+  878 |       if ([01;31m[Kswivel(pArm, uArm, t, d, v, a, targetTime, targetAngle, isHardcon, nStateSign)[m[K)
+      |           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’
+  433 |   bool [01;36m[Kswivel[m[K(
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[K  candidate expects 11 arguments, 10 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:724:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kquadrant[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  724 |     static int [01;35m[Kquadrant[m[K = 0;
+      |                [01;35m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

@@ -1,0 +1,30 @@
+[0.013s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.549s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.549s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:95:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KconsTorq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.549s]    95 |       double [01;35m[KconsTorq[m[K = 0.00;
+[1.549s]       |              [01;35m[K^~~~~~~~[m[K
+[5.390s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.643s] [100%] Built target listener
+[5.651s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[5.671s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/snow_con
+[5.679s] -- Install configuration: ""
+[5.679s] -- Installing: /home/bern/ws_snow/install/snow_con/lib/snow_con/listener
+[5.682s] -- Set runtime path of "/home/bern/ws_snow/install/snow_con/lib/snow_con/listener" to ""
+[5.682s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/package_run_dependencies/snow_con
+[5.682s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/parent_prefix_path/snow_con
+[5.682s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.sh
+[5.683s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.dsv
+[5.683s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/path.sh
+[5.683s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/path.dsv
+[5.683s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.bash
+[5.683s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.sh
+[5.683s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.zsh
+[5.683s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.dsv
+[5.684s] -- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/package.dsv
+[5.684s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/packages/snow_con
+[5.684s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig.cmake
+[5.685s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig-version.cmake
+[5.685s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/package.xml
+[5.685s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/snow_con

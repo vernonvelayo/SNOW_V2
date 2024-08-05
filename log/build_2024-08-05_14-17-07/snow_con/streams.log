@@ -1,0 +1,70 @@
+[0.015s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.457s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::initialize_state()[m[K’:
+[1.458s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:55:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktstartmove[m[K’ was not declared in this scope
+[1.458s]    55 |         [01;31m[Ktstartmove[m[K = 0;
+[1.458s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.461s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity[m[K’ was not declared in this scope
+[1.461s]    56 |         [01;31m[Kvelocity[m[K = 0;
+[1.461s]       |         [01;31m[K^~~~~~~~[m[K
+[1.465s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition[m[K’ was not declared in this scope
+[1.465s]    57 |         [01;31m[Kposition[m[K = 0;
+[1.465s]       |         [01;31m[K^~~~~~~~[m[K
+[1.468s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:61:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kd[m[K’ was not declared in this scope
+[1.468s]    61 |           [01;31m[Kd[m[K[i] = 0;
+[1.468s]       |           [01;31m[K^[m[K
+[1.470s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:62:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+[1.470s]    62 |           [01;31m[Kv[m[K[i] = 0;
+[1.470s]       |           [01;31m[K^[m[K
+[1.474s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:63:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kdstartpos[m[K’ was not declared in this scope
+[1.474s]    63 |           [01;31m[Kdstartpos[m[K[i] = 0;
+[1.474s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.478s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:64:11:[m[K [01;31m[Kerror: [m[K‘[01m[KdStartAngle[m[K’ was not declared in this scope
+[1.478s]    64 |           [01;31m[KdStartAngle[m[K[i] = 0;
+[1.478s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[1.481s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:67:9:[m[K [01;31m[Kerror: [m[K‘[01m[KpState[m[K’ was not declared in this scope
+[1.481s]    67 |         [01;31m[KpState[m[K = INIT;
+[1.481s]       |         [01;31m[K^~~~~~[m[K
+[1.484s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:67:18:[m[K [01;31m[Kerror: [m[K‘[01m[KINIT[m[K’ was not declared in this scope
+[1.484s]    67 |         pState = [01;31m[KINIT[m[K;
+[1.484s]       |                  [01;31m[K^~~~[m[K
+[1.487s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:68:9:[m[K [01;31m[Kerror: [m[K‘[01m[KnState[m[K’ was not declared in this scope
+[1.487s]    68 |         [01;31m[KnState[m[K = INIT;
+[1.487s]       |         [01;31m[K^~~~~~[m[K
+[1.489s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kwait[m[K’ was not declared in this scope
+[1.490s]    69 |         [01;31m[Kwait[m[K = false;
+[1.490s]       |         [01;31m[K^~~~[m[K
+[1.491s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[1.491s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:136:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.491s]   136 |       int [01;35m[Ki[m[K, j;
+[1.491s]       |           [01;35m[K^[m[K
+[1.491s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:136:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.491s]   136 |       int i, [01;35m[Kj[m[K;
+[1.492s]       |              [01;35m[K^[m[K
+[1.494s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.494s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:174:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.494s]   174 |       static double [01;35m[Kc[m[K;
+[1.494s]       |                     [01;35m[K^[m[K
+[1.494s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:175:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.494s]   175 |       static int [01;35m[Kstep[m[K = 0;
+[1.494s]       |                  [01;35m[K^~~~[m[K
+[1.494s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:186:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.494s]   186 |       static double [01;35m[Kendposition[m[K = 0;
+[1.495s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[1.495s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:190:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelRotate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.495s]   190 |       static float [01;35m[KcVwheelRotate[m[K;
+[1.495s]       |                    [01;35m[K^~~~~~~~~~~~~[m[K
+[1.495s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:191:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPwheelRotate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.495s]   191 |       static float [01;35m[KcPwheelRotate[m[K;
+[1.495s]       |                    [01;35m[K^~~~~~~~~~~~~[m[K
+[1.495s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:194:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.495s]   194 |       static float [01;35m[KcVwheelBrake[m[K;
+[1.495s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[1.495s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:195:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.495s]   195 |       static float [01;35m[KcPArmBrake[m[K;
+[1.495s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[3.022s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[3.022s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[3.022s] gmake: *** [Makefile:146: all] Error 2
+[3.024s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12

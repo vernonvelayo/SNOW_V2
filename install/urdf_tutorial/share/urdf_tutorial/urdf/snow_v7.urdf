@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="origins">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.056835 -0.10365 0.024844"
+        rpy="0 0 0" />
+      <mass
+        value="0.404" />
+      <inertia
+        ixx="0.00046936"
+        ixy="1.7419E-06"
+        ixz="0"
+        iyy="0.00046939"
+        iyz="0"
+        izz="0.00080954" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_link_to_base"
+    type="fixed">
+    <origin
+      xyz="-0.0571 0.10377 0.014"
+      rpy="0 0 0" />
+    <parentsnow_sim
+      link="base_link" />
+    <child
+      link="wm4_base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm1_base">
+    <inertial>
+      <origin
+        xyz="0.0059156 0.052585 0.026887"
+        rpy="0 0 0" />
+      <mass
+        value="0.098276" />
+      <inertia
+        ixx="5.0515E-05"
+        ixy="-6.465E-06"
+        ixz="-1.6718E-06"
+        iyy="5.0515E-05"
+        iyz="-1.6718E-06"
+        izz="8.0023E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm1_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm1_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_link_to_wm1"
+    type="fixed">
+    <origin
+      xyz="0.160866792719937 -0.0466690475583116 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm1_base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm1_brake_enc">
+    <inertial>
+      <origin
+        xyz="-0.00015216 -0.00014373 0.020087"
+        rpy="0 0 0" />
+      <mass
+        value="0.4207" />
+      <inertia
+        ixx="8.9248E-05"
+        ixy="5.0437E-07"
+        ixz="0"
+        iyy="8.893E-05"
+        iyz="0"
+        izz="0.00015924" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm1_brake_enc.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm1_brake_enc.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm1_base_to_brake_enc"
+    type="fixed">
+    <origin
+      xyz="0.0247487373996613 0.0714177848825809 0.058"
+      rpy="0 0 0" />
+    <parent
+      link="wm1_base" />
+    <child
+      link="wm1_brake_enc" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm1_steering_axis">
+    <inertial>
+      <origin
+        xyz="-2.7281E-05 -2.5209E-05 0.044831"
+        rpy="0 0 0" />
+      <mass
+        value="0.077088" />
+      <inertia
+        ixx="5.6072E-05"
+        ixy="0"
+        ixz="0"
+        iyy="5.6071E-05"
+        iyz="0"
+        izz="7.7858E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm1_steering_axis.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm1_steering_axis.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm1_base_to_steering_axis"
+    type="fixed">
+    <origin
+      xyz="0.0247487372305542 0.0714177849522485 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm1_base" />
+    <child
+      link="wm1_steering_axis" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm1_arm">
+    <inertial>
+      <origin
+        xyz="0.00068365 0.04678 0.031894"
+        rpy="0 0 0" />
+      <mass
+        value="0.22792" />
+      <inertia
+        ixx="0.00013114"
+        ixy="0"
+        ixz="2.0591E-07"
+        iyy="5.8662E-05"
+        iyz="-1.1091E-05"
+        izz="0.00015709" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm1_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm1_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm1_steering_axis_to_arm"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm1_steering_axis" />
+    <child
+      link="wm1_arm" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm1_wheel">
+    <inertial>
+      <origin
+        xyz="-1.1841E-05 -1.8932E-05 -0.026152"
+        rpy="0 0 0" />
+      <mass
+        value="0.182" />
+      <inertia
+        ixx="7.8469E-05"
+        ixy="0"
+        ixz="0"
+        iyy="7.8475E-05"
+        iyz="0"
+        izz="0.00014795" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm1_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm1_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm1_arm_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0 0.0911499999527338 0.0301500000000004"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="wm1_arm" />
+    <child
+      link="wm1_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="wm2_base">
+    <inertial>
+      <origin
+        xyz="0.052585 -0.0059156 0.026887"
+        rpy="0 0 0" />
+      <mass
+        value="0.098276" />
+      <inertia
+        ixx="5.0515E-05"
+        ixy="6.465E-06"
+        ixz="-1.6718E-06"
+        iyy="5.0515E-05"
+        iyz="1.6718E-06"
+        izz="8.0023E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm2_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm2_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_link_to_wm2_base"
+    type="fixed">
+    <origin
+      xyz="0.114197745161626 -0.207535840278252 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm2_base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm2_brake_enc">
+    <inertial>
+      <origin
+        xyz="-0.00014373 0.00015216 0.020087"
+        rpy="0 0 0" />
+      <mass
+        value="0.4207" />
+      <inertia
+        ixx="8.893E-05"
+        ixy="-5.0437E-07"
+        ixz="0"
+        iyy="8.9248E-05"
+        iyz="0"
+        izz="0.00015924" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm2_brake_enc.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm2_brake_enc.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm2_base_to_brake_enc"
+    type="fixed">
+    <origin
+      xyz="0.0714177848998951 -0.0247487373414352 0.0579999999999998"
+      rpy="0 0 0" />
+    <parent
+      link="wm2_base" />
+    <child
+      link="wm2_brake_enc" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm2_steering_axis">
+    <inertial>
+      <origin
+        xyz="-2.6266E-05 2.6265E-05 0.044831"
+        rpy="0 0 0" />
+      <mass
+        value="0.077088" />
+      <inertia
+        ixx="5.6071E-05"
+        ixy="0"
+        ixz="0"
+        iyy="5.6071E-05"
+        iyz="0"
+        izz="7.7858E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm2_steering_axis.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm2_steering_axis.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm2_base_to_steering_axis"
+    type="fixed">
+    <origin
+      xyz="0.0714177848998413 -0.0247487373415294 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm2_base" />
+    <child
+      link="wm2_steering_axis" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm2_arm">
+    <inertial>
+      <origin
+        xyz="-0.00068365 -0.04678 0.031894"
+        rpy="0 0 0" />
+      <mass
+        value="0.22792" />
+      <inertia
+        ixx="0.00013114"
+        ixy="0"
+        ixz="-2.0592E-07"
+        iyy="5.8662E-05"
+        iyz="1.1091E-05"
+        izz="0.00015709" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm2_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm2_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm2_steering_axis_arm"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm2_steering_axis" />
+    <child
+      link="wm2_arm" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm2_wheel">
+    <inertial>
+      <origin
+        xyz="1.1841E-05 -1.8932E-05 0.026152"
+        rpy="0 0 0" />
+      <mass
+        value="0.182" />
+      <inertia
+        ixx="7.8469E-05"
+        ixy="0"
+        ixz="0"
+        iyy="7.8475E-05"
+        iyz="0"
+        izz="0.00014795" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm2_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm2_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm2_arm_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0 -0.0911500000000001 0.0301499999999997"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="wm2_arm" />
+    <child
+      link="wm2_wheel" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="wm3_base">
+    <inertial>
+      <origin
+        xyz="-0.0059156 -0.052585 0.026887"
+        rpy="0 0 0" />
+      <mass
+        value="0.098276" />
+      <inertia
+        ixx="5.0515E-05"
+        ixy="-6.465E-06"
+        ixz="1.6718E-06"
+        iyy="5.0515E-05"
+        iyz="1.6718E-06"
+        izz="8.0023E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm3_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm3_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_link_to_wn3_base"
+    type="fixed">
+    <origin
+      xyz="-0.0466690475583129 -0.160866792719939 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm3_base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm3_brake_enc">
+    <inertial>
+      <origin
+        xyz="0.00015216 0.00014373 0.020087"
+        rpy="0 0 0" />
+      <mass
+        value="0.4207" />
+      <inertia
+        ixx="8.9248E-05"
+        ixy="5.0437E-07"
+        ixz="0"
+        iyy="8.893E-05"
+        iyz="0"
+        izz="0.00015924" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm3_brake_enc.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm3_brake_enc.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm3_base_to_break_enc"
+    type="fixed">
+    <origin
+      xyz="-0.0247487373415276 -0.07141778489984 0.0579999999999993"
+      rpy="0 0 0" />
+    <parent
+      link="wm3_base" />
+    <child
+      link="wm3_brake_enc" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm3_steering_axis">
+    <inertial>
+      <origin
+        xyz="2.6265E-05 2.6266E-05 0.044831"
+        rpy="0 0 0" />
+      <mass
+        value="0.077088" />
+      <inertia
+        ixx="5.6071E-05"
+        ixy="0"
+        ixz="0"
+        iyy="5.6071E-05"
+        iyz="0"
+        izz="7.7858E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm3_steering_axis.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm3_steering_axis.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm3_base_to_steering_axis"
+    type="fixed">
+    <origin
+      xyz="-0.0247487373415294 -0.0714177848998412 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm3_base" />
+    <child
+      link="wm3_steering_axis" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm3_arm">
+    <inertial>
+      <origin
+        xyz="-0.00068365 -0.04678 0.031894"
+        rpy="0 0 0" />
+      <mass
+        value="0.22792" />
+      <inertia
+        ixx="0.00013114"
+        ixy="0"
+        ixz="-2.0592E-07"
+        iyy="5.8662E-05"
+        iyz="1.1091E-05"
+        izz="0.00015709" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm3_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm3_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm3_steering_axis-to_arm"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm3_steering_axis" />
+    <child
+      link="wm3_arm" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm3_wheel">
+    <inertial>
+      <origin
+        xyz="0.12849 0.019472 -0.21968"
+        rpy="0 0 0" />
+      <mass
+        value="4.306" />
+      <inertia
+        ixx="0.11483"
+        ixy="-1.0193E-06"
+        ixz="9.1704E-05"
+        iyy="0.17734"
+        iyz="-3.6437E-07"
+        izz="0.069375" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm3_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm3_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm3_arm_to_wheel"
+    type="fixed">
+    <origin
+      xyz="0 -0.0911500000000001 0.0301499999999997"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="wm3_arm" />
+    <child
+      link="wm3_wheel" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm4_base">
+    <inertial>
+      <origin
+        xyz="-0.052585 0.0059156 0.026887"
+        rpy="0 0 0" />
+      <mass
+        value="0.098276" />
+      <inertia
+        ixx="5.0515E-05"
+        ixy="6.465E-06"
+        ixz="1.6718E-06"
+        iyy="5.0515E-05"
+        iyz="-1.6718E-06"
+        izz="8.0023E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm4_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm4_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_link_to_base"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm4_base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm4_brake_enc">
+    <inertial>
+      <origin
+        xyz="0.00014373 -0.00015216 0.020087"
+        rpy="0 0 0" />
+      <mass
+        value="0.4207" />
+      <inertia
+        ixx="8.893E-05"
+        ixy="-5.0437E-07"
+        ixz="0"
+        iyy="8.9248E-05"
+        iyz="0"
+        izz="0.00015924" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm4_brake_enc.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm4_brake_enc.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm4_base_tobrake_enc"
+    type="fixed">
+    <origin
+      xyz="-0.0714177848994171 0.0247487373417019 0.0579999999999995"
+      rpy="0 0 0" />
+    <parent
+      link="wm4_base" />
+    <child
+      link="wm4_brake_enc" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm4_steering_axis">
+    <inertial>
+      <origin
+        xyz="2.6266E-05 -2.6265E-05 0.044831"
+        rpy="0 0 0" />
+      <mass
+        value="0.077088" />
+      <inertia
+        ixx="5.6071E-05"
+        ixy="0"
+        ixz="0"
+        iyy="5.6071E-05"
+        iyz="0"
+        izz="7.7858E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm4_steering_axis.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm4_steering_axis.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm4_base_to_steering_axis"
+    type="fixed">
+    <origin
+      xyz="-0.0714177848998414 0.0247487373415295 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm4_base" />
+    <child
+      link="wm4_steering_axis" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm4_arm">
+    <inertial>
+      <origin
+        xyz="0.00068365 0.04678 0.031894"
+        rpy="0 0 0" />
+      <mass
+        value="0.22792" />
+      <inertia
+        ixx="0.00013114"
+        ixy="0"
+        ixz="2.0591E-07"
+        iyy="5.8662E-05"
+        iyz="-1.1091E-05"
+        izz="0.00015709" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm4_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm4_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm4_steering_axis_arm"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm4_steering_axis" />
+    <child
+      link="wm4_arm" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm4_wheel">
+    <inertial>
+      <origin
+        xyz="-1.1841E-05 -1.8932E-05 -0.026152"
+        rpy="0 0 0" />
+      <mass
+        value="0.182" />
+      <inertia
+        ixx="7.8469E-05"
+        ixy="0"
+        ixz="0"
+        iyy="7.8475E-05"
+        iyz="0"
+        izz="0.00014795" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm4_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes_v2/wm4_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm4_arm_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0 0.0911499999999999 0.0301500000000004"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="wm4_arm" />
+    <child
+      link="wm4_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <joint name="wm1_base_to_steering_axis">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm1_arm_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm2_base_to_steering_axis">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm2_arm_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm3_base_to_steering_axis">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm3_arm_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm4_base_to_steering_axis">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm4_arm_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find snow_sim)/config/snow_v3.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+
+</robot>

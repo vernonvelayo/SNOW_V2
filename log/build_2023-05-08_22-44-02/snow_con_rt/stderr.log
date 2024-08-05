@@ -1,0 +1,28 @@
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:187:36:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+  187 |       bool isHardcon, double *inte,[01;31m[K)[m[K
+      |                                    [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:537:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::swivel(double [4], double [4], double [4], double&, double [4], double [4], double [4], double&, double&, bool&, double [4])[m[K’
+  537 |       if ([01;31m[Kswivel(pArm, pWheel, uArm, t, d, v, a, targetTime, targetAngle, isHardcon, inte)[m[K)
+      |           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:183:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*, int)[m[K’
+  183 |   bool [01;36m[Kswivel[m[K(
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:183:8:[m[K [01;36m[Knote: [m[K  candidate expects 12 arguments, 11 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:575:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::swivel(double [4], double [4], double [4], double&, double [4], double [4], double [4], double&, double&, bool&, double [4])[m[K’
+  575 |       if ([01;31m[Kswivel(pArm, pWheel, uArm, t, d, v, a, targetTime, targetAngle, isHardcon, inte)[m[K)
+      |           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:183:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*, int)[m[K’
+  183 |   bool [01;36m[Kswivel[m[K(
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:183:8:[m[K [01;36m[Knote: [m[K  candidate expects 12 arguments, 11 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:614:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::swivel(double [4], double [4], double [4], double&, double [4], double [4], double [4], double&, double&, bool&, double [4])[m[K’
+  614 |       if ([01;31m[Kswivel(pArm, pWheel, uArm, t, d, v, a, targetTime, targetAngle, isHardcon, inte)[m[K)
+      |           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:183:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*, int)[m[K’
+  183 |   bool [01;36m[Kswivel[m[K(
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:183:8:[m[K [01;36m[Knote: [m[K  candidate expects 12 arguments, 11 provided
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

@@ -1,0 +1,2 @@
+[0.030s] Invoking command in '/home/rhys/ws_snow/build/hard_con': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/hard_con -- -j12 -l12
+[0.104s] [100%] Built target talker

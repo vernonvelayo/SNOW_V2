@@ -1,0 +1,114 @@
+[0.024s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.075s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.841s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:587:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.841s]   587 | }
+[1.841s]       |  [01;31m[K^[m[K
+[1.841s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:33:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.842s]    33 | [01;36m[K{[m[K
+[1.842s]       | [01;36m[K^[m[K
+[1.847s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[1.848s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.848s]    43 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+[1.848s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.848s]       |     [32m[Krmw_subscription_t[m[K
+[1.890s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.890s]    47 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>("/effort_controllers/commands", 10);
+[1.890s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.890s]       |     [32m[Krmw_publisher_t[m[K
+[1.894s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[1.895s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:122:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.895s]   122 |     int [01;35m[Ki[m[K, j;
+[1.895s]       |         [01;35m[K^[m[K
+[1.895s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:122:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.895s]   122 |     int i, [01;35m[Kj[m[K;
+[1.895s]       |            [01;35m[K^[m[K
+[1.895s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::setBrakes(double*, double*, double*)[m[K’:
+[1.895s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:163:19:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble*[m[K’ to ‘[01m[Kdouble[m[K’ in assignment
+[1.895s]   163 |       increment = [01;31m[Kt[m[K;
+[1.895s]       |                   [01;31m[K^[m[K
+[1.896s]       |                   [01;31m[K|[m[K
+[1.896s]       |                   [01;31m[Kdouble*[m[K
+[1.898s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:167:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[1.898s]   167 |     for ([01;31m[Ki[m[K=0; i<4; i++) {
+[1.898s]       |          [01;31m[K^[m[K
+[1.902s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:168:7:[m[K [01;31m[Kerror: [m[K‘[01m[KuWheel[m[K’ was not declared in this scope
+[1.902s]   168 |       [01;31m[KuWheel[m[K[i] = 0;
+[1.902s]       |       [01;31m[K^~~~~~[m[K
+[1.907s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:171:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ktstartmove[m[K’ was not declared in this scope
+[1.907s]   171 |     if(t > [01;31m[Ktstartmove[m[K && j < 4) {
+[1.907s]       |            [01;31m[K^~~~~~~~~~[m[K
+[1.912s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:177:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ktstartmove[m[K’ was not declared in this scope
+[1.912s]   177 |     if(t > [01;31m[Ktstartmove[m[K + 2.0) {
+[1.912s]       |            [01;31m[K^~~~~~~~~~[m[K
+[1.914s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.914s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:268:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::JointState_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::JointState_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kframe_id[m[K’
+[1.914s]   268 |     if(msg->[01;31m[Kframe_id[m[K == null)
+[1.915s]       |             [01;31m[K^~~~~~~~[m[K
+[1.918s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:268:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knull[m[K’ was not declared in this scope
+[1.918s]   268 |     if(msg->frame_id == [01;31m[Knull[m[K)
+[1.918s]       |                         [01;31m[K^~~~[m[K
+[1.922s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:339:11:[m[K [01;31m[Kerror: [m[K‘[01m[KinitBarke[m[K’ was not declared in this scope; did you mean ‘[01m[KinitBrake[m[K’?
+[1.922s]   339 |           [01;31m[KinitBarke[m[K = 1;
+[1.922s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.922s]       |           [32m[KinitBrake[m[K
+[1.926s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:351:15:[m[K [01;31m[Kerror: [m[K‘[01m[KsetBrake[m[K’ was not declared in this scope; did you mean ‘[01m[KsetBrakes[m[K’?
+[1.927s]   351 |           if(![01;31m[KsetBrake[m[K(brake,uArm,t))
+[1.927s]       |               [01;31m[K^~~~~~~~[m[K
+[1.927s]       |               [32m[KsetBrakes[m[K
+[1.931s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:416:15:[m[K [01;31m[Kerror: [m[K‘[01m[KsetBrake[m[K’ was not declared in this scope; did you mean ‘[01m[KsetBrakes[m[K’?
+[1.931s]   416 |           if(![01;31m[KsetBrake[m[K(brake,uArm,t))
+[1.931s]       |               [01;31m[K^~~~~~~~[m[K
+[1.931s]       |               [32m[KsetBrakes[m[K
+[1.936s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:461:12:[m[K [01;31m[Kerror: [m[K‘[01m[KSETBRAKE[m[K’ was not declared in this scope
+[1.936s]   461 |       case [01;31m[KSETBRAKE[m[K: {
+[1.936s]       |            [01;31m[K^~~~~~~~[m[K
+[1.940s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:485:11:[m[K [01;31m[Kerror: [m[K‘[01m[KsetBrake[m[K’ was not declared in this scope; did you mean ‘[01m[KsetBrakes[m[K’?
+[1.940s]   485 |           [01;31m[KsetBrake[m[K = 0;
+[1.940s]       |           [01;31m[K^~~~~~~~[m[K
+[1.940s]       |           [32m[KsetBrakes[m[K
+[1.945s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:567:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.945s]   567 |     [01;31m[Kpublisher_[m[K->publish(commands);
+[1.945s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.945s]       |     [32m[Krmw_publisher_t[m[K
+[1.947s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:581:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[1.947s]   581 | [01;31m[K{[m[K
+[1.947s]       | [01;31m[K^[m[K
+[1.947s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:587:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.947s]   587 | }
+[1.947s]       |  [01;31m[K^[m[K
+[1.948s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:188:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.948s]   188 |   [01;36m[K{[m[K
+[1.948s]       |   [01;36m[K^[m[K
+[1.948s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:190:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsetESO[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.948s]   190 |     static bool [01;35m[KsetESO[m[K = true;
+[1.948s]       |                 [01;35m[K^~~~~~[m[K
+[1.948s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:193:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.948s]   193 |     static double [01;35m[Kc[m[K;
+[1.948s]       |                   [01;35m[K^[m[K
+[1.948s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:194:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.949s]   194 |     static int [01;35m[Kstep[m[K = 0;
+[1.949s]       |                [01;35m[K^~~~[m[K
+[1.949s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:195:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.949s]   195 |     double [01;35m[Krw[m[K = 0.044;
+[1.949s]       |            [01;35m[K^~[m[K
+[1.949s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:203:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdstartpos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.949s]   203 |     static double [01;35m[Kdstartpos[m[K[4];
+[1.949s]       |                   [01;35m[K^~~~~~~~~[m[K
+[1.949s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:205:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.949s]   205 |     static double [01;35m[Kendposition[m[K = 0;
+[1.950s]       |                   [01;35m[K^~~~~~~~~~~[m[K
+[1.950s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:212:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.950s]   212 |     static float [01;35m[KcVwheelBrake[m[K;
+[1.950s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[1.950s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:213:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.950s]   213 |     static float [01;35m[KcPArmBrake[m[K;
+[1.950s]       |                  [01;35m[K^~~~~~~~~~[m[K
+[1.950s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K At global scope:
+[1.950s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:587:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.950s]   587 | }
+[1.951s]       |  [01;31m[K^[m[K
+[3.764s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[3.764s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[3.764s] gmake: *** [Makefile:134: all] Error 2
+[3.767s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

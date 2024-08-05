@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/rhys/ws_snow",
+                "/home/rhys/ws_snow/install/snow_interface/include/snow_interface/snow_interface/msg",
+                "/home/rhys/ws_snow/build/snow_interface/rosidl_generator_cpp"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

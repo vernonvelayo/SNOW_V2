@@ -1,0 +1,7 @@
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::swivelEach(double*, double*, double*, double, double*, double*, double*, double, double*, bool, double*)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:364:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kv[m[K’
+  364 |         [01;31m[Kv[m[K[i] += a[i] * dt; // acceleration 25% of time
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

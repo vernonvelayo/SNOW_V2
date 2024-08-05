@@ -1,0 +1,173 @@
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:421:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+  421 |     [01;31m[Kt[m[K = double(msg->header.stamp.sec) + double(msg->header.stamp.nanosec * 1e-9);
+      |     [01;31m[K^[m[K
+      |     [32m[Ktm[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:422:5:[m[K [01;31m[Kerror: [m[K‘[01m[KframeID[m[K’ does not name a type
+  422 |     [01;31m[KframeID[m[K = msg->header.frame_id;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:435:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpArm[m[K’ does not name a type
+  435 |     [01;31m[KpArm[m[K[0] = msg->position[0];
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:436:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpArm[m[K’ does not name a type
+  436 |     [01;31m[KpArm[m[K[1] = msg->position[3];
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:437:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpArm[m[K’ does not name a type
+  437 |     [01;31m[KpArm[m[K[2] = msg->position[4];
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:438:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpArm[m[K’ does not name a type
+  438 |     [01;31m[KpArm[m[K[3] = msg->position[6];
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:440:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpWheel[m[K’ does not name a type
+  440 |     [01;31m[KpWheel[m[K[0] = msg->position[1];
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:441:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpWheel[m[K’ does not name a type
+  441 |     [01;31m[KpWheel[m[K[1] = msg->position[2];
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:442:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpWheel[m[K’ does not name a type
+  442 |     [01;31m[KpWheel[m[K[2] = msg->position[5];
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:443:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpWheel[m[K’ does not name a type
+  443 |     [01;31m[KpWheel[m[K[3] = msg->position[7];
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:445:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvArm[m[K’ does not name a type
+  445 |     [01;31m[KvArm[m[K[0] = msg->velocity[0];
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:446:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvArm[m[K’ does not name a type
+  446 |     [01;31m[KvArm[m[K[1] = msg->velocity[3];
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:447:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvArm[m[K’ does not name a type
+  447 |     [01;31m[KvArm[m[K[2] = msg->velocity[4];
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:448:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvArm[m[K’ does not name a type
+  448 |     [01;31m[KvArm[m[K[3] = msg->velocity[6];
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:450:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvWheel[m[K’ does not name a type
+  450 |     [01;31m[KvWheel[m[K[0] = msg->velocity[1];
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:451:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvWheel[m[K’ does not name a type
+  451 |     [01;31m[KvWheel[m[K[1] = msg->velocity[2];
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:452:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvWheel[m[K’ does not name a type
+  452 |     [01;31m[KvWheel[m[K[2] = msg->velocity[5];
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:453:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvWheel[m[K’ does not name a type
+  453 |     [01;31m[KvWheel[m[K[3] = msg->velocity[7];
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:455:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keso0[m[K’ does not name a type
+  455 |     [01;31m[Keso0[m[K.predict(pArm[0], 0, uWheel[0]);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:456:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keso1[m[K’ does not name a type
+  456 |     [01;31m[Keso1[m[K.predict(pArm[1], 0, uWheel[1]);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:457:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keso2[m[K’ does not name a type
+  457 |     [01;31m[Keso2[m[K.predict(pArm[2], 0, uWheel[2]);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:458:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keso3[m[K’ does not name a type
+  458 |     [01;31m[Keso3[m[K.predict(pArm[3], 0, uWheel[3]);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:479:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  479 |     [01;31m[Kswitch[m[K (pState)
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:507:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+  507 |     [01;31m[Kcase[m[K STEP1:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:524:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+  524 |     [01;31m[Kcase[m[K STEP2:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:546:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+  546 |     [01;31m[Kcase[m[K STEP3:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:562:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+  562 |     [01;31m[Kcase[m[K STEP4:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:584:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+  584 |     [01;31m[Kcase[m[K STEP5:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:601:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+  601 |     [01;31m[Kcase[m[K STEP6:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:623:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+  623 |     [01;31m[Kcase[m[K OPEN:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:636:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+  636 |     [01;31m[Kcase[m[K END:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   47 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:47:128:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KMinimalSubscriber[m[K’
+   47 |     subscription_ = this->create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&MinimalSubscriber::[01;31m[Ktopic_callback[m[K, this, _1));
+      |                                                                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   50 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>("/effort_controllers/commands", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double, double*, double, double, bool)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:385:72:[m[K [01;31m[Kerror: [m[K‘[01m[KI[m[K’ was not declared in this scope
+  385 |         printf("%d=%f - %f   ",i,  pWheel[i], s[i]*targetPosition + d0[[01;31m[KI[m[K])  ;
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K At global scope:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:644:14:[m[K [01;31m[Kerror: [m[K‘[01m[KnState[m[K’ was not declared in this scope; did you mean ‘[01m[KpState[m[K’?
+  644 |     pState = [01;31m[KnState[m[K;
+      |              [01;31m[K^~~~~~[m[K
+      |              [32m[KpState[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:646:11:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  646 |     printf[01;31m[K([m[K"Step: %i\t hard_con?=%i\n", pState - 1, isHardcon);
+      |           [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:649:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  649 |     [01;31m[Kif[m[K (pos == 1)
+      |     [01;31m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:672:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  672 |     [01;31m[Kelse[m[K if (pos == 0)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:688:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  688 |     [01;31m[Kelse[m[K
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:698:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  698 |     [01;31m[Kfor[m[K (i = 0; i < 4; i++)
+      |     [01;31m[K^~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:698:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  698 |     for (i = 0; [01;31m[Ki[m[K < 4; i++)
+      |                 [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:698:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  698 |     for (i = 0; i < 4; [01;31m[Ki[m[K++)
+      |                        [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:708:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  708 |     [01;31m[Kcommands[m[K.data.push_back(uArm[0]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:709:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  709 |     [01;31m[Kcommands[m[K.data.push_back(uArm[1]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:710:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  710 |     [01;31m[Kcommands[m[K.data.push_back(uArm[2]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:711:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  711 |     [01;31m[Kcommands[m[K.data.push_back(uArm[3]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:713:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  713 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[0]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:714:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  714 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[1]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:715:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  715 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[2]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:716:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  716 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[3]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:718:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+  718 |     [01;31m[Kpublisher_[m[K->publish(commands);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:724:3:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  724 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:729:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  729 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bern/ws_snow/build/snow_con
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:116:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  116 |       int [01;35m[Ki[m[K, j;
+      |           [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:116:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  116 |       int i, [01;35m[Kj[m[K;
+      |              [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:248:14:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP3[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  248 |       switch [01;35m[K([m[KpState) {
+      |              [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:154:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  154 |       static double [01;35m[Kc[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:155:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  155 |       static int [01;35m[Kstep[m[K = 0;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:174:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  174 |       static float [01;35m[KcVwheelBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:175:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  175 |       static float [01;35m[KcPArmBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/bern/ws_snow/install/snow_con/lib/snow_con/listener
+-- Set runtime path of "/home/bern/ws_snow/install/snow_con/lib/snow_con/listener" to ""
+-- Installing: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/package_run_dependencies/snow_con
+-- Installing: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/parent_prefix_path/snow_con
+-- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.sh
+-- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/path.sh
+-- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/path.dsv
+-- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.bash
+-- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.sh
+-- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.zsh
+-- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.dsv
+-- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/package.dsv
+-- Installing: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/packages/snow_con
+-- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig.cmake
+-- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig-version.cmake
+-- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/package.xml

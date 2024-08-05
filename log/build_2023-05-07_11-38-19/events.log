@@ -1,0 +1,732 @@
+[0.000000] (-) TimerEvent: {}
+[0.002173] (hard_con) JobQueued: {'identifier': 'hard_con', 'dependencies': OrderedDict()}
+[0.002256] (snow_con) JobQueued: {'identifier': 'snow_con', 'dependencies': OrderedDict()}
+[0.002474] (snow_con_rt) JobQueued: {'identifier': 'snow_con_rt', 'dependencies': OrderedDict()}
+[0.002535] (snow_sim) JobQueued: {'identifier': 'snow_sim', 'dependencies': OrderedDict()}
+[0.002563] (urdf_tutorial) JobQueued: {'identifier': 'urdf_tutorial', 'dependencies': OrderedDict()}
+[0.002592] (hard_con) JobStarted: {'identifier': 'hard_con'}
+[0.018659] (snow_con) JobStarted: {'identifier': 'snow_con'}
+[0.025800] (snow_con_rt) JobStarted: {'identifier': 'snow_con_rt'}
+[0.033748] (snow_sim) JobStarted: {'identifier': 'snow_sim'}
+[0.040862] (urdf_tutorial) JobStarted: {'identifier': 'urdf_tutorial'}
+[0.048001] (hard_con) JobProgress: {'identifier': 'hard_con', 'progress': 'cmake'}
+[0.050041] (hard_con) JobProgress: {'identifier': 'hard_con', 'progress': 'build'}
+[0.050176] (hard_con) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rhys/ws_snow/build/hard_con', '--', '-j12', '-l12'], 'cwd': '/home/rhys/ws_snow/build/hard_con', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_PH:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rhys-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2275,unix/rhys-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2275'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/993c327e_4226_4348_9d99_1b87b824963a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ws_snow/build/hard_con'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.055220] (snow_con) JobProgress: {'identifier': 'snow_con', 'progress': 'cmake'}
+[0.057318] (snow_con) JobProgress: {'identifier': 'snow_con', 'progress': 'build'}
+[0.057655] (snow_con) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rhys/ws_snow/build/snow_con', '--', '-j12', '-l12'], 'cwd': '/home/rhys/ws_snow/build/snow_con', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_PH:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rhys-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2275,unix/rhys-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2275'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/993c327e_4226_4348_9d99_1b87b824963a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ws_snow/build/snow_con'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060257] (snow_con_rt) JobProgress: {'identifier': 'snow_con_rt', 'progress': 'cmake'}
+[0.060918] (snow_con_rt) JobProgress: {'identifier': 'snow_con_rt', 'progress': 'build'}
+[0.061279] (snow_con_rt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rhys/ws_snow/build/snow_con_rt', '--', '-j12', '-l12'], 'cwd': '/home/rhys/ws_snow/build/snow_con_rt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_PH:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rhys-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2275,unix/rhys-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2275'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/993c327e_4226_4348_9d99_1b87b824963a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ws_snow/build/snow_con_rt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.064417] (snow_sim) JobProgress: {'identifier': 'snow_sim', 'progress': 'cmake'}
+[0.065800] (snow_sim) JobProgress: {'identifier': 'snow_sim', 'progress': 'build'}
+[0.066627] (snow_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rhys/ws_snow/build/snow_sim', '--', '-j12', '-l12'], 'cwd': '/home/rhys/ws_snow/build/snow_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_PH:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rhys-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2275,unix/rhys-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2275'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/993c327e_4226_4348_9d99_1b87b824963a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ws_snow/build/snow_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.073643] (urdf_tutorial) JobProgress: {'identifier': 'urdf_tutorial', 'progress': 'cmake'}
+[0.075212] (urdf_tutorial) JobProgress: {'identifier': 'urdf_tutorial', 'progress': 'build'}
+[0.075515] (urdf_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rhys/ws_snow/build/urdf_tutorial', '--', '-j12', '-l12'], 'cwd': '/home/rhys/ws_snow/build/urdf_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_PH:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rhys-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2275,unix/rhys-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2275'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/993c327e_4226_4348_9d99_1b87b824963a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ws_snow/build/urdf_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099442] (-) TimerEvent: {}
+[0.112968] (snow_con) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.113638] (urdf_tutorial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.113821] (hard_con) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.113978] (snow_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.114150] (snow_con_rt) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199587] (-) TimerEvent: {}
+[0.300104] (-) TimerEvent: {}
+[0.319601] (snow_con) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.322761] (hard_con) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.322976] (urdf_tutorial) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.323072] (snow_con_rt) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.323157] (snow_sim) StdoutLine: {'line': b'-- Found control_msgs: 4.1.1 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.363137] (snow_con) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.363516] (snow_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.366532] (snow_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.366926] (snow_con) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.374759] (snow_con) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.375131] (snow_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.382183] (hard_con) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.382438] (snow_con_rt) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.387651] (hard_con) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.388024] (snow_con_rt) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.390388] (snow_con) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.390647] (snow_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.399728] (hard_con) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.400213] (-) TimerEvent: {}
+[0.400801] (snow_con_rt) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.404898] (urdf_tutorial) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.410539] (urdf_tutorial) StdoutLine: {'line': b'-- Generating done\n'}
+[0.412165] (urdf_tutorial) StdoutLine: {'line': b'-- Build files have been written to: /home/rhys/ws_snow/build/urdf_tutorial\n'}
+[0.412927] (snow_con) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.415010] (hard_con) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.417522] (snow_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.418390] (snow_con_rt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.436636] (hard_con) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.441225] (snow_con_rt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.445392] (urdf_tutorial) CommandEnded: {'returncode': 0}
+[0.468033] (urdf_tutorial) JobProgress: {'identifier': 'urdf_tutorial', 'progress': 'install'}
+[0.478882] (urdf_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rhys/ws_snow/build/urdf_tutorial'], 'cwd': '/home/rhys/ws_snow/build/urdf_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_PH:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rhys-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2275,unix/rhys-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2275'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/993c327e_4226_4348_9d99_1b87b824963a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ws_snow/build/urdf_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.487013] (urdf_tutorial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.487345] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/images\n'}
+[0.487476] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/images/myfirst.png\n'}
+[0.487598] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/images/visual.png\n'}
+[0.487716] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/images/flexible.png\n'}
+[0.487832] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/images/materials.png\n'}
+[0.487947] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/images/origins.png\n'}
+[0.488064] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/images/multipleshapes.png\n'}
+[0.488753] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/launch\n'}
+[0.488884] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch.py\n'}
+[0.489009] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes\n'}
+[0.489133] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm4_arm.STL\n'}
+[0.489255] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm2_wheel.STL\n'}
+[0.489376] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm4_steering_axis.STL\n'}
+[0.489502] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm2_base.STL\n'}
+[0.489631] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm1_arm.STL\n'}
+[0.489760] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm1_break_enc.STL\n'}
+[0.489891] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm3_break_enc.STL\n'}
+[0.490020] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm3_arm.STL\n'}
+[0.490174] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm2_steering_axis.STL\n'}
+[0.490307] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm4_base.STL\n'}
+[0.490439] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/old\n'}
+[0.490569] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/old/wm2_wheel.STL\n'}
+[0.490698] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/old/wm1.STL\n'}
+[0.490832] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/old/base_link.STL\n'}
+[0.490962] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/old/wm4_wheel.STL\n'}
+[0.491093] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/old/wm3_wheel.STL\n'}
+[0.491225] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/old/wm1_wheel.STL\n'}
+[0.491354] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/old/wm2.STL\n'}
+[0.491484] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/old/wm4.STL\n'}
+[0.491605] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/old/wm3.STL\n'}
+[0.491731] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/base_link.STL\n'}
+[0.491902] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm2_arm.STL\n'}
+[0.492035] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm3_steering_axis.STL\n'}
+[0.492163] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm1_steering_axis.STL\n'}
+[0.492480] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm3_base.STL\n'}
+[0.492605] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm4_wheel.STL\n'}
+[0.492732] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm1_base.STL\n'}
+[0.492859] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm2_break_enc.STL\n'}
+[0.493039] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm3_wheel.STL\n'}
+[0.493544] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm1_wheel.STL\n'}
+[0.493728] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes/wm4_break_enc.STL\n'}
+[0.493862] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/rviz\n'}
+[0.493994] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.rviz\n'}
+[0.494140] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf\n'}
+[0.494277] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow_complete_v1.urdf\n'}
+[0.494406] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow_complete_v2.urdf\n'}
+[0.494536] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow_complete_v3.urdf\n'}
+[0.494666] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snowbot_simple_v3.urdf\n'}
+[0.494793] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow_v7.urdf\n'}
+[0.494922] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/test.urdf\n'}
+[0.495054] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow.urdf\n'}
+[0.495184] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snowbot_simple.urdf\n'}
+[0.495314] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow_v4.urdf\n'}
+[0.495443] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow_v3.urdf\n'}
+[0.495573] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow_v5.urdf\n'}
+[0.495703] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow_collision_v1.urdf\n'}
+[0.495834] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snowbot_simple_v4.urdf\n'}
+[0.495964] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow_v2.zip\n'}
+[0.496086] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snow_v6.urdf\n'}
+[0.496205] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/urdf/snowbot_simple_v2.urdf\n'}
+[0.496332] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2\n'}
+[0.496592] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm4_arm.STL\n'}
+[0.496720] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm2_wheel.STL\n'}
+[0.496846] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm4_steering_axis.STL\n'}
+[0.496968] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm2_base.STL\n'}
+[0.497078] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm1_arm.STL\n'}
+[0.497208] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm4_brake_enc.STL\n'}
+[0.497340] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm3_arm.STL\n'}
+[0.497451] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm2_steering_axis.STL\n'}
+[0.497603] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm4_base.STL\n'}
+[0.497783] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old\n'}
+[0.497915] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old/wm2_wheel.STL\n'}
+[0.498075] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old/wm1.STL\n'}
+[0.498238] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old/base_link.STL\n'}
+[0.498371] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old/wm4_wheel.STL\n'}
+[0.498525] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old/wm3_wheel.STL\n'}
+[0.498656] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old/wm1_wheel.STL\n'}
+[0.498807] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old/wm2.STL\n'}
+[0.498953] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old/wm4.STL\n'}
+[0.499083] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old/wm3.STL\n'}
+[0.499215] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2\n'}
+[0.499333] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm4_arm.STL\n'}
+[0.499871] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm2_wheel.STL\n'}
+[0.500031] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm4_steering_axis.STL\n'}
+[0.500187] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm2_base.STL\n'}
+[0.500314] (-) TimerEvent: {}
+[0.500523] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm1_arm.STL\n'}
+[0.500703] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm1_break_enc.STL\n'}
+[0.500993] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm3_break_enc.STL\n'}
+[0.501130] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm3_arm.STL\n'}
+[0.501255] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm2_steering_axis.STL\n'}
+[0.501381] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm4_base.STL\n'}
+[0.501514] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/base_link.STL\n'}
+[0.501641] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm2_arm.STL\n'}
+[0.501768] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm3_steering_axis.STL\n'}
+[0.501898] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm1_steering_axis.STL\n'}
+[0.502024] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm3_base.STL\n'}
+[0.502179] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm4_wheel.STL\n'}
+[0.502316] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm1_base.STL\n'}
+[0.502446] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm2_break_enc.STL\n'}
+[0.502575] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm3_wheel.STL\n'}
+[0.502707] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm1_wheel.STL\n'}
+[0.502832] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/old_2/wm4_break_enc.STL\n'}
+[0.502957] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/base_link.STL\n'}
+[0.503085] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm2_arm.STL\n'}
+[0.503216] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm1_brake_enc.STL\n'}
+[0.503348] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm3_steering_axis.STL\n'}
+[0.503747] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm3_brake_enc.STL\n'}
+[0.503897] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm1_steering_axis.STL\n'}
+[0.504022] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm3_base.STL\n'}
+[0.504150] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm4_wheel.STL\n'}
+[0.504280] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5\n'}
+[0.504410] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm4_arm.STL\n'}
+[0.504537] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm2_wheel.STL\n'}
+[0.505542] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm4_steering_axis.STL\n'}
+[0.505679] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm2_base.STL\n'}
+[0.505806] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm1_arm.STL\n'}
+[0.505936] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm1_break_enc.STL\n'}
+[0.506065] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm3_break_enc.STL\n'}
+[0.506213] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm3_arm.STL\n'}
+[0.506344] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm2_steering_axis.STL\n'}
+[0.506629] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm4_base.STL\n'}
+[0.506765] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/base_link.STL\n'}
+[0.506892] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm2_arm.STL\n'}
+[0.507023] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm3_steering_axis.STL\n'}
+[0.507154] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm1_steering_axis.STL\n'}
+[0.507285] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm3_base.STL\n'}
+[0.507416] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm4_wheel.STL\n'}
+[0.507547] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm1_base.STL\n'}
+[0.507764] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm2_break_enc.STL\n'}
+[0.507901] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm3_wheel.STL\n'}
+[0.508034] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm1_wheel.STL\n'}
+[0.508164] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/snow_v5/wm4_break_enc.STL\n'}
+[0.508296] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm1_base.STL\n'}
+[0.508426] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm3_wheel.STL\n'}
+[0.508549] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm1_wheel.STL\n'}
+[0.508667] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_v2/wm2_brake_enc.STL\n'}
+[0.508792] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual\n'}
+[0.508908] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm4_arm.STL\n'}
+[0.509619] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm2_wheel.STL\n'}
+[0.509757] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm4_steering_axis.STL\n'}
+[0.509887] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm2_base.STL\n'}
+[0.510036] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm1_arm.STL\n'}
+[0.510188] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm4_brake_enc.STL\n'}
+[0.510322] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm3_arm.STL\n'}
+[0.510454] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm2_steering_axis.STL\n'}
+[0.510581] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm4_base.STL\n'}
+[0.510708] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/base_link.STL\n'}
+[0.510837] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm2_arm.STL\n'}
+[0.510964] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm1_brake_enc.STL\n'}
+[0.511087] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm3_steering_axis.STL\n'}
+[0.511209] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm3_brake_enc.STL\n'}
+[0.511337] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm1_steering_axis.STL\n'}
+[0.511464] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm3_base.STL\n'}
+[0.511589] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm4_wheel.STL\n'}
+[0.511720] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm1_base.STL\n'}
+[0.511844] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm3_wheel.STL\n'}
+[0.511968] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm1_wheel.STL\n'}
+[0.512095] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/meshes_visual/wm2_brake_enc.STL\n'}
+[0.512223] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial\n'}
+[0.513214] (urdf_tutorial) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial\n'}
+[0.513355] (urdf_tutorial) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh\n'}
+[0.513482] (urdf_tutorial) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv\n'}
+[0.513609] (urdf_tutorial) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh\n'}
+[0.513791] (urdf_tutorial) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv\n'}
+[0.513923] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash\n'}
+[0.514049] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh\n'}
+[0.514205] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh\n'}
+[0.514334] (urdf_tutorial) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv\n'}
+[0.514464] (urdf_tutorial) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.dsv\n'}
+[0.514595] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial\n'}
+[0.514723] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake\n'}
+[0.514848] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake\n'}
+[0.514974] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.xml\n'}
+[0.515105] (urdf_tutorial) CommandEnded: {'returncode': 0}
+[0.515689] (snow_con) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.515842] (snow_con) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.520260] (hard_con) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.521413] (hard_con) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.522751] (snow_con_rt) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.523876] (snow_con_rt) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.572174] (urdf_tutorial) JobEnded: {'identifier': 'urdf_tutorial', 'rc': 0}
+[0.600479] (-) TimerEvent: {}
+[0.683967] (snow_con) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.685984] (snow_con_rt) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.687119] (hard_con) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700634] (-) TimerEvent: {}
+[0.801082] (-) TimerEvent: {}
+[0.901524] (-) TimerEvent: {}
+[0.911405] (snow_con_rt) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.912632] (snow_con) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.914174] (hard_con) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.001688] (-) TimerEvent: {}
+[1.090916] (snow_con_rt) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.093884] (snow_con) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.097114] (hard_con) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.101824] (-) TimerEvent: {}
+[1.178678] (snow_con) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.178974] (snow_con) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.179121] (snow_con) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.179726] (snow_con) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.181383] (snow_con) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.181661] (snow_con) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.181870] (snow_con) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.183193] (snow_con) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.195388] (snow_con_rt) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.195688] (snow_con_rt) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.195823] (snow_con_rt) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.196272] (snow_con_rt) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.197426] (snow_con) StdoutLine: {'line': b'-- Generating done\n'}
+[1.197708] (snow_con_rt) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.197865] (snow_con_rt) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.198064] (snow_con_rt) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.199310] (snow_con) StdoutLine: {'line': b'-- Build files have been written to: /home/rhys/ws_snow/build/snow_con\n'}
+[1.199557] (snow_con_rt) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.201195] (hard_con) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.201468] (hard_con) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.201605] (hard_con) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.201901] (-) TimerEvent: {}
+[1.202146] (hard_con) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.202977] (hard_con) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.203240] (hard_con) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.203400] (snow_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.203603] (hard_con) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.204643] (hard_con) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.213731] (snow_con_rt) StdoutLine: {'line': b'-- Generating done\n'}
+[1.215773] (snow_con_rt) StdoutLine: {'line': b'-- Build files have been written to: /home/rhys/ws_snow/build/snow_con_rt\n'}
+[1.218068] (hard_con) StdoutLine: {'line': b'-- Generating done\n'}
+[1.220065] (hard_con) StdoutLine: {'line': b'-- Build files have been written to: /home/rhys/ws_snow/build/hard_con\n'}
+[1.230350] (snow_con) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.245577] (snow_con_rt) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.249335] (hard_con) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.250486] (snow_con) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o\x1b[0m\n'}
+[1.267681] (snow_con_rt) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o\x1b[0m\n'}
+[1.269562] (hard_con) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/main.cpp.o\x1b[0m\n'}
+[1.272711] (snow_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.274346] (snow_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.302067] (-) TimerEvent: {}
+[1.402541] (-) TimerEvent: {}
+[1.444301] (snow_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.502704] (-) TimerEvent: {}
+[1.603174] (-) TimerEvent: {}
+[1.638197] (snow_sim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.681322] (snow_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.703347] (-) TimerEvent: {}
+[1.776492] (snow_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.777122] (snow_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.777362] (snow_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.778719] (snow_sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.781225] (snow_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.782974] (snow_sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.792297] (snow_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.792593] (snow_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.793780] (snow_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.795167] (snow_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.803508] (-) TimerEvent: {}
+[1.811281] (snow_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.813409] (snow_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/rhys/ws_snow/build/snow_sim\n'}
+[1.844173] (snow_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example_effort\x1b[0m\n'}
+[1.864104] (snow_sim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o\x1b[0m\n'}
+[1.903689] (-) TimerEvent: {}
+[2.004152] (-) TimerEvent: {}
+[2.104620] (-) TimerEvent: {}
+[2.205092] (-) TimerEvent: {}
+[2.305580] (-) TimerEvent: {}
+[2.406062] (-) TimerEvent: {}
+[2.506572] (-) TimerEvent: {}
+[2.607052] (-) TimerEvent: {}
+[2.707542] (-) TimerEvent: {}
+[2.808026] (-) TimerEvent: {}
+[2.908507] (-) TimerEvent: {}
+[3.008994] (-) TimerEvent: {}
+[3.109469] (-) TimerEvent: {}
+[3.209959] (-) TimerEvent: {}
+[3.310451] (-) TimerEvent: {}
+[3.410989] (-) TimerEvent: {}
+[3.511473] (-) TimerEvent: {}
+[3.611976] (-) TimerEvent: {}
+[3.712462] (-) TimerEvent: {}
+[3.812951] (-) TimerEvent: {}
+[3.913441] (-) TimerEvent: {}
+[4.013936] (-) TimerEvent: {}
+[4.064555] (hard_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/hard_con/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::print_latency(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.064873] (hard_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/hard_con/src/main.cpp:56:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.065034] (hard_con) StderrLine: {'line': b'   56 |       int \x1b[01;35m\x1b[Ki\x1b[m\x1b[K, j;\n'}
+[4.065167] (hard_con) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.065293] (hard_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/hard_con/src/main.cpp:56:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kj\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.065425] (hard_con) StderrLine: {'line': b'   56 |       int i, \x1b[01;35m\x1b[Kj\x1b[m\x1b[K;\n'}
+[4.065554] (hard_con) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.114138] (-) TimerEvent: {}
+[4.140665] (snow_con_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double, double*, double, double, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.141006] (snow_con_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:333:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kbrake\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.141217] (snow_con_rt) StderrLine: {'line': b'  333 |     static double \x1b[01;35m\x1b[Kbrake\x1b[m\x1b[K[4];\n'}
+[4.141435] (snow_con_rt) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.153807] (snow_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::print_latency(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.154146] (snow_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:116:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.154318] (snow_con) StderrLine: {'line': b'  116 |       int \x1b[01;35m\x1b[Ki\x1b[m\x1b[K, j;\n'}
+[4.154449] (snow_con) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.154579] (snow_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:116:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kj\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.154730] (snow_con) StderrLine: {'line': b'  116 |       int i, \x1b[01;35m\x1b[Kj\x1b[m\x1b[K;\n'}
+[4.154861] (snow_con) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.160266] (snow_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.160544] (snow_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:248:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kenumeration value \xe2\x80\x98\x1b[01m\x1b[KSTEP3\x1b[m\x1b[K\xe2\x80\x99 not handled in switch [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch\x07-Wswitch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.160700] (snow_con) StderrLine: {'line': b'  248 |       switch \x1b[01;35m\x1b[K(\x1b[m\x1b[KpState) {\n'}
+[4.160832] (snow_con) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.161200] (snow_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:154:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.161380] (snow_con) StderrLine: {'line': b'  154 |       static double \x1b[01;35m\x1b[Kc\x1b[m\x1b[K;\n'}
+[4.161509] (snow_con) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.161635] (snow_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:155:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kstep\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.161789] (snow_con) StderrLine: {'line': b'  155 |       static int \x1b[01;35m\x1b[Kstep\x1b[m\x1b[K = 0;\n'}
+[4.161925] (snow_con) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.162052] (snow_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:174:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KcVwheelBrake\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.162216] (snow_con) StderrLine: {'line': b'  174 |       static float \x1b[01;35m\x1b[KcVwheelBrake\x1b[m\x1b[K;\n'}
+[4.162347] (snow_con) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.162475] (snow_con) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:175:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KcPArmBrake\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.162626] (snow_con) StderrLine: {'line': b'  175 |       static float \x1b[01;35m\x1b[KcPArmBrake\x1b[m\x1b[K;\n'}
+[4.162754] (snow_con) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.214263] (-) TimerEvent: {}
+[4.314684] (-) TimerEvent: {}
+[4.415127] (-) TimerEvent: {}
+[4.515542] (-) TimerEvent: {}
+[4.616037] (-) TimerEvent: {}
+[4.716527] (-) TimerEvent: {}
+[4.817030] (-) TimerEvent: {}
+[4.917513] (-) TimerEvent: {}
+[5.017997] (-) TimerEvent: {}
+[5.118502] (-) TimerEvent: {}
+[5.218925] (-) TimerEvent: {}
+[5.319340] (-) TimerEvent: {}
+[5.419829] (-) TimerEvent: {}
+[5.520318] (-) TimerEvent: {}
+[5.620806] (-) TimerEvent: {}
+[5.721309] (-) TimerEvent: {}
+[5.821798] (-) TimerEvent: {}
+[5.922248] (-) TimerEvent: {}
+[6.022729] (-) TimerEvent: {}
+[6.123216] (-) TimerEvent: {}
+[6.223666] (-) TimerEvent: {}
+[6.324059] (-) TimerEvent: {}
+[6.424453] (-) TimerEvent: {}
+[6.524853] (-) TimerEvent: {}
+[6.625250] (-) TimerEvent: {}
+[6.675786] (snow_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_effort\x1b[0m\n'}
+[6.725391] (-) TimerEvent: {}
+[6.825778] (-) TimerEvent: {}
+[6.904425] (snow_sim) StdoutLine: {'line': b'[100%] Built target example_effort\n'}
+[6.920568] (snow_sim) CommandEnded: {'returncode': 0}
+[6.925933] (-) TimerEvent: {}
+[6.942016] (snow_sim) JobProgress: {'identifier': 'snow_sim', 'progress': 'install'}
+[6.943213] (snow_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rhys/ws_snow/build/snow_sim'], 'cwd': '/home/rhys/ws_snow/build/snow_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_PH:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rhys-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2275,unix/rhys-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2275'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/993c327e_4226_4348_9d99_1b87b824963a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ws_snow/build/snow_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.949619] (snow_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.949848] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch\n'}
+[6.950053] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/sbsimple_ign.launch.py\n'}
+[6.950275] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install\n'}
+[6.950385] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/_local_setup_util_sh.py\n'}
+[6.950483] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/local_setup.bash\n'}
+[6.950584] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/.colcon_install_layout\n'}
+[6.950692] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/COLCON_IGNORE\n'}
+[6.950987] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/setup.bash\n'}
+[6.951692] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/local_setup.ps1\n'}
+[6.951855] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/setup.ps1\n'}
+[6.951958] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/local_setup.sh\n'}
+[6.952066] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/local_setup.zsh\n'}
+[6.952169] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/setup.sh\n'}
+[6.952401] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/setup.zsh\n'}
+[6.952517] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/_local_setup_util_ps1.py\n'}
+[6.952623] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/temp\n'}
+[6.952726] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/snow.launch.py\n'}
+[6.952826] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log\n'}
+[6.952928] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest\n'}
+[6.953034] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest/logger_all.log\n'}
+[6.953202] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest/events.log\n'}
+[6.953309] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/COLCON_IGNORE\n'}
+[6.953405] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest_build\n'}
+[6.953525] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest_build/logger_all.log\n'}
+[6.953624] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest_build/events.log\n'}
+[6.953717] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/build_2022-11-16_12-55-58\n'}
+[6.953813] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/build_2022-11-16_12-55-58/logger_all.log\n'}
+[6.953914] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/build_2022-11-16_12-55-58/events.log\n'}
+[6.954011] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/snow_v2-pi.launch.py\n'}
+[6.954138] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/build\n'}
+[6.954244] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/build/.built_by\n'}
+[6.954346] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/build/COLCON_IGNORE\n'}
+[6.954447] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/snow_v3.launch.py\n'}
+[6.954547] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/snow_v2.launch.py\n'}
+[6.954648] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//config\n'}
+[6.954749] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//config/temp\n'}
+[6.954843] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//config/snow_v3.yaml\n'}
+[6.954942] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//config/snow.yaml\n'}
+[6.955150] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//config/sbsimple.yaml\n'}
+[6.955250] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf\n'}
+[6.955347] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v1.urdf\n'}
+[6.955447] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v2.urdf\n'}
+[6.955545] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v3.urdf\n'}
+[6.955642] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/temp\n'}
+[6.955749] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v2-stl only.urdf\n'}
+[6.955853] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow.urdf\n'}
+[6.955958] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snowbot_simple.urdf\n'}
+[6.956061] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_v4.urdf\n'}
+[6.956164] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_v3.urdf\n'}
+[6.956267] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v2-1_hard code wheel.urdf\n'}
+[6.956374] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_v5.sdf\n'}
+[6.956477] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_collision_v1-1.urdf\n'}
+[6.956624] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_v5.urdf\n'}
+[6.956733] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_collision_v1.urdf\n'}
+[6.956905] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snowbot_simple_ign.urdf\n'}
+[6.957012] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v2-1_stl wheel.urdf\n'}
+[6.957112] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_v2.urdf\n'}
+[6.957211] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_orig.urdf\n'}
+[6.957314] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes\n'}
+[6.957415] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm2_wheel.STL\n'}
+[6.957518] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm1.STL\n'}
+[6.957619] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/base_link.STL\n'}
+[6.957721] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm4_wheel.STL\n'}
+[6.957817] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm3_wheel.STL\n'}
+[6.957911] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm1_wheel.STL\n'}
+[6.958003] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm2.STL\n'}
+[6.958100] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm4.STL\n'}
+[6.958224] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm3.STL\n'}
+[6.958416] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2\n'}
+[6.958529] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm4_arm.STL\n'}
+[6.958747] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm2_wheel.STL\n'}
+[6.958850] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm4_steering_axis.STL\n'}
+[6.958949] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm2_base.STL\n'}
+[6.959048] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm1_arm.STL\n'}
+[6.959147] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm4_brake_enc.STL\n'}
+[6.959244] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm3_arm.STL\n'}
+[6.959342] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm2_steering_axis.STL\n'}
+[6.959440] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm4_base.STL\n'}
+[6.959539] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/base_link.STL\n'}
+[6.959634] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm2_arm.STL\n'}
+[6.959736] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm1_brake_enc.STL\n'}
+[6.959834] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm3_steering_axis.STL\n'}
+[6.959932] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm3_brake_enc.STL\n'}
+[6.960029] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm1_steering_axis.STL\n'}
+[6.960126] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm3_base.STL\n'}
+[6.960224] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm4_wheel.STL\n'}
+[6.960320] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm1_base.STL\n'}
+[6.960415] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm3_wheel.STL\n'}
+[6.960515] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm1_wheel.STL\n'}
+[6.960612] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm2_brake_enc.STL\n'}
+[6.960713] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual\n'}
+[6.960810] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm4_arm.STL\n'}
+[6.960907] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm2_wheel.STL\n'}
+[6.961001] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm4_steering_axis.STL\n'}
+[6.961097] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm2_base.STL\n'}
+[6.961230] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm1_arm.STL\n'}
+[6.961330] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm4_brake_enc.STL\n'}
+[6.961597] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm3_arm.STL\n'}
+[6.961753] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm2_steering_axis.STL\n'}
+[6.961852] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm4_base.STL\n'}
+[6.962270] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/base_link.STL\n'}
+[6.962384] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm2_arm.STL\n'}
+[6.962484] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm1_brake_enc.STL\n'}
+[6.962577] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm3_steering_axis.STL\n'}
+[6.962670] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm3_brake_enc.STL\n'}
+[6.962771] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm1_steering_axis.STL\n'}
+[6.962871] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm3_base.STL\n'}
+[6.962970] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm4_wheel.STL\n'}
+[6.963066] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm1_base.STL\n'}
+[6.963163] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm3_wheel.STL\n'}
+[6.963260] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm1_wheel.STL\n'}
+[6.963357] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2\n'}
+[6.963945] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm4_arm.STL\n'}
+[6.964067] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm2_wheel.STL\n'}
+[6.964163] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm4_steering_axis.STL\n'}
+[6.964262] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm2_base.STL\n'}
+[6.964360] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm1_arm.STL\n'}
+[6.964458] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm4_brake_enc.STL\n'}
+[6.964555] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm3_arm.STL\n'}
+[6.964652] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm2_steering_axis.STL\n'}
+[6.964751] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm4_base.STL\n'}
+[6.964843] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/base_link.STL\n'}
+[6.964938] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm2_arm.STL\n'}
+[6.965032] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm1_brake_enc.STL\n'}
+[6.967879] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm3_steering_axis.STL\n'}
+[6.967987] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm3_brake_enc.STL\n'}
+[6.968073] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm1_steering_axis.STL\n'}
+[6.968155] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm3_base.STL\n'}
+[6.968232] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm4_wheel.STL\n'}
+[6.968302] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm1_base.STL\n'}
+[6.968384] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm3_wheel.STL\n'}
+[6.968470] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm1_wheel.STL\n'}
+[6.968594] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm2_brake_enc.STL\n'}
+[6.968688] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm2_brake_enc.STL\n'}
+[6.968779] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision\n'}
+[6.968863] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm4_arm.STL\n'}
+[6.968949] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm2_wheel.STL\n'}
+[6.969033] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm4_steering_axis.STL\n'}
+[6.969118] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm2_base.STL\n'}
+[6.969205] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm1_arm.STL\n'}
+[6.969290] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm4_brake_enc.STL\n'}
+[6.969375] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm3_arm.STL\n'}
+[6.969462] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm2_steering_axis.STL\n'}
+[6.969547] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm4_base.STL\n'}
+[6.969634] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/base_link.STL\n'}
+[6.969723] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm2_arm.STL\n'}
+[6.969807] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm1_brake_enc.STL\n'}
+[6.969889] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm3_steering_axis.STL\n'}
+[6.969977] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm3_brake_enc.STL\n'}
+[6.970062] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm1_steering_axis.STL\n'}
+[6.970179] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm3_base.STL\n'}
+[6.970326] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm4_wheel.STL\n'}
+[6.970506] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2\n'}
+[6.970589] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm4_arm.STL\n'}
+[6.970681] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm2_wheel.STL\n'}
+[6.970766] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm4_steering_axis.STL\n'}
+[6.970847] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm2_base.STL\n'}
+[6.970933] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm1_arm.STL\n'}
+[6.971011] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm1_break_enc.STL\n'}
+[6.971093] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm3_break_enc.STL\n'}
+[6.971179] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm3_arm.STL\n'}
+[6.971267] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm2_steering_axis.STL\n'}
+[6.971346] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm4_base.STL\n'}
+[6.971430] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/base_link.STL\n'}
+[6.971518] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm2_arm.STL\n'}
+[6.971603] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm3_steering_axis.STL\n'}
+[6.971692] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm1_steering_axis.STL\n'}
+[6.971776] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm3_base.STL\n'}
+[6.971877] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm4_wheel.STL\n'}
+[6.971961] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm1_base.STL\n'}
+[6.972044] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm2_break_enc.STL\n'}
+[6.972132] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm3_wheel.STL\n'}
+[6.972221] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm1_wheel.STL\n'}
+[6.972307] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm4_break_enc.STL\n'}
+[6.972391] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm1_base.STL\n'}
+[6.972478] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm3_wheel.STL\n'}
+[6.972565] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm1_wheel.STL\n'}
+[6.972702] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm2_brake_enc.STL\n'}
+[6.972785] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//worlds\n'}
+[6.972868] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//worlds/warehouse.world\n'}
+[6.972951] (snow_sim) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_sim/lib/snow_sim/example_effort\n'}
+[6.973037] (snow_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/rhys/ws_snow/install/snow_sim/lib/snow_sim/example_effort" to ""\n'}
+[6.973117] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/ament_index/resource_index/package_run_dependencies/snow_sim\n'}
+[6.973204] (snow_sim) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_sim/share/ament_index/resource_index/parent_prefix_path/snow_sim\n'}
+[6.973291] (snow_sim) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/environment/ament_prefix_path.sh\n'}
+[6.973379] (snow_sim) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/environment/ament_prefix_path.dsv\n'}
+[6.973464] (snow_sim) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/environment/path.sh\n'}
+[6.973545] (snow_sim) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/environment/path.dsv\n'}
+[6.973630] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/local_setup.bash\n'}
+[6.973720] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/local_setup.sh\n'}
+[6.973808] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/local_setup.zsh\n'}
+[6.973968] (snow_sim) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/local_setup.dsv\n'}
+[6.974054] (snow_sim) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.dsv\n'}
+[6.974163] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/ament_index/resource_index/packages/snow_sim\n'}
+[6.974256] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/cmake/snow_simConfig.cmake\n'}
+[6.974334] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/cmake/snow_simConfig-version.cmake\n'}
+[6.974413] (snow_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.xml\n'}
+[6.974498] (snow_sim) CommandEnded: {'returncode': 0}
+[7.027295] (-) TimerEvent: {}
+[7.030330] (snow_sim) JobEnded: {'identifier': 'snow_sim', 'rc': 0}
+[7.127453] (-) TimerEvent: {}
+[7.227800] (-) TimerEvent: {}
+[7.328165] (-) TimerEvent: {}
+[7.428565] (-) TimerEvent: {}
+[7.528975] (-) TimerEvent: {}
+[7.629374] (-) TimerEvent: {}
+[7.729765] (-) TimerEvent: {}
+[7.830187] (-) TimerEvent: {}
+[7.930577] (-) TimerEvent: {}
+[8.030981] (-) TimerEvent: {}
+[8.131375] (-) TimerEvent: {}
+[8.231764] (-) TimerEvent: {}
+[8.332158] (-) TimerEvent: {}
+[8.432550] (-) TimerEvent: {}
+[8.532951] (-) TimerEvent: {}
+[8.633348] (-) TimerEvent: {}
+[8.733749] (-) TimerEvent: {}
+[8.834163] (-) TimerEvent: {}
+[8.934568] (-) TimerEvent: {}
+[9.034956] (-) TimerEvent: {}
+[9.135369] (-) TimerEvent: {}
+[9.235776] (-) TimerEvent: {}
+[9.336181] (-) TimerEvent: {}
+[9.436588] (-) TimerEvent: {}
+[9.536996] (-) TimerEvent: {}
+[9.637405] (-) TimerEvent: {}
+[9.737820] (-) TimerEvent: {}
+[9.838254] (-) TimerEvent: {}
+[9.938687] (-) TimerEvent: {}
+[10.039115] (-) TimerEvent: {}
+[10.112722] (hard_con) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[10.139269] (-) TimerEvent: {}
+[10.193122] (snow_con) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[10.195755] (snow_con_rt) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[10.239442] (-) TimerEvent: {}
+[10.339969] (-) TimerEvent: {}
+[10.440535] (-) TimerEvent: {}
+[10.541023] (-) TimerEvent: {}
+[10.631230] (hard_con) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[10.641190] (-) TimerEvent: {}
+[10.648823] (hard_con) CommandEnded: {'returncode': 0}
+[10.680487] (hard_con) JobProgress: {'identifier': 'hard_con', 'progress': 'install'}
+[10.681605] (hard_con) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rhys/ws_snow/build/hard_con'], 'cwd': '/home/rhys/ws_snow/build/hard_con', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_PH:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rhys-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2275,unix/rhys-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2275'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/993c327e_4226_4348_9d99_1b87b824963a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ws_snow/build/hard_con'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.687242] (hard_con) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.687748] (hard_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/hard_con/lib/hard_con/talker\n'}
+[10.690925] (hard_con) StdoutLine: {'line': b'-- Set runtime path of "/home/rhys/ws_snow/install/hard_con/lib/hard_con/talker" to ""\n'}
+[10.691186] (hard_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/hard_con/share/ament_index/resource_index/package_run_dependencies/hard_con\n'}
+[10.691310] (hard_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/hard_con/share/ament_index/resource_index/parent_prefix_path/hard_con\n'}
+[10.691421] (hard_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/hard_con/share/hard_con/environment/ament_prefix_path.sh\n'}
+[10.691606] (hard_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/hard_con/share/hard_con/environment/ament_prefix_path.dsv\n'}
+[10.691813] (hard_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/hard_con/share/hard_con/environment/path.sh\n'}
+[10.691952] (hard_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/hard_con/share/hard_con/environment/path.dsv\n'}
+[10.692064] (hard_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/hard_con/share/hard_con/local_setup.bash\n'}
+[10.692174] (hard_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/hard_con/share/hard_con/local_setup.sh\n'}
+[10.692285] (hard_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/hard_con/share/hard_con/local_setup.zsh\n'}
+[10.692395] (hard_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/hard_con/share/hard_con/local_setup.dsv\n'}
+[10.692504] (hard_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/hard_con/share/hard_con/package.dsv\n'}
+[10.692620] (hard_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/hard_con/share/ament_index/resource_index/packages/hard_con\n'}
+[10.692737] (hard_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/hard_con/share/hard_con/cmake/hard_conConfig.cmake\n'}
+[10.692849] (hard_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/hard_con/share/hard_con/cmake/hard_conConfig-version.cmake\n'}
+[10.692959] (hard_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/hard_con/share/hard_con/package.xml\n'}
+[10.696371] (hard_con) CommandEnded: {'returncode': 0}
+[10.741487] (-) TimerEvent: {}
+[10.749236] (hard_con) JobEnded: {'identifier': 'hard_con', 'rc': 0}
+[10.754705] (snow_con_rt) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[10.756768] (snow_con) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[10.764085] (snow_con_rt) CommandEnded: {'returncode': 0}
+[10.766700] (snow_con) CommandEnded: {'returncode': 0}
+[10.789852] (snow_con) JobProgress: {'identifier': 'snow_con', 'progress': 'install'}
+[10.790721] (snow_con) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rhys/ws_snow/build/snow_con'], 'cwd': '/home/rhys/ws_snow/build/snow_con', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_PH:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rhys-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2275,unix/rhys-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2275'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/993c327e_4226_4348_9d99_1b87b824963a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ws_snow/build/snow_con'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.794431] (snow_con_rt) JobProgress: {'identifier': 'snow_con_rt', 'progress': 'install'}
+[10.795120] (snow_con_rt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rhys/ws_snow/build/snow_con_rt'], 'cwd': '/home/rhys/ws_snow/build/snow_con_rt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_PH:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rhys-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2275,unix/rhys-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2275'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/993c327e_4226_4348_9d99_1b87b824963a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ws_snow/build/snow_con_rt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.800463] (snow_con_rt) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.800949] (snow_con_rt) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con_rt/lib/snow_con_rt/listener\n'}
+[10.802475] (snow_con) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.803373] (snow_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con/lib/snow_con/listener\n'}
+[10.803878] (snow_con_rt) StdoutLine: {'line': b'-- Set runtime path of "/home/rhys/ws_snow/install/snow_con_rt/lib/snow_con_rt/listener" to ""\n'}
+[10.804266] (snow_con_rt) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con_rt/share/ament_index/resource_index/package_run_dependencies/snow_con_rt\n'}
+[10.804686] (snow_con_rt) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con_rt/share/ament_index/resource_index/parent_prefix_path/snow_con_rt\n'}
+[10.805002] (snow_con_rt) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/environment/ament_prefix_path.sh\n'}
+[10.805201] (snow_con_rt) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/environment/ament_prefix_path.dsv\n'}
+[10.805380] (snow_con_rt) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/environment/path.sh\n'}
+[10.805615] (snow_con_rt) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/environment/path.dsv\n'}
+[10.805799] (snow_con_rt) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/local_setup.bash\n'}
+[10.806674] (snow_con_rt) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/local_setup.sh\n'}
+[10.806952] (snow_con_rt) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/local_setup.zsh\n'}
+[10.807214] (snow_con_rt) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/local_setup.dsv\n'}
+[10.809280] (snow_con_rt) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.dsv\n'}
+[10.809515] (snow_con_rt) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con_rt/share/ament_index/resource_index/packages/snow_con_rt\n'}
+[10.809769] (snow_con_rt) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/cmake/snow_con_rtConfig.cmake\n'}
+[10.809998] (snow_con_rt) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/cmake/snow_con_rtConfig-version.cmake\n'}
+[10.810289] (snow_con_rt) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.xml\n'}
+[10.810512] (snow_con_rt) CommandEnded: {'returncode': 0}
+[10.811371] (snow_con) StdoutLine: {'line': b'-- Set runtime path of "/home/rhys/ws_snow/install/snow_con/lib/snow_con/listener" to ""\n'}
+[10.811712] (snow_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/ament_index/resource_index/package_run_dependencies/snow_con\n'}
+[10.811965] (snow_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con/share/ament_index/resource_index/parent_prefix_path/snow_con\n'}
+[10.812259] (snow_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.sh\n'}
+[10.812548] (snow_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.dsv\n'}
+[10.814275] (snow_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/environment/path.sh\n'}
+[10.814478] (snow_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/environment/path.dsv\n'}
+[10.814627] (snow_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/local_setup.bash\n'}
+[10.814771] (snow_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/local_setup.sh\n'}
+[10.814958] (snow_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/local_setup.zsh\n'}
+[10.815108] (snow_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/local_setup.dsv\n'}
+[10.815254] (snow_con) StdoutLine: {'line': b'-- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/package.dsv\n'}
+[10.815398] (snow_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/ament_index/resource_index/packages/snow_con\n'}
+[10.815550] (snow_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig.cmake\n'}
+[10.815700] (snow_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig-version.cmake\n'}
+[10.815842] (snow_con) StdoutLine: {'line': b'-- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/package.xml\n'}
+[10.821294] (snow_con) CommandEnded: {'returncode': 0}
+[10.841648] (-) TimerEvent: {}
+[10.862050] (snow_con_rt) JobEnded: {'identifier': 'snow_con_rt', 'rc': 0}
+[10.870921] (snow_con) JobEnded: {'identifier': 'snow_con', 'rc': 0}
+[10.872064] (-) EventReactorShutdown: {}

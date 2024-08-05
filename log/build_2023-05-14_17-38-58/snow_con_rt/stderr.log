@@ -1,0 +1,8 @@
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/utility.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcurses.h: No such file or directory
+    3 | #include [01;31m[K<curses.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:90: CMakeFiles/listener.dir/src/utility.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

@@ -1,0 +1,31 @@
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double, double*, double*, double*, double, double*, bool, double*)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:238:27:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble*[m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator==[m[K’
+  238 |           if ([32m[KtargetAngle[m[K [01;31m[K==[m[K M_PI / 2) {
+      |               [32m[K~~~~~~~~~~~[m[K [01;31m[K^~[m[K
+      |               [32m[K|[m[K
+      |               [32m[Kdouble*[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:296:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 3 has type ‘[01m[Kdouble*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  296 |     printf("ct=%.2f ta=[01;35m[K%f[m[K", currentTime, [32m[KtargetAngle[m[K);
+      |                        [01;35m[K~^[m[K                [32m[K~~~~~~~~~~~[m[K
+      |                         [01;35m[K|[m[K                [32m[K|[m[K
+      |                         [01;35m[Kdouble[m[K           [32m[Kdouble*[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:536:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP2[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  536 |     switch [01;35m[K([m[KpState)
+      |            [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:536:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP3[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:536:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP4[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:536:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP5[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:536:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP6[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:536:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP7[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:536:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP8[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:536:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP9[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:461:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  461 |     static double [01;35m[Ks[m[K[4];
+      |                   [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:466:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtargetPosition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  466 |     static double [01;35m[KtargetPosition[m[K;
+      |                   [01;35m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

@@ -1,0 +1,32 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:121:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before numeric constant
+  121 |       static double tstartmove [01;31m[K0[m[K;
+      |                                [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:189:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktstartmove[m[K’ was not declared in this scope
+  189 |           [01;31m[Ktstartmove[m[K = t;
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:202:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktstartmove[m[K’ was not declared in this scope
+  202 |           if (t>[01;31m[Ktstartmove[m[K + 3) {
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:252:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktstartmove[m[K’ was not declared in this scope
+  252 |           if (fabs(vWheel[0]) < 0.02 && t > [01;31m[Ktstartmove[m[K + 15) {
+      |                                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:112:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  112 |       static double [01;35m[Kc[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:113:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  113 |       static int [01;35m[Kstep[m[K = 0;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:122:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  122 |       static double [01;35m[Kendposition[m[K = 0;
+      |                     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:128:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  128 |       static float [01;35m[KcVwheelBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:129:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  129 |       static float [01;35m[KcPArmBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

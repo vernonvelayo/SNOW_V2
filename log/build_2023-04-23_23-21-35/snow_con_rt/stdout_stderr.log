@@ -1,0 +1,110 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rhys/ws_snow/build/snow_con_rt
+[ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/utility.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/listener.dir/src/kbhit.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/listener.dir/src/eso.cpp.o[0m
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/utility.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcurses.h: No such file or directory
+    3 | #include [01;31m[K<curses.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:90: CMakeFiles/listener.dir/src/utility.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:122:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  122 |     int [01;35m[Ki[m[K, j;
+      |         [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:122:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  122 |     int i, [01;35m[Kj[m[K;
+      |            [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:156:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsetESO[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  156 |     static bool [01;35m[KsetESO[m[K = true;
+      |                 [01;35m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:157:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kposition[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  157 |     static double [01;35m[Kposition[m[K = 0;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:158:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvelocity[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  158 |     static double [01;35m[Kvelocity[m[K = 0;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:159:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  159 |     static double [01;35m[Kc[m[K;
+      |                   [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:160:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  160 |     static int [01;35m[Kstep[m[K = 0;
+      |                [01;35m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:161:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  161 |     double [01;35m[Krw[m[K = 0.044;
+      |            [01;35m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:169:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdstartpos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  169 |     static double [01;35m[Kdstartpos[m[K[4];
+      |                   [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:171:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  171 |     static double [01;35m[Kendposition[m[K = 0;
+      |                   [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:173:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcVwheelRotate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  173 |     static float [01;35m[KcVwheelRotate[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:174:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcPwheelRotate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  174 |     static float [01;35m[KcPwheelRotate[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:175:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcVwheelForward[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  175 |     static float [01;35m[KcVwheelForward[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:176:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcPwheelForward[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  176 |     static float [01;35m[KcPwheelForward[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:177:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  177 |     static float [01;35m[KcVwheelBrake[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:178:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  178 |     static float [01;35m[KcPArmBrake[m[K;
+      |                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:188:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KvArm[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  188 |     double [01;35m[KvArm[m[K[4];
+      |            [01;35m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:237:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinc[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  237 |     static double [01;35m[Kinc[m[K;
+      |                   [01;35m[K^~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

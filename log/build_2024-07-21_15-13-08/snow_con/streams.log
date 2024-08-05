@@ -1,0 +1,6 @@
+[0.012s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[0.018s] [0mCMake Error: The current CMakeCache.txt directory /home/bern/ws_snow/build/snow_con/CMakeCache.txt is different than the directory /home/rhys/ws_snow/build/snow_con where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.023s] [0mCMake Error: The source directory "/home/rhys/ws_snow/src/snow_con" does not exist.
+[0.024s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.024s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.025s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12

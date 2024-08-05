@@ -1,0 +1,34 @@
+[0.016s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.502s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.502s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:121:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before numeric constant
+[1.502s]   121 |       static double tstartmove [01;31m[K0[m[K;
+[1.502s]       |                                [01;31m[K^[m[K
+[1.506s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:189:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktstartmove[m[K’ was not declared in this scope
+[1.507s]   189 |           [01;31m[Ktstartmove[m[K = t;
+[1.507s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.511s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:202:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktstartmove[m[K’ was not declared in this scope
+[1.511s]   202 |           if (t>[01;31m[Ktstartmove[m[K + 3) {
+[1.511s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[1.515s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:252:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktstartmove[m[K’ was not declared in this scope
+[1.515s]   252 |           if (fabs(vWheel[0]) < 0.02 && t > [01;31m[Ktstartmove[m[K + 15) {
+[1.515s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[1.515s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:112:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.515s]   112 |       static double [01;35m[Kc[m[K;
+[1.515s]       |                     [01;35m[K^[m[K
+[1.515s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:113:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.515s]   113 |       static int [01;35m[Kstep[m[K = 0;
+[1.515s]       |                  [01;35m[K^~~~[m[K
+[1.515s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:122:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.516s]   122 |       static double [01;35m[Kendposition[m[K = 0;
+[1.516s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[1.516s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:128:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.516s]   128 |       static float [01;35m[KcVwheelBrake[m[K;
+[1.516s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[1.516s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:129:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.516s]   129 |       static float [01;35m[KcPArmBrake[m[K;
+[1.516s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[3.082s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[3.082s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[3.082s] gmake: *** [Makefile:146: all] Error 2
+[3.084s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12

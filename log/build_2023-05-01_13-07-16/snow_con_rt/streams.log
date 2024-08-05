@@ -1,0 +1,15 @@
+[0.025s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.086s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.901s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double, double*, double, double, bool)[m[K’:
+[1.902s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:321:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble s [4][m[K’ shadows a parameter
+[1.902s]   321 |     double [01;31m[Ks[m[K[4] = {1.0, -1.0, 1.0, -1.0};
+[1.902s]       |            [01;31m[K^[m[K
+[1.902s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:302:15:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble* s[m[K’ previously declared here
+[1.902s]   302 |       [01;36m[Kdouble *s[m[K, double *u,
+[1.902s]       |       [01;36m[K~~~~~~~~^[m[K
+[1.902s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:302:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.920s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[3.921s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[3.921s] gmake: *** [Makefile:134: all] Error 2
+[3.924s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

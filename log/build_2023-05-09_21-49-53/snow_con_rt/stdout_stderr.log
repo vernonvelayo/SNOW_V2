@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:878:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  878 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:35:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   35 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   47 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   50 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>("/effort_controllers/commands", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:857:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+  857 |     [01;31m[Kpublisher_[m[K->publish(commands);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:535:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP7[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  535 |     switch [01;35m[K([m[KpState)
+      |            [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:535:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP8[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:535:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP9[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K At global scope:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:878:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  878 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

@@ -1,0 +1,176 @@
+[0.024s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.069s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.892s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:421:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[1.892s]   421 |     [01;31m[Kt[m[K = double(msg->header.stamp.sec) + double(msg->header.stamp.nanosec * 1e-9);
+[1.892s]       |     [01;31m[K^[m[K
+[1.892s]       |     [32m[Ktm[m[K
+[1.893s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:422:5:[m[K [01;31m[Kerror: [m[K‘[01m[KframeID[m[K’ does not name a type
+[1.893s]   422 |     [01;31m[KframeID[m[K = msg->header.frame_id;
+[1.893s]       |     [01;31m[K^~~~~~~[m[K
+[1.894s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:435:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpArm[m[K’ does not name a type
+[1.894s]   435 |     [01;31m[KpArm[m[K[0] = msg->position[0];
+[1.894s]       |     [01;31m[K^~~~[m[K
+[1.895s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:436:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpArm[m[K’ does not name a type
+[1.895s]   436 |     [01;31m[KpArm[m[K[1] = msg->position[3];
+[1.895s]       |     [01;31m[K^~~~[m[K
+[1.896s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:437:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpArm[m[K’ does not name a type
+[1.896s]   437 |     [01;31m[KpArm[m[K[2] = msg->position[4];
+[1.897s]       |     [01;31m[K^~~~[m[K
+[1.897s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:438:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpArm[m[K’ does not name a type
+[1.898s]   438 |     [01;31m[KpArm[m[K[3] = msg->position[6];
+[1.898s]       |     [01;31m[K^~~~[m[K
+[1.899s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:440:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpWheel[m[K’ does not name a type
+[1.899s]   440 |     [01;31m[KpWheel[m[K[0] = msg->position[1];
+[1.899s]       |     [01;31m[K^~~~~~[m[K
+[1.900s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:441:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpWheel[m[K’ does not name a type
+[1.900s]   441 |     [01;31m[KpWheel[m[K[1] = msg->position[2];
+[1.900s]       |     [01;31m[K^~~~~~[m[K
+[1.901s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:442:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpWheel[m[K’ does not name a type
+[1.901s]   442 |     [01;31m[KpWheel[m[K[2] = msg->position[5];
+[1.901s]       |     [01;31m[K^~~~~~[m[K
+[1.902s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:443:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpWheel[m[K’ does not name a type
+[1.903s]   443 |     [01;31m[KpWheel[m[K[3] = msg->position[7];
+[1.903s]       |     [01;31m[K^~~~~~[m[K
+[1.903s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:445:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvArm[m[K’ does not name a type
+[1.904s]   445 |     [01;31m[KvArm[m[K[0] = msg->velocity[0];
+[1.904s]       |     [01;31m[K^~~~[m[K
+[1.904s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:446:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvArm[m[K’ does not name a type
+[1.905s]   446 |     [01;31m[KvArm[m[K[1] = msg->velocity[3];
+[1.905s]       |     [01;31m[K^~~~[m[K
+[1.906s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:447:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvArm[m[K’ does not name a type
+[1.906s]   447 |     [01;31m[KvArm[m[K[2] = msg->velocity[4];
+[1.906s]       |     [01;31m[K^~~~[m[K
+[1.907s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:448:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvArm[m[K’ does not name a type
+[1.907s]   448 |     [01;31m[KvArm[m[K[3] = msg->velocity[6];
+[1.907s]       |     [01;31m[K^~~~[m[K
+[1.908s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:450:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvWheel[m[K’ does not name a type
+[1.908s]   450 |     [01;31m[KvWheel[m[K[0] = msg->velocity[1];
+[1.908s]       |     [01;31m[K^~~~~~[m[K
+[1.909s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:451:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvWheel[m[K’ does not name a type
+[1.909s]   451 |     [01;31m[KvWheel[m[K[1] = msg->velocity[2];
+[1.909s]       |     [01;31m[K^~~~~~[m[K
+[1.910s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:452:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvWheel[m[K’ does not name a type
+[1.910s]   452 |     [01;31m[KvWheel[m[K[2] = msg->velocity[5];
+[1.910s]       |     [01;31m[K^~~~~~[m[K
+[1.911s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:453:5:[m[K [01;31m[Kerror: [m[K‘[01m[KvWheel[m[K’ does not name a type
+[1.912s]   453 |     [01;31m[KvWheel[m[K[3] = msg->velocity[7];
+[1.912s]       |     [01;31m[K^~~~~~[m[K
+[1.913s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:455:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keso0[m[K’ does not name a type
+[1.913s]   455 |     [01;31m[Keso0[m[K.predict(pArm[0], 0, uWheel[0]);
+[1.913s]       |     [01;31m[K^~~~[m[K
+[1.914s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:456:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keso1[m[K’ does not name a type
+[1.914s]   456 |     [01;31m[Keso1[m[K.predict(pArm[1], 0, uWheel[1]);
+[1.914s]       |     [01;31m[K^~~~[m[K
+[1.915s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:457:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keso2[m[K’ does not name a type
+[1.915s]   457 |     [01;31m[Keso2[m[K.predict(pArm[2], 0, uWheel[2]);
+[1.915s]       |     [01;31m[K^~~~[m[K
+[1.916s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:458:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keso3[m[K’ does not name a type
+[1.916s]   458 |     [01;31m[Keso3[m[K.predict(pArm[3], 0, uWheel[3]);
+[1.916s]       |     [01;31m[K^~~~[m[K
+[1.916s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:479:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+[1.916s]   479 |     [01;31m[Kswitch[m[K (pState)
+[1.916s]       |     [01;31m[K^~~~~~[m[K
+[1.916s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:507:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+[1.916s]   507 |     [01;31m[Kcase[m[K STEP1:
+[1.917s]       |     [01;31m[K^~~~[m[K
+[1.917s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:524:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+[1.917s]   524 |     [01;31m[Kcase[m[K STEP2:
+[1.917s]       |     [01;31m[K^~~~[m[K
+[1.917s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:546:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+[1.917s]   546 |     [01;31m[Kcase[m[K STEP3:
+[1.917s]       |     [01;31m[K^~~~[m[K
+[1.917s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:562:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+[1.917s]   562 |     [01;31m[Kcase[m[K STEP4:
+[1.917s]       |     [01;31m[K^~~~[m[K
+[1.917s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:584:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+[1.917s]   584 |     [01;31m[Kcase[m[K STEP5:
+[1.917s]       |     [01;31m[K^~~~[m[K
+[1.917s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:601:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+[1.917s]   601 |     [01;31m[Kcase[m[K STEP6:
+[1.918s]       |     [01;31m[K^~~~[m[K
+[1.918s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:623:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+[1.918s]   623 |     [01;31m[Kcase[m[K OPEN:
+[1.918s]       |     [01;31m[K^~~~[m[K
+[1.918s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:636:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+[1.918s]   636 |     [01;31m[Kcase[m[K END:
+[1.918s]       |     [01;31m[K^~~~[m[K
+[1.923s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[1.923s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.923s]    47 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+[1.923s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.923s]       |     [32m[Krmw_subscription_t[m[K
+[1.923s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:47:128:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KMinimalSubscriber[m[K’
+[1.923s]    47 |     subscription_ = this->create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&MinimalSubscriber::[01;31m[Ktopic_callback[m[K, this, _1));
+[1.924s]       |                                                                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.929s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.929s]    50 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>("/effort_controllers/commands", 10);
+[1.929s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.929s]       |     [32m[Krmw_publisher_t[m[K
+[1.940s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double, double*, double, double, bool)[m[K’:
+[1.940s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:385:72:[m[K [01;31m[Kerror: [m[K‘[01m[KI[m[K’ was not declared in this scope
+[1.940s]   385 |         printf("%d=%f - %f   ",i,  pWheel[i], s[i]*targetPosition + d0[[01;31m[KI[m[K])  ;
+[1.940s]       |                                                                        [01;31m[K^[m[K
+[1.942s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K At global scope:
+[1.943s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:644:14:[m[K [01;31m[Kerror: [m[K‘[01m[KnState[m[K’ was not declared in this scope; did you mean ‘[01m[KpState[m[K’?
+[1.943s]   644 |     pState = [01;31m[KnState[m[K;
+[1.943s]       |              [01;31m[K^~~~~~[m[K
+[1.943s]       |              [32m[KpState[m[K
+[1.943s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:646:11:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[1.943s]   646 |     printf[01;31m[K([m[K"Step: %i\t hard_con?=%i\n", pState - 1, isHardcon);
+[1.943s]       |           [01;31m[K^[m[K
+[1.943s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:649:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+[1.943s]   649 |     [01;31m[Kif[m[K (pos == 1)
+[1.943s]       |     [01;31m[K^~[m[K
+[1.943s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:672:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[1.943s]   672 |     [01;31m[Kelse[m[K if (pos == 0)
+[1.943s]       |     [01;31m[K^~~~[m[K
+[1.943s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:688:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[1.943s]   688 |     [01;31m[Kelse[m[K
+[1.944s]       |     [01;31m[K^~~~[m[K
+[1.944s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:698:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+[1.944s]   698 |     [01;31m[Kfor[m[K (i = 0; i < 4; i++)
+[1.944s]       |     [01;31m[K^~~[m[K
+[1.944s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:698:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+[1.944s]   698 |     for (i = 0; [01;31m[Ki[m[K < 4; i++)
+[1.944s]       |                 [01;31m[K^[m[K
+[1.944s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:698:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+[1.944s]   698 |     for (i = 0; i < 4; [01;31m[Ki[m[K++)
+[1.944s]       |                        [01;31m[K^[m[K
+[1.945s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:708:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+[1.946s]   708 |     [01;31m[Kcommands[m[K.data.push_back(uArm[0]);
+[1.946s]       |     [01;31m[K^~~~~~~~[m[K
+[1.947s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:709:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+[1.947s]   709 |     [01;31m[Kcommands[m[K.data.push_back(uArm[1]);
+[1.947s]       |     [01;31m[K^~~~~~~~[m[K
+[1.948s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:710:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+[1.948s]   710 |     [01;31m[Kcommands[m[K.data.push_back(uArm[2]);
+[1.948s]       |     [01;31m[K^~~~~~~~[m[K
+[1.949s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:711:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+[1.949s]   711 |     [01;31m[Kcommands[m[K.data.push_back(uArm[3]);
+[1.949s]       |     [01;31m[K^~~~~~~~[m[K
+[1.950s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:713:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+[1.950s]   713 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[0]);
+[1.950s]       |     [01;31m[K^~~~~~~~[m[K
+[1.952s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:714:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+[1.952s]   714 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[1]);
+[1.952s]       |     [01;31m[K^~~~~~~~[m[K
+[1.953s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:715:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+[1.953s]   715 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[2]);
+[1.953s]       |     [01;31m[K^~~~~~~~[m[K
+[1.954s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:716:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+[1.954s]   716 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[3]);
+[1.954s]       |     [01;31m[K^~~~~~~~[m[K
+[1.955s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:718:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.955s]   718 |     [01;31m[Kpublisher_[m[K->publish(commands);
+[1.955s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.955s]       |     [32m[Krmw_publisher_t[m[K
+[1.956s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:724:3:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.956s]   724 |   [01;31m[K}[m[K
+[1.956s]       |   [01;31m[K^[m[K
+[1.988s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:729:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.988s]   729 | [01;31m[K}[m[K;
+[1.988s]       | [01;31m[K^[m[K
+[2.497s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[2.497s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[2.497s] gmake: *** [Makefile:134: all] Error 2
+[2.500s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

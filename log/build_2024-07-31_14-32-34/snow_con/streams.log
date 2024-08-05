@@ -1,0 +1,14 @@
+[0.014s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.547s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.547s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:109:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstatic[m[K’
+[1.547s]   109 |     [01;31m[Kstatic[m[K float cPArmBrake = 1.5;
+[1.547s]       |     [01;31m[K^~~~~~[m[K
+[1.552s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:279:22:[m[K [01;31m[Kerror: [m[K‘[01m[KcPArmBrake[m[K’ was not declared in this scope
+[1.552s]   279 |           uArm[i] = -[01;31m[KcPArmBrake[m[K * (pArm[i] - 0) - 0.3 * (vArm[i] - 0);
+[1.552s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[3.170s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[3.170s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[3.170s] gmake: *** [Makefile:146: all] Error 2
+[3.171s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12

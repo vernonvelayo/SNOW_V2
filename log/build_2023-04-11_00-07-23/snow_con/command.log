@@ -1,0 +1,6 @@
+Invoking command in '/home/rhys/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rhys/ws_snow/src/snow_con -DCMAKE_INSTALL_PREFIX=/home/rhys/ws_snow/install/snow_con
+Invoked command in '/home/rhys/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rhys/ws_snow/src/snow_con -DCMAKE_INSTALL_PREFIX=/home/rhys/ws_snow/install/snow_con
+Invoking command in '/home/rhys/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con -- -j12 -l12
+Invoked command in '/home/rhys/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con -- -j12 -l12
+Invoking command in '/home/rhys/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_con
+Invoked command in '/home/rhys/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_con

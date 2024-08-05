@@ -1,0 +1,34 @@
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:110:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kposition[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  110 |       static double [01;35m[Kposition[m[K = 0;
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:111:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvelocity[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  111 |       static double [01;35m[Kvelocity[m[K = 0;
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:112:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  112 |       static double [01;35m[Kc[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:113:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  113 |       static int [01;35m[Kstep[m[K = 0;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:122:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  122 |       static double [01;35m[Kendposition[m[K = 0;
+      |                     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:124:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcVwheelRotate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  124 |       static float [01;35m[KcVwheelRotate[m[K = 0.01667;
+      |                    [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:125:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcPwheelRotate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  125 |       static float [01;35m[KcPwheelRotate[m[K = 0.12;
+      |                    [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:126:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcVwheelForward[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  126 |       static float [01;35m[KcVwheelForward[m[K = 0.01;
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:127:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcPwheelForward[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  127 |       static float [01;35m[KcPwheelForward[m[K = 0.05;
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:128:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  128 |       static float [01;35m[KcVwheelBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:129:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  129 |       static float [01;35m[KcPArmBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~[m[K

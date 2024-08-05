@@ -1,0 +1,25 @@
+[0.043s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.128s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[3.013s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::swivelEach(double*, double*, double, double*, double*, double*, double, double*, bool, double*)[m[K’:
+[3.013s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:309:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 3 has type ‘[01m[Kdouble*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.013s]   309 |     printf("ct=%.2f ta=[01;35m[K%f[m[K", currentTime, [32m[KtargetAngle[m[K);
+[3.013s]       |                        [01;35m[K~^[m[K                [32m[K~~~~~~~~~~~[m[K
+[3.014s]       |                         [01;35m[K|[m[K                [32m[K|[m[K
+[3.014s]       |                         [01;35m[Kdouble[m[K           [32m[Kdouble*[m[K
+[3.017s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveToAPoint(double, double, double, double, double, double*, double*, double*, double*, double, bool, double*, double*, double*, double*, double*)[m[K’:
+[3.017s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:671:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kquadrant[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.018s]   671 |     static int [01;35m[Kquadrant[m[K = 0;
+[3.018s]       |                [01;35m[K^~~~~~~~[m[K
+[3.018s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:672:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KisComplete[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.018s]   672 |     static bool [01;35m[KisComplete[m[K;
+[3.018s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[3.028s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.036s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1213:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP8[m[K’ was not declared in this scope; did you mean ‘[01m[KSTEP7[m[K’?
+[3.036s]  1213 |     case [01;31m[KSTEP8[m[K:
+[3.036s]       |          [01;31m[K^~~~~[m[K
+[3.037s]       |          [32m[KSTEP7[m[K
+[5.812s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[5.812s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[5.813s] gmake: *** [Makefile:134: all] Error 2
+[5.815s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

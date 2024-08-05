@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="snowbot_simple">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-1.04083408558608E-17 1.73472347597681E-17 0.0430511370472867"
+        rpy="0 0 0" />
+      <mass
+        value="2.194104" />
+      <inertia
+        ixx="0.0118016778704233"
+        ixy="0"
+        ixz="6.58942043493141E-19"
+        iyy="0.0118016778704233"
+        iyz="-3.55449067221044E-19"
+        izz="0.022307316592" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="wm1">
+    <inertial>
+      <origin
+        xyz="0.0427351379564556 0 -0.0229933385881074"
+        rpy="0 0 0" />
+      <mass
+        value="0.241464642114672" />
+      <inertia
+        ixx="9.02315680937691E-05"
+        ixy="4.40457132572236E-20"
+        ixz="-9.6935755707242E-08"
+        iyy="0.000268550530469722"
+        iyz="-5.49909671225253E-21"
+        izz="0.000273896352939588" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_to_wm1"
+    type="revolute">
+    <origin
+      xyz="-0.12869 -0.12869 0.065"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.36"
+      upper="0.79"
+      effort="1000"
+      velocity="0.5" />
+  </joint>
+  <link
+    name="wm1_wheel">
+    <inertial>
+      <origin
+        xyz="0 0 0.004"
+        rpy="0 0 0" />
+      <mass
+        value="0.048657" />
+      <inertia
+        ixx="2.3809E-05"
+        ixy="-5.3855E-21"
+        ixz="5.9292E-21"
+        iyy="2.3809E-05"
+        iyz="1.675E-21"
+        izz="4.71E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm1_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm1_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm1_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0.111 0 -0.021"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="wm1" />
+    <child
+      link="wm1_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="wm2">
+    <inertial>
+      <origin
+        xyz="0.0427351379564557 1.38777878078145E-17 -0.0229933385881074"
+        rpy="0 0 0" />
+      <mass
+        value="0.241464642114672" />
+      <inertia
+        ixx="9.02315680937692E-05"
+        ixy="8.470329472543E-20"
+        ixz="-9.69357557072406E-08"
+        iyy="0.000268550530469722"
+        iyz="-1.05515158937264E-20"
+        izz="0.000273896352939588" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_to_wm2"
+    type="revolute">
+    <origin
+      xyz="0.12869 -0.12869 0.065"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.79"
+      upper="2.36"
+      effort="1000"
+      velocity="0.5" />
+  </joint>
+  <link
+    name="wm2_wheel">
+    <inertial>
+      <origin
+        xyz="-5.5511E-17 0 0.004"
+        rpy="0 0 0" />
+      <mass
+        value="0.048657" />
+      <inertia
+        ixx="2.3809E-05"
+        ixy="4.1302E-21"
+        ixz="8.4703E-22"
+        iyy="2.3809E-05"
+        iyz="-3.9463E-22"
+        izz="4.71E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm2_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm2_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm2_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0.111 0 -0.021"
+      rpy="1.5707963267949 0 1.5707963267949" />
+    <parent
+      link="wm2" />
+    <child
+      link="wm2_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="wm3">
+    <inertial>
+      <origin
+        xyz="0.0427351379564557 -6.93889390390723E-17 -0.0229933385881074"
+        rpy="0 0 0" />
+      <mass
+        value="0.241464642114672" />
+      <inertia
+        ixx="9.02315680937692E-05"
+        ixy="2.71050543121376E-20"
+        ixz="-9.6935755707212E-08"
+        iyy="0.000268550530469722"
+        iyz="1.36054667152722E-20"
+        izz="0.000273896352939589" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_to_wm3"
+    type="revolute">
+    <origin
+      xyz="0.12869 0.12869 0.065"
+      rpy="0 0 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.36"
+      upper="0.79"
+      effort="1000"
+      velocity="0.5" />
+  </joint>
+  <link
+    name="wm3_wheel">
+    <inertial>
+      <origin
+        xyz="2.7756E-17 0 0.004"
+        rpy="0 0 0" />
+      <mass
+        value="0.048657" />
+      <inertia
+        ixx="2.3809E-05"
+        ixy="5.1284E-22"
+        ixz="5.0822E-21"
+        iyy="2.3809E-05"
+        iyz="3.0008E-22"
+        izz="4.71E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm3_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm3_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm3_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0.111 0 -0.021"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="wm3" />
+    <child
+      link="wm3_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="wm4">
+    <inertial>
+      <origin
+        xyz="0.0427351379564557 -5.55111512312578E-17 -0.0229933385881074"
+        rpy="0 0 0" />
+      <mass
+        value="0.241464642114672" />
+      <inertia
+        ixx="9.02315680937692E-05"
+        ixy="6.7762635780344E-20"
+        ixz="-9.69357557072347E-08"
+        iyy="0.000268550530469722"
+        iyz="4.92999645081604E-21"
+        izz="0.000273896352939589" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_to_wm4"
+    type="revolute">
+    <origin
+      xyz="-0.12869 0.12869 0.065"
+      rpy="0 0 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.79"
+      upper="2.36"
+      effort="1000"
+      velocity="0.5" />
+  </joint>
+  <link
+    name="wm4_wheel">
+    <inertial>
+      <origin
+        xyz="0 -3.4694E-18 0.004"
+        rpy="0 0 0" />
+      <mass
+        value="0.048657" />
+      <inertia
+        ixx="2.3809E-05"
+        ixy="9.0434E-22"
+        ixz="1.6941E-21"
+        iyy="2.3809E-05"
+        iyz="-6.4659E-22"
+        izz="4.71E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm4_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/rhys/ws_snow/src/snow_sim/meshes/wm4_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm4_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0.111 0 -0.021"
+      rpy="1.5707963267949 0 1.5707963267949" />
+    <parent
+      link="wm4" />
+    <child
+      link="wm4_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <joint name="base_to_wm1">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm1_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="base_to_wm2">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm2_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="base_to_wm3">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm3_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="base_to_wm4">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm4_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find snow_sim)/config/sbsimple.yaml</parameters>
+    </plugin>
+  </gazebo>
+  
+</robot>

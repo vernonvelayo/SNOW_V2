@@ -1,0 +1,34 @@
+[0.013s] Invoking command in '/home/bern/ws_snow/build/hard_con': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/hard_con -- -j12 -l12
+[0.029s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.111s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.130s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.131s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.135s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.189s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.190s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.268s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.370s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.453s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.496s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.496s] -- Configured cppcheck include dirs: 
+[0.496s] -- Configured cppcheck exclude dirs and/or files: 
+[0.496s] -- Added test 'lint_cmake' to check CMake code style
+[0.496s] -- Added test 'uncrustify' to check C / C++ code style
+[0.496s] -- Configured uncrustify additional arguments: 
+[0.497s] -- Added test 'xmllint' to check XML markup files
+[0.497s] -- Configuring done
+[0.502s] -- Generating done
+[0.503s] -- Build files have been written to: /home/bern/ws_snow/build/hard_con
+[0.521s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.539s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/main.cpp.o[0m
+[1.943s] [01m[K/home/bern/ws_snow/src/hard_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::print_latency(double)[m[K’:
+[1.943s] [01m[K/home/bern/ws_snow/src/hard_con/src/main.cpp:56:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.943s]    56 |       int [01;35m[Ki[m[K, j;
+[1.943s]       |           [01;35m[K^[m[K
+[1.943s] [01m[K/home/bern/ws_snow/src/hard_con/src/main.cpp:56:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.943s]    56 |       int i, [01;35m[Kj[m[K;
+[1.943s]       |              [01;35m[K^[m[K
+[5.873s] [100%] [32m[1mLinking CXX executable talker[0m
+[6.139s] [100%] Built target talker

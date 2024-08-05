@@ -1,0 +1,54 @@
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double, double*, double*, double*, double, double, bool)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:204:10:[m[K [01;31m[Kerror: [m[K‘[01m[KINIT[m[K’ was not declared in this scope
+  204 |     case [01;31m[KINIT[m[K:
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:204:5:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[K<expression error>[m[K’ not within a switch statement
+  204 |     [01;31m[Kcase[m[K INIT:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:206:7:[m[K [01;31m[Kerror: [m[K‘[01m[KnState[m[K’ was not declared in this scope
+  206 |       [01;31m[KnState[m[K = START;
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:206:16:[m[K [01;31m[Kerror: [m[K‘[01m[KSTART[m[K’ was not declared in this scope; did you mean ‘[01m[KERESTART[m[K’?
+  206 |       nState = [01;31m[KSTART[m[K;
+      |                [01;31m[K^~~~~[m[K
+      |                [32m[KERESTART[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:209:7:[m[K [01;31m[Kerror: [m[K‘[01m[KtargetVelocity[m[K’ was not declared in this scope
+  209 |       [01;31m[KtargetVelocity[m[K = 3.0; // set target torque
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:212:11:[m[K [01;31m[Kerror: [m[K‘[01m[KframeID[m[K’ was not declared in this scope
+  212 |       if ([01;31m[KframeID[m[K == "")
+      |           [01;31m[K^~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:215:9:[m[K [01;31m[Kerror: [m[K‘[01m[KwheelRadius[m[K’ was not declared in this scope
+  215 |         [01;31m[KwheelRadius[m[K = 0.044;    // model wheel radius
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:216:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcenterToWheel[m[K’ was not declared in this scope
+  216 |         [01;31m[KcenterToWheel[m[K = 0.3064; // model center to wheel
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:222:9:[m[K [01;31m[Kerror: [m[K‘[01m[KwheelRadius[m[K’ was not declared in this scope
+  222 |         [01;31m[KwheelRadius[m[K = 0.0435;    // actual wheel radius
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:223:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcenterToWheel[m[K’ was not declared in this scope
+  223 |         [01;31m[KcenterToWheel[m[K = 0.29863; // actual center to wheel (used for rotation)
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:227:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  227 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:230:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTART[m[K’ was not declared in this scope; did you mean ‘[01m[KERESTART[m[K’?
+  230 |     case [01;31m[KSTART[m[K:
+      |          [01;31m[K^~~~~[m[K
+      |          [32m[KERESTART[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:230:5:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[K<expression error>[m[K’ not within a switch statement
+  230 |     [01;31m[Kcase[m[K START:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:234:9:[m[K [01;31m[Kerror: [m[K‘[01m[KnState[m[K’ was not declared in this scope
+  234 |         [01;31m[KnState[m[K = STEP3;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:234:18:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP3[m[K’ was not declared in this scope
+  234 |         nState = [01;31m[KSTEP3[m[K;
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:237:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  237 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

@@ -1,0 +1,4 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Interrupt
+gmake: *** [Makefile:134: all] Interrupt

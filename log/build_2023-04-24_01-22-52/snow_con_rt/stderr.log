@@ -1,0 +1,229 @@
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:122:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  122 |     int [01;35m[Ki[m[K, j;
+      |         [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:122:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  122 |     int i, [01;35m[Kj[m[K;
+      |            [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::setBrakes(double*, double*, double)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:22:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kdouble[m[K’ and ‘[01m[Kstd::chrono::duration<long double>[m[K’)
+  172 |     if(t > [32m[Kincrement[m[K [01;31m[K+[m[K [34m[K0.6s[m[K) {
+      |            [32m[K~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~[m[K
+      |            [32m[K|[m[K           [34m[K|[m[K
+      |            [32m[Kdouble[m[K      [34m[Kstd::chrono::duration<long double>[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:568:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+  568 |     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:568:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::duration<long double>[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1646:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+ 1646 |     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1646:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::duration<long double>[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6095 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1169 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1189 |     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::duration<long double>[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6132 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+ 6148 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6160 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6166 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6172 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6194 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6200 |     [01;36m[Koperator[m[K+(_CharT __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::duration<long double>[m[K’ is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+ 6206 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+ 6212 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[01m[K/usr/include/c++/11/chrono:646:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator+(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+  646 |       [01;36m[Koperator[m[K+(const duration<_Rep1, _Period1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:646:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[01m[K/usr/include/c++/11/chrono:1002:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Rep2, class _Period2> constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator+(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+ 1002 |       [01;36m[Koperator[m[K+(const time_point<_Clock, _Dur1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:1002:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::time_point<_Clock, _Duration1>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[01m[K/usr/include/c++/11/chrono:1016:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep1, class _Period1, class _Clock, class _Dur2> constexpr std::chrono::time_point<_Clock, typename std::common_type<std::chrono::duration<_Rep1, _Period1>, _Dur2>::type> std::chrono::operator+(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::time_point<_Clock, _Dur2>&)[m[K’
+ 1016 |       [01;36m[Koperator[m[K+(const duration<_Rep1, _Period1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:1016:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:172:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+  172 |     if(t > increment + [01;36m[K0.6s[m[K) {
+      |                        [01;36m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::msg::JointState_<std::allocator<void> >::_header_type[m[K’ {aka ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >[m[K’}
+  263 |     if(msg->header[01;31m[K->[m[Kframe_id == null)
+      |                   [01;31m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knull[m[K’ was not declared in this scope
+  263 |     if(msg->header->frame_id == [01;31m[Knull[m[K)
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:334:11:[m[K [01;31m[Kerror: [m[K‘[01m[KinitBarke[m[K’ was not declared in this scope; did you mean ‘[01m[KinitBrake[m[K’?
+  334 |           [01;31m[KinitBarke[m[K = 1;
+      |           [01;31m[K^~~~~~~~~[m[K
+      |           [32m[KinitBrake[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:346:15:[m[K [01;31m[Kerror: [m[K‘[01m[KsetBrake[m[K’ was not declared in this scope; did you mean ‘[01m[KsetBrakes[m[K’?
+  346 |           if(![01;31m[KsetBrake[m[K(brake,uArm,t))
+      |               [01;31m[K^~~~~~~~[m[K
+      |               [32m[KsetBrakes[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:411:15:[m[K [01;31m[Kerror: [m[K‘[01m[KsetBrake[m[K’ was not declared in this scope; did you mean ‘[01m[KsetBrakes[m[K’?
+  411 |           if(![01;31m[KsetBrake[m[K(brake,uArm,t))
+      |               [01;31m[K^~~~~~~~[m[K
+      |               [32m[KsetBrakes[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:185:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsetESO[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  185 |     static bool [01;35m[KsetESO[m[K = true;
+      |                 [01;35m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:188:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  188 |     static double [01;35m[Kc[m[K;
+      |                   [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:189:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  189 |     static int [01;35m[Kstep[m[K = 0;
+      |                [01;35m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:190:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  190 |     double [01;35m[Krw[m[K = 0.044;
+      |            [01;35m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:198:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdstartpos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  198 |     static double [01;35m[Kdstartpos[m[K[4];
+      |                   [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:200:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  200 |     static double [01;35m[Kendposition[m[K = 0;
+      |                   [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:207:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  207 |     static float [01;35m[KcVwheelBrake[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:208:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  208 |     static float [01;35m[KcPArmBrake[m[K;
+      |                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:273:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  273 |     static double [01;35m[Kinc[m[K;
+      |                   [01;35m[K^~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:274:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  274 |     static int [01;35m[Kj[m[K;
+      |                [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

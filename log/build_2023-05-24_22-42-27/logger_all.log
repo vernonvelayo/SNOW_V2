@@ -1,0 +1,465 @@
+[0.425s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.425s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f14b22c64a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f14b2a9e770>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f14b2a9e770>>)
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.479s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rhys/ws_snow'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extension 'ros'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extensions ['cmake', 'python']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extension 'cmake'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extension 'python'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extensions ['python_setup_py']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1) by extension 'python_setup_py'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extension 'ros'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extensions ['cmake', 'python']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extension 'cmake'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extension 'python'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extensions ['python_setup_py']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-orig) by extension 'python_setup_py'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extension 'ros'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extensions ['cmake', 'python']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extension 'cmake'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extension 'python'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extensions ['python_setup_py']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP1-torque) by extension 'python_setup_py'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extension 'ros'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extensions ['cmake', 'python']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extension 'cmake'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extension 'python'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extensions ['python_setup_py']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-orig) by extension 'python_setup_py'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extension 'ros'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extensions ['cmake', 'python']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extension 'cmake'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extension 'python'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extensions ['python_setup_py']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(Data_1/Data_STEP2-torq) by extension 'python_setup_py'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/hard_con) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/hard_con) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/hard_con) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/hard_con) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/hard_con) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/hard_con) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/hard_con) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/hard_con) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/hard_con) by extension 'ros'
+[0.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hard_con' with type 'ros.ament_cmake' and name 'hard_con'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con) by extension 'ros'
+[0.509s] DEBUG:colcon.colcon_core.package_identification:Package 'src/snow_con' with type 'ros.ament_cmake' and name 'snow_con'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con_rt) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con_rt) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con_rt) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con_rt) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con_rt) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con_rt) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con_rt) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con_rt) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_con_rt) by extension 'ros'
+[0.510s] DEBUG:colcon.colcon_core.package_identification:Package 'src/snow_con_rt' with type 'ros.ament_cmake' and name 'snow_con_rt'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_sim) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_sim) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_sim) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_sim) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_sim) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_sim) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_sim) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/snow_sim) by extension 'ros'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/snow_sim' with type 'ros.ament_cmake' and name 'snow_sim'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ros'
+[0.513s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdf_tutorial' with type 'ros.ament_cmake' and name 'urdf_tutorial'
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.554s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/rhys/ws_snow/install
+[0.557s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'hard_con' build argument 'cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'hard_con' build argument 'cmake_target' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'hard_con' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'hard_con' build argument 'cmake_clean_cache' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'hard_con' build argument 'cmake_clean_first' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'hard_con' build argument 'cmake_force_configure' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'hard_con' build argument 'ament_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'hard_con' build argument 'catkin_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'hard_con' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.647s] DEBUG:colcon.colcon_core.verb:Building package 'hard_con' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhys/ws_snow/build/hard_con', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhys/ws_snow/install/hard_con', 'merge_install': False, 'path': '/home/rhys/ws_snow/src/hard_con', 'symlink_install': False, 'test_result_base': None}
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'snow_con' build argument 'cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'snow_con' build argument 'cmake_target' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'snow_con' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'snow_con' build argument 'cmake_clean_cache' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'snow_con' build argument 'cmake_clean_first' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'snow_con' build argument 'cmake_force_configure' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'snow_con' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'snow_con' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'snow_con' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'snow_con' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhys/ws_snow/build/snow_con', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhys/ws_snow/install/snow_con', 'merge_install': False, 'path': '/home/rhys/ws_snow/src/snow_con', 'symlink_install': False, 'test_result_base': None}
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'snow_con_rt' build argument 'cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'snow_con_rt' build argument 'cmake_target' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'snow_con_rt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'snow_con_rt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'snow_con_rt' build argument 'cmake_clean_first' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'snow_con_rt' build argument 'cmake_force_configure' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'snow_con_rt' build argument 'ament_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'snow_con_rt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'snow_con_rt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.650s] DEBUG:colcon.colcon_core.verb:Building package 'snow_con_rt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhys/ws_snow/build/snow_con_rt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhys/ws_snow/install/snow_con_rt', 'merge_install': False, 'path': '/home/rhys/ws_snow/src/snow_con_rt', 'symlink_install': False, 'test_result_base': None}
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'snow_sim' build argument 'cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'snow_sim' build argument 'cmake_target' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'snow_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'snow_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'snow_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'snow_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'snow_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'snow_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'snow_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.651s] DEBUG:colcon.colcon_core.verb:Building package 'snow_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhys/ws_snow/build/snow_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhys/ws_snow/install/snow_sim', 'merge_install': False, 'path': '/home/rhys/ws_snow/src/snow_sim', 'symlink_install': False, 'test_result_base': None}
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.653s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhys/ws_snow/build/urdf_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhys/ws_snow/install/urdf_tutorial', 'merge_install': False, 'path': '/home/rhys/ws_snow/src/urdf_tutorial', 'symlink_install': False, 'test_result_base': None}
+[0.653s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.658s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.658s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rhys/ws_snow/src/hard_con' with build type 'ament_cmake'
+[0.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rhys/ws_snow/src/hard_con'
+[0.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rhys/ws_snow/src/snow_con' with build type 'ament_cmake'
+[0.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rhys/ws_snow/src/snow_con'
+[0.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rhys/ws_snow/src/snow_con_rt' with build type 'ament_cmake'
+[0.680s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rhys/ws_snow/src/snow_con_rt'
+[0.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.688s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rhys/ws_snow/src/snow_sim' with build type 'ament_cmake'
+[0.689s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rhys/ws_snow/src/snow_sim'
+[0.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.697s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rhys/ws_snow/src/urdf_tutorial' with build type 'ament_cmake'
+[0.697s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rhys/ws_snow/src/urdf_tutorial'
+[0.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhys/ws_snow/build/hard_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/hard_con -- -j12 -l12
+[0.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhys/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con -- -j12 -l12
+[0.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhys/ws_snow/build/snow_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_sim -- -j12 -l12
+[0.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhys/ws_snow/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/urdf_tutorial -- -j12 -l12
+[0.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhys/ws_snow/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/urdf_tutorial -- -j12 -l12
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhys/ws_snow/build/hard_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/hard_con -- -j12 -l12
+[0.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhys/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con -- -j12 -l12
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhys/ws_snow/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/urdf_tutorial
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhys/ws_snow/build/snow_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_sim -- -j12 -l12
+[0.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhys/ws_snow/build/hard_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/hard_con
+[0.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial)
+[0.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhys/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_con
+[0.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhys/ws_snow/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/urdf_tutorial
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial' for CMake module files
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial' for CMake config files
+[0.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'cmake_prefix_path')
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.ps1'
+[0.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.dsv'
+[0.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.sh'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial/bin'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial/lib/pkgconfig/urdf_tutorial.pc'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial/lib/python3.10/site-packages'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial/bin'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.sh'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.bash'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.zsh'
+[0.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhys/ws_snow/install/urdf_tutorial/share/colcon-core/packages/urdf_tutorial)
+[0.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hard_con)
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con' for CMake module files
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhys/ws_snow/build/hard_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/hard_con
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con' for CMake config files
+[0.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('hard_con', 'cmake_prefix_path')
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/hard_con/share/hard_con/hook/cmake_prefix_path.ps1'
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhys/ws_snow/install/hard_con/share/hard_con/hook/cmake_prefix_path.dsv'
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/hard_con/share/hard_con/hook/cmake_prefix_path.sh'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con/lib'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con/bin'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con/lib/pkgconfig/hard_con.pc'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con/lib/python3.10/site-packages'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con/bin'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/hard_con/share/hard_con/package.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhys/ws_snow/install/hard_con/share/hard_con/package.dsv'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/hard_con/share/hard_con/package.sh'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/hard_con/share/hard_con/package.bash'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/hard_con/share/hard_con/package.zsh'
+[0.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhys/ws_snow/install/hard_con/share/colcon-core/packages/hard_con)
+[0.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(snow_con)
+[0.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhys/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_con
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con' for CMake module files
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con' for CMake config files
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('snow_con', 'cmake_prefix_path')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_con/share/snow_con/hook/cmake_prefix_path.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhys/ws_snow/install/snow_con/share/snow_con/hook/cmake_prefix_path.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_con/share/snow_con/hook/cmake_prefix_path.sh'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con/lib'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con/bin'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con/lib/pkgconfig/snow_con.pc'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con/lib/python3.10/site-packages'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con/bin'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con/share/snow_con/package.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhys/ws_snow/install/snow_con/share/snow_con/package.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con/share/snow_con/package.sh'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con/share/snow_con/package.bash'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con/share/snow_con/package.zsh'
+[0.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhys/ws_snow/install/snow_con/share/colcon-core/packages/snow_con)
+[0.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhys/ws_snow/build/snow_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_sim
+[0.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial)
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial' for CMake module files
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial' for CMake config files
+[0.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'cmake_prefix_path')
+[0.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.ps1'
+[0.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.dsv'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.sh'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial/bin'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial/lib/pkgconfig/urdf_tutorial.pc'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial/lib/python3.10/site-packages'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/urdf_tutorial/bin'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.ps1'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.dsv'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.sh'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.bash'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/urdf_tutorial/share/urdf_tutorial/package.zsh'
+[0.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhys/ws_snow/install/urdf_tutorial/share/colcon-core/packages/urdf_tutorial)
+[0.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hard_con)
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con' for CMake module files
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con' for CMake config files
+[0.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('hard_con', 'cmake_prefix_path')
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/hard_con/share/hard_con/hook/cmake_prefix_path.ps1'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhys/ws_snow/install/hard_con/share/hard_con/hook/cmake_prefix_path.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/hard_con/share/hard_con/hook/cmake_prefix_path.sh'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con/lib'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con/bin'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con/lib/pkgconfig/hard_con.pc'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con/lib/python3.10/site-packages'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/hard_con/bin'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/hard_con/share/hard_con/package.ps1'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhys/ws_snow/install/hard_con/share/hard_con/package.dsv'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/hard_con/share/hard_con/package.sh'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/hard_con/share/hard_con/package.bash'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/hard_con/share/hard_con/package.zsh'
+[0.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhys/ws_snow/install/hard_con/share/colcon-core/packages/hard_con)
+[0.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(snow_con)
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con' for CMake module files
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con' for CMake config files
+[0.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('snow_con', 'cmake_prefix_path')
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_con/share/snow_con/hook/cmake_prefix_path.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhys/ws_snow/install/snow_con/share/snow_con/hook/cmake_prefix_path.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_con/share/snow_con/hook/cmake_prefix_path.sh'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con/lib'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con/bin'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con/lib/pkgconfig/snow_con.pc'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con/lib/python3.10/site-packages'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con/bin'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con/share/snow_con/package.ps1'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhys/ws_snow/install/snow_con/share/snow_con/package.dsv'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con/share/snow_con/package.sh'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con/share/snow_con/package.bash'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con/share/snow_con/package.zsh'
+[0.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhys/ws_snow/install/snow_con/share/colcon-core/packages/snow_con)
+[0.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(snow_sim)
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim' for CMake module files
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim' for CMake config files
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhys/ws_snow/build/snow_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_sim
+[0.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('snow_sim', 'cmake_prefix_path')
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/hook/cmake_prefix_path.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/hook/cmake_prefix_path.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/hook/cmake_prefix_path.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim/lib'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim/bin'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim/lib/pkgconfig/snow_sim.pc'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim/lib/python3.10/site-packages'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim/bin'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.sh'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.bash'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.zsh'
+[0.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhys/ws_snow/install/snow_sim/share/colcon-core/packages/snow_sim)
+[1.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(snow_sim)
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim' for CMake module files
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim' for CMake config files
+[1.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('snow_sim', 'cmake_prefix_path')
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/hook/cmake_prefix_path.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/hook/cmake_prefix_path.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/hook/cmake_prefix_path.sh'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim/lib'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim/bin'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim/lib/pkgconfig/snow_sim.pc'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim/lib/python3.10/site-packages'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_sim/bin'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.sh'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.bash'
+[1.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.zsh'
+[1.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhys/ws_snow/install/snow_sim/share/colcon-core/packages/snow_sim)
+[10.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[10.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_con_rt
+[10.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(snow_con_rt)
+[10.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_con_rt
+[10.277s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt' for CMake module files
+[10.278s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt' for CMake config files
+[10.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('snow_con_rt', 'cmake_prefix_path')
+[10.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/hook/cmake_prefix_path.ps1'
+[10.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/hook/cmake_prefix_path.dsv'
+[10.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/hook/cmake_prefix_path.sh'
+[10.283s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt/lib'
+[10.283s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt/bin'
+[10.284s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt/lib/pkgconfig/snow_con_rt.pc'
+[10.284s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt/lib/python3.10/site-packages'
+[10.284s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt/bin'
+[10.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.ps1'
+[10.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.dsv'
+[10.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.sh'
+[10.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.bash'
+[10.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.zsh'
+[10.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhys/ws_snow/install/snow_con_rt/share/colcon-core/packages/snow_con_rt)
+[10.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(snow_con_rt)
+[10.319s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt' for CMake module files
+[10.320s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt' for CMake config files
+[10.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('snow_con_rt', 'cmake_prefix_path')
+[10.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/hook/cmake_prefix_path.ps1'
+[10.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/hook/cmake_prefix_path.dsv'
+[10.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/hook/cmake_prefix_path.sh'
+[10.326s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt/lib'
+[10.326s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt/bin'
+[10.326s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt/lib/pkgconfig/snow_con_rt.pc'
+[10.326s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt/lib/python3.10/site-packages'
+[10.327s] Level 1:colcon.colcon_core.environment:checking '/home/rhys/ws_snow/install/snow_con_rt/bin'
+[10.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.ps1'
+[10.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.dsv'
+[10.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.sh'
+[10.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.bash'
+[10.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhys/ws_snow/install/snow_con_rt/share/snow_con_rt/package.zsh'
+[10.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhys/ws_snow/install/snow_con_rt/share/colcon-core/packages/snow_con_rt)
+[10.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.334s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.344s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.345s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.345s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.361s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.363s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhys/ws_snow/install/local_setup.ps1'
+[10.365s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rhys/ws_snow/install/_local_setup_util_ps1.py'
+[10.367s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhys/ws_snow/install/setup.ps1'
+[10.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhys/ws_snow/install/local_setup.sh'
+[10.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rhys/ws_snow/install/_local_setup_util_sh.py'
+[10.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhys/ws_snow/install/setup.sh'
+[10.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhys/ws_snow/install/local_setup.bash'
+[10.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhys/ws_snow/install/setup.bash'
+[10.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhys/ws_snow/install/local_setup.zsh'
+[10.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhys/ws_snow/install/setup.zsh'

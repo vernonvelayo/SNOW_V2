@@ -1,0 +1,40 @@
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double*, double*, double, double, bool)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:647:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kd0[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  647 |     static double [01;35m[Kd0[m[K[4];
+      |                   [01;35m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1556:59:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble [4][m[K’ to ‘[01m[Kdouble[m[K’
+ 1556 |       if (swivel(pArm, uArm, vArm,t, d, v, a, targetTime, [01;31m[KtargetAngles[m[K, isHardcon, nStateSign))
+      |                                                           [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                           [01;31m[K|[m[K
+      |                                                           [01;31m[Kdouble [4][m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:453:33:[m[K [01;36m[Knote: [m[K  initializing argument 9 of ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’
+  453 |       double targetTime, [01;36m[Kdouble targetAngle[m[K,
+      |                          [01;36m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1580:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kdouble*[m[K’
+ 1580 |       if (moveRobot(s, u, pArm, uArm, t, d, pWheel, [01;31m[KtargetAngle[m[K, vArm, targetPosition, targetVelocity, isHardcon))
+      |                                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                                     [01;31m[K|[m[K
+      |                                                     [01;31m[Kdouble[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:633:15:[m[K [01;36m[Knote: [m[K  initializing argument 8 of ‘[01m[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double*, double*, double, double, bool)[m[K’
+  633 |       [01;36m[Kdouble *targetAngle[m[K,
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1602:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kdouble*[m[K’
+ 1602 |       if (moveRobot(s, u, pArm, uArm, t, d, pWheel, [01;31m[KtargetAngle[m[K, vArm, targetPosition, targetVelocity, isHardcon))
+      |                                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                                     [01;31m[K|[m[K
+      |                                                     [01;31m[Kdouble[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:633:15:[m[K [01;36m[Knote: [m[K  initializing argument 8 of ‘[01m[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double*, double*, double, double, bool)[m[K’
+  633 |       [01;36m[Kdouble *targetAngle[m[K,
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1624:59:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble [4][m[K’ to ‘[01m[Kdouble[m[K’
+ 1624 |       if (swivel(pArm, uArm, vArm,t, d, v, a, targetTime, [01;31m[KtargetAngles[m[K, isHardcon, nStateSign))
+      |                                                           [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                           [01;31m[K|[m[K
+      |                                                           [01;31m[Kdouble [4][m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:453:33:[m[K [01;36m[Knote: [m[K  initializing argument 9 of ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’
+  453 |       double targetTime, [01;36m[Kdouble targetAngle[m[K,
+      |                          [01;36m[K~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<robot name="origins">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.25 0.25 0.05"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.25 0.25 0.05"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="5"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+
+  <link name="arm_link_0">
+    <visual>
+      <geometry>
+        <box size="0.125 0.05 0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.0625 0. 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.125 0.05 0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.0625 0. 0.0"/>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      <origin rpy="0 0 0" xyz="0.0625 0. 0.0"/>
+    </inertial>
+  </link>
+  <link name="wheel_link_0">
+    <visual>
+      <geometry>
+        <cylinder length="0.02" radius="0.08"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.02" radius="0.08"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </inertial>
+  </link>
+
+  <link name="arm_link_1">
+    <visual>
+      <geometry>
+        <box size="0.125 0.05 0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.0625 0. 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.125 0.05 0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.0625 0. 0.0"/>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      <origin rpy="0 0 0" xyz="-0.0625 0. 0.0"/>
+    </inertial>
+  </link>
+
+  <link name="wheel_link_1">
+    <visual>
+      <geometry>
+        <cylinder length="0.02" radius="0.08"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.02" radius="0.08"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </inertial>
+  </link>
+
+  <link name="arm_link_2">
+    <visual>
+      <geometry>
+        <box size="0.125 0.05 0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.0625 0. 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.125 0.05 0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.0625 0. 0.0"/>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      <origin rpy="0 0 0" xyz="-0.0625 0. 0.0"/>
+    </inertial>
+  </link>
+
+  <link name="wheel_link_2">
+    <visual>
+      <geometry>
+        <cylinder length="0.02" radius="0.08"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.02" radius="0.08"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </inertial>
+  </link>
+
+  <link name="arm_link_3">
+    <visual>
+      <geometry>
+        <box size="0.125 0.05 0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.0625 0. 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.125 0.05 0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.0625 0. 0.0"/>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      <origin rpy="0 0 0" xyz="0.0625 0. 0.0"/>
+    </inertial>
+  </link>
+
+  <link name="wheel_link_3">
+    <visual>
+      <geometry>
+        <cylinder length="0.02" radius="0.08"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.02" radius="0.08"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </inertial>
+  </link>
+
+  <joint name="base_to_arm_0" type="revolute">
+    <axis rpy="0 0 0" xyz="0 0 1"/>
+    <limit effort="1000.0" lower="0.0" upper="1.57075" velocity="1.0"/>
+    <origin xyz="0.125 0.125 0.0"/>
+    <parent link="base_link"/>
+    <child link="arm_link_0"/>
+  </joint>
+
+
+  <joint name="arm_0_to_wheel_0" type="continuous">
+    <axis rpy="0 0 0" xyz="-1 0 0"/>
+    <origin xyz="0.145 0.0 0"/>
+    <parent link="arm_link_0"/>
+    <child link="wheel_link_0"/>
+  </joint>
+
+  <joint name="base_to_arm_1" type="revolute">
+    <axis rpy="0 0 0" xyz="0 0 -1"/>
+    <limit effort="1000.0" lower="0.0" upper="1.57075" velocity="1.0"/>
+    <origin xyz="-0.125 0.125 0.0"/>
+    <parent link="base_link"/>
+    <child link="arm_link_1"/>
+  </joint>
+
+  <joint name="arm_1_to_wheel_1" type="continuous">
+    <axis rpy="0 0 0" xyz="-1 0 0"/>
+    <origin xyz="-0.145 0.0 0"/>
+    <parent link="arm_link_1"/>
+    <child link="wheel_link_1"/>
+  </joint>
+
+  <joint name="base_to_arm_2" type="revolute">
+    <axis rpy="0 0 0" xyz="0 0 1"/>
+    <limit effort="1000.0" lower="0.0" upper="1.57075" velocity="1.0"/>
+    <origin xyz="-0.125 -0.125 0.0"/>
+    <parent link="base_link"/>
+    <child link="arm_link_2"/>
+  </joint>
+
+  <joint name="arm_2_to_wheel_2" type="continuous">
+    <axis rpy="0 0 0" xyz="-1 0 0"/>
+    <origin xyz="-0.145 0.0 0"/>
+    <parent link="arm_link_2"/>
+    <child link="wheel_link_2"/>
+  </joint>
+
+  <joint name="base_to_arm_3" type="revolute">
+    <axis rpy="0 0 0" xyz="0 0 -1"/>
+    <limit effort="1000.0" lower="0.0" upper="1.57075" velocity="1.0"/>
+    <origin xyz="0.125 -0.125 0.0"/>
+    <parent link="base_link"/>
+    <child link="arm_link_3"/>
+  </joint>
+
+  <joint name="arm_3_to_wheel_3" type="continuous">
+    <axis rpy="0 0 0" xyz="-1 0 0"/>
+    <origin xyz="0.145 0.0 0"/>
+    <parent link="arm_link_3"/>
+    <child link="wheel_link_3"/>
+  </joint>
+
+
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <joint name="base_to_arm_0">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="arm_0_to_wheel_0">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="base_to_arm_1">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="arm_1_to_wheel_1">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="base_to_arm_2">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="arm_2_to_wheel_2">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="base_to_arm_3">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="arm_3_to_wheel_3">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find snow_sim)/config/snow.yaml</parameters>
+    </plugin>
+  </gazebo>
+   
+</robot>

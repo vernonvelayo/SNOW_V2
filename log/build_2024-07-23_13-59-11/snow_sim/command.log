@@ -1,0 +1,6 @@
+Invoking command in '/home/bern/ws_snow/build/snow_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bern/ws_snow/src/snow_sim -DCMAKE_INSTALL_PREFIX=/home/bern/ws_snow/install/snow_sim
+Invoked command in '/home/bern/ws_snow/build/snow_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bern/ws_snow/src/snow_sim -DCMAKE_INSTALL_PREFIX=/home/bern/ws_snow/install/snow_sim
+Invoking command in '/home/bern/ws_snow/build/snow_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_sim -- -j12 -l12
+Invoked command in '/home/bern/ws_snow/build/snow_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_sim -- -j12 -l12
+Invoking command in '/home/bern/ws_snow/build/snow_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/snow_sim
+Invoked command in '/home/bern/ws_snow/build/snow_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/snow_sim

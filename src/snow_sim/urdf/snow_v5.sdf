@@ -1,0 +1,664 @@
+<sdf version='1.7'>
+  <model name='origins'>
+    <link name='base_link'>
+      <inertial>
+        <pose>0 0 0.077649 0 -0 0</pose>
+        <mass>2.51476</mass>
+        <inertia>
+          <ixx>0.0374663</ixx>
+          <ixy>-1.50181e-07</ixy>
+          <ixz>-5.20184e-09</ixz>
+          <iyy>0.0374665</iyy>
+          <iyz>-6.10285e-10</iyz>
+          <izz>0.0705306</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__wm1_base_collision_1'>
+        <pose>0.10377 0.057099 0.014 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm1_base.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__wm1_brake_enc_collision_2'>
+        <pose>0.128519 0.128517 0.072 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm1_brake_enc.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__wm2_base_collision_3'>
+        <pose>0.057099 -0.103768 0.014 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm2_base.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__wm2_brake_enc_collision_4'>
+        <pose>0.128517 -0.128517 0.072 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm2_brake_enc.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__wm3_base_collision_5'>
+        <pose>-0.103768 -0.057099 0.014 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm3_base.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__wm3_brake_enc_collision_6'>
+        <pose>-0.128517 -0.128517 0.072 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm3_brake_enc.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__wm4_base_collision_7'>
+        <pose>-0.057099 0.103768 0.014 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm4_base.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__wm4_brake_enc_collision_8'>
+        <pose>-0.128517 0.128517 0.072 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm4_brake_enc.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__wm1_base_visual_1'>
+        <pose>0.10377 0.057099 0.014 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm1_base.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__wm1_brake_enc_visual_2'>
+        <pose>0.128519 0.128517 0.072 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm1_brake_enc.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__wm2_base_visual_3'>
+        <pose>0.057099 -0.103768 0.014 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm2_base.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__wm2_brake_enc_visual_4'>
+        <pose>0.128517 -0.128517 0.072 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm2_brake_enc.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__wm3_base_visual_5'>
+        <pose>-0.103768 -0.057099 0.014 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm3_base.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__wm3_brake_enc_visual_6'>
+        <pose>-0.128517 -0.128517 0.072 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm3_brake_enc.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__wm4_base_visual_7'>
+        <pose>-0.057099 0.103768 0.014 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm4_base.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__wm4_brake_enc_visual_8'>
+        <pose>-0.128517 0.128517 0.072 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm4_brake_enc.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wm1_base_to_steering_axis' type='revolute'>
+      <pose relative_to='base_link'>0.128519 0.128517 0.014 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>wm1_steering_axis</child>
+      <axis>
+        <xyz>0 0 -1</xyz>
+        <limit>
+          <lower>-0.7854</lower>
+          <upper>2.35619</upper>
+          <effort>1000</effort>
+          <velocity>0.5</velocity>
+        </limit>
+        <dynamics>
+          <damping>1</damping>
+          <friction>1</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wm1_steering_axis'>
+      <pose relative_to='wm1_base_to_steering_axis'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.03421 0.039359 0 -0 0</pose>
+        <mass>0.300198</mass>
+        <inertia>
+          <ixx>0.000456098</ixx>
+          <ixy>2.47426e-19</ixy>
+          <ixz>-3.03606e-20</ixz>
+          <iyy>0.000183545</iyy>
+          <iyz>9.65601e-06</iyz>
+          <izz>0.000364778</izz>
+        </inertia>
+      </inertial>
+      <collision name='wm1_steering_axis_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm1_steering_axis.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='wm1_steering_axis_fixed_joint_lump__wm1_arm_collision_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm1_arm.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wm1_steering_axis_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm1_steering_axis.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wm1_steering_axis_fixed_joint_lump__wm1_arm_visual_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm1_arm.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wm1_arm_to_wheel' type='revolute'>
+      <pose relative_to='wm1_steering_axis'>0 0.08845 0.03 1.5708 0 -0</pose>
+      <parent>wm1_steering_axis</parent>
+      <child>wm1_wheel</child>
+      <axis>
+        <xyz>0 0 -1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wm1_wheel'>
+      <pose relative_to='wm1_arm_to_wheel'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0 0 0.026187 0 -0 0</pose>
+        <mass>0.181985</mass>
+        <inertia>
+          <ixx>8.45675e-05</ixx>
+          <ixy>9.30348e-22</ixy>
+          <ixz>3.38813e-21</ixz>
+          <iyy>8.45675e-05</iyy>
+          <iyz>3.86793e-22</iyz>
+          <izz>0.00015944</izz>
+        </inertia>
+      </inertial>
+      <collision name='wm1_wheel_collision'>
+        <pose>0 0 0 3.14159 0 3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm1_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wm1_wheel_visual'>
+        <pose>0 0 0 3.14159 0 3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm1_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wm2_base_to_steering_axis' type='revolute'>
+      <pose relative_to='base_link'>0.128517 -0.128517 0.014 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>wm2_steering_axis</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.7854</lower>
+          <upper>2.35619</upper>
+          <effort>1000</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <damping>1</damping>
+          <friction>1</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wm2_steering_axis'>
+      <pose relative_to='wm2_base_to_steering_axis'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0 -0.03421 0.039359 0 -0 0</pose>
+        <mass>0.300198</mass>
+        <inertia>
+          <ixx>0.000456098</ixx>
+          <ixy>-1.71239e-19</ixy>
+          <ixz>-9.29748e-20</ixz>
+          <iyy>0.000183545</iyy>
+          <iyz>-9.65601e-06</iyz>
+          <izz>0.000364778</izz>
+        </inertia>
+      </inertial>
+      <collision name='wm2_steering_axis_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm2_steering_axis.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='wm2_steering_axis_fixed_joint_lump__wm2_arm_collision_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm2_arm.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wm2_steering_axis_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm2_steering_axis.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wm2_steering_axis_fixed_joint_lump__wm2_arm_visual_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm2_arm.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wm2_arm_to_wheel' type='revolute'>
+      <pose relative_to='wm2_steering_axis'>0 -0.08845 0.03 1.5708 -0 0</pose>
+      <parent>wm2_steering_axis</parent>
+      <child>wm2_wheel</child>
+      <axis>
+        <xyz>0 0 -1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wm2_wheel'>
+      <pose relative_to='wm2_arm_to_wheel'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0 0 0.026187 0 -0 0</pose>
+        <mass>0.181985</mass>
+        <inertia>
+          <ixx>8.45675e-05</ixx>
+          <ixy>-1.40261e-21</ixy>
+          <ixz>1.35525e-20</ixz>
+          <iyy>8.45675e-05</iyy>
+          <iyz>-3.56899e-21</iyz>
+          <izz>0.00015944</izz>
+        </inertia>
+      </inertial>
+      <collision name='wm2_wheel_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm2_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wm2_wheel_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm2_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wm3_base_to_steering_axis' type='revolute'>
+      <pose relative_to='base_link'>-0.128517 -0.128517 0.014 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>wm3_steering_axis</child>
+      <axis>
+        <xyz>0 0 -1</xyz>
+        <limit>
+          <lower>-0.7854</lower>
+          <upper>2.35619</upper>
+          <effort>1000</effort>
+          <velocity>0.5</velocity>
+        </limit>
+        <dynamics>
+          <damping>1</damping>
+          <friction>1</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wm3_steering_axis'>
+      <pose relative_to='wm3_base_to_steering_axis'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0 -0.03421 0.039359 0 -0 0</pose>
+        <mass>0.300198</mass>
+        <inertia>
+          <ixx>0.000456098</ixx>
+          <ixy>-3.25445e-19</ixy>
+          <ixz>-8.43187e-20</ixz>
+          <iyy>0.000183545</iyy>
+          <iyz>-9.65601e-06</iyz>
+          <izz>0.000364778</izz>
+        </inertia>
+      </inertial>
+      <collision name='wm3_steering_axis_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm3_steering_axis.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='wm3_steering_axis_fixed_joint_lump__wm3_arm_collision_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm3_arm.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wm3_steering_axis_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm3_steering_axis.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wm3_steering_axis_fixed_joint_lump__wm3_arm_visual_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm3_arm.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wm3_arm_to_wheel' type='revolute'>
+      <pose relative_to='wm3_steering_axis'>0 -0.08845 0.03 1.5708 -0 0</pose>
+      <parent>wm3_steering_axis</parent>
+      <child>wm3_wheel</child>
+      <axis>
+        <xyz>0 0 -1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wm3_wheel'>
+      <pose relative_to='wm3_arm_to_wheel'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0 0 0.026187 0 -0 0</pose>
+        <mass>0.181985</mass>
+        <inertia>
+          <ixx>8.45675e-05</ixx>
+          <ixy>4.1105e-22</ixy>
+          <ixz>-1.01644e-20</ixz>
+          <iyy>8.45675e-05</iyy>
+          <iyz>-1.30169e-21</iyz>
+          <izz>0.00015944</izz>
+        </inertia>
+      </inertial>
+      <collision name='wm3_wheel_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm3_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wm3_wheel_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm3_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wm4_base_to_steering_axis' type='revolute'>
+      <pose relative_to='base_link'>-0.128517 0.128517 0.014 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>wm4_steering_axis</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.7854</lower>
+          <upper>2.35619</upper>
+          <effort>1000</effort>
+          <velocity>0.5</velocity>
+        </limit>
+        <dynamics>
+          <damping>1</damping>
+          <friction>1</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wm4_steering_axis'>
+      <pose relative_to='wm4_base_to_steering_axis'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.03421 0.039359 0 -0 0</pose>
+        <mass>0.300198</mass>
+        <inertia>
+          <ixx>0.000456098</ixx>
+          <ixy>-3.5777e-19</ixy>
+          <ixz>1.6386e-19</ixz>
+          <iyy>0.000183545</iyy>
+          <iyz>9.65601e-06</iyz>
+          <izz>0.000364778</izz>
+        </inertia>
+      </inertial>
+      <collision name='wm4_steering_axis_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm4_steering_axis.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='wm4_steering_axis_fixed_joint_lump__wm4_arm_collision_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm4_arm.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wm4_steering_axis_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm4_steering_axis.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wm4_steering_axis_fixed_joint_lump__wm4_arm_visual_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm4_arm.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wm4_arm_to_wheel' type='revolute'>
+      <pose relative_to='wm4_steering_axis'>0 0.08845 0.03 1.5708 0 -0</pose>
+      <parent>wm4_steering_axis</parent>
+      <child>wm4_wheel</child>
+      <axis>
+        <xyz>0 0 -1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wm4_wheel'>
+      <pose relative_to='wm4_arm_to_wheel'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0 0 0.026187 0 -0 0</pose>
+        <mass>0.181985</mass>
+        <inertia>
+          <ixx>8.45675e-05</ixx>
+          <ixy>-1.83071e-21</ixy>
+          <ixz>1.69407e-20</ixz>
+          <iyy>8.45675e-05</iyy>
+          <iyz>-1.13543e-21</iyz>
+          <izz>0.00015944</izz>
+        </inertia>
+      </inertial>
+      <collision name='wm4_wheel_collision'>
+        <pose>0 0 0 3.14159 0 3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm4_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wm4_wheel_visual'>
+        <pose>0 0 0 3.14159 0 3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file://$(find snow_sim)/meshes_v2/wm4_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <static>0</static>
+    <plugin name='gazebo_ros2_control' filename='libgazebo_ros2_control.so'>
+      <parameters>$(find snow_sim)/config/snow_v3.yaml</parameters>
+    </plugin>
+  </model>
+</sdf>

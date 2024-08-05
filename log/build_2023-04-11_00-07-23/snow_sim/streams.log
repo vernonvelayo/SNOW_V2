@@ -1,0 +1,252 @@
+[0.020s] Invoking command in '/home/rhys/ws_snow/build/snow_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rhys/ws_snow/src/snow_sim -DCMAKE_INSTALL_PREFIX=/home/rhys/ws_snow/install/snow_sim
+[0.089s] -- The C compiler identification is GNU 11.3.0
+[0.147s] -- The CXX compiler identification is GNU 11.3.0
+[0.156s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.234s] -- Detecting CXX compiler ABI info
+[0.303s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.310s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.467s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.547s] -- Found control_msgs: 4.1.1 (/opt/ros/humble/share/control_msgs/cmake)
+[0.576s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.580s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.587s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.620s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.254s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.304s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.306s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.396s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.422s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.475s] -- Looking for pthread.h
+[1.535s] -- Looking for pthread.h - found
+[1.535s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.596s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.597s] -- Found Threads: TRUE  
+[1.718s] -- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.748s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.813s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.813s] -- Configured cppcheck include dirs: 
+[1.814s] -- Configured cppcheck exclude dirs and/or files: 
+[1.815s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.816s] -- Added test 'lint_cmake' to check CMake code style
+[1.818s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.823s] -- Added test 'uncrustify' to check C / C++ code style
+[1.823s] -- Configured uncrustify additional arguments: 
+[1.824s] -- Added test 'xmllint' to check XML markup files
+[1.825s] -- Configuring done
+[1.835s] -- Generating done
+[1.836s] -- Build files have been written to: /home/rhys/ws_snow/build/snow_sim
+[1.845s] Invoked command in '/home/rhys/ws_snow/build/snow_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rhys/ws_snow/src/snow_sim -DCMAKE_INSTALL_PREFIX=/home/rhys/ws_snow/install/snow_sim
+[1.847s] Invoking command in '/home/rhys/ws_snow/build/snow_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_sim -- -j12 -l12
+[1.887s] [ 50%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[5.358s] [100%] [32m[1mLinking CXX executable example_effort[0m
+[5.579s] [100%] Built target example_effort
+[5.590s] Invoked command in '/home/rhys/ws_snow/build/snow_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_sim -- -j12 -l12
+[5.610s] Invoking command in '/home/rhys/ws_snow/build/snow_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_sim
+[5.616s] -- Install configuration: ""
+[5.616s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch
+[5.616s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/sbsimple_ign.launch.py
+[5.616s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install
+[5.616s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/_local_setup_util_sh.py
+[5.616s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/local_setup.bash
+[5.616s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/.colcon_install_layout
+[5.617s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/COLCON_IGNORE
+[5.617s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/setup.bash
+[5.617s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/local_setup.ps1
+[5.617s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/setup.ps1
+[5.617s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/local_setup.sh
+[5.617s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/local_setup.zsh
+[5.617s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/setup.sh
+[5.618s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/setup.zsh
+[5.618s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/install/_local_setup_util_ps1.py
+[5.618s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/temp
+[5.618s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/snow.launch.py
+[5.618s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log
+[5.618s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest
+[5.618s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest/logger_all.log
+[5.618s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest/events.log
+[5.618s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/COLCON_IGNORE
+[5.619s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest_build
+[5.619s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest_build/logger_all.log
+[5.619s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/latest_build/events.log
+[5.619s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/build_2022-11-16_12-55-58
+[5.619s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/build_2022-11-16_12-55-58/logger_all.log
+[5.619s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/log/build_2022-11-16_12-55-58/events.log
+[5.619s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/snow_v2-pi.launch.py
+[5.619s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/build
+[5.619s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/build/.built_by
+[5.620s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/build/COLCON_IGNORE
+[5.620s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/snow_v3.launch.py
+[5.620s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//launch/snow_v2.launch.py
+[5.620s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//config
+[5.620s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//config/temp
+[5.620s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//config/snow_v3.yaml
+[5.620s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//config/snow.yaml
+[5.620s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//config/sbsimple.yaml
+[5.620s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf
+[5.621s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v1.urdf
+[5.621s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v2.urdf
+[5.621s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v3.urdf
+[5.621s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/temp
+[5.621s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v2-stl only.urdf
+[5.621s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow.urdf
+[5.621s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snowbot_simple.urdf
+[5.621s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_v4.urdf
+[5.621s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_v3.urdf
+[5.622s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v2-1_hard code wheel.urdf
+[5.622s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_v5.sdf
+[5.622s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_collision_v1-1.urdf
+[5.622s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_v5.urdf
+[5.622s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_collision_v1.urdf
+[5.622s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snowbot_simple_ign.urdf
+[5.622s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_complete_v2-1_stl wheel.urdf
+[5.622s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_v2.urdf
+[5.622s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//urdf/snow_orig.urdf
+[5.623s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes
+[5.623s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm2_wheel.STL
+[5.623s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm1.STL
+[5.623s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/base_link.STL
+[5.623s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm4_wheel.STL
+[5.623s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm3_wheel.STL
+[5.623s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm1_wheel.STL
+[5.623s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm2.STL
+[5.623s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm4.STL
+[5.624s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes/wm3.STL
+[5.624s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2
+[5.624s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm4_arm.STL
+[5.624s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm2_wheel.STL
+[5.624s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm4_steering_axis.STL
+[5.624s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm2_base.STL
+[5.625s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm1_arm.STL
+[5.625s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm4_brake_enc.STL
+[5.625s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm3_arm.STL
+[5.625s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm2_steering_axis.STL
+[5.625s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm4_base.STL
+[5.625s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/base_link.STL
+[5.626s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm2_arm.STL
+[5.626s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm1_brake_enc.STL
+[5.626s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm3_steering_axis.STL
+[5.626s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm3_brake_enc.STL
+[5.626s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm1_steering_axis.STL
+[5.626s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm3_base.STL
+[5.626s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm4_wheel.STL
+[5.627s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm1_base.STL
+[5.627s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm3_wheel.STL
+[5.627s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm1_wheel.STL
+[5.627s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_v2/wm2_brake_enc.STL
+[5.627s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual
+[5.627s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm4_arm.STL
+[5.628s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm2_wheel.STL
+[5.628s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm4_steering_axis.STL
+[5.628s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm2_base.STL
+[5.629s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm1_arm.STL
+[5.630s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm4_brake_enc.STL
+[5.631s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm3_arm.STL
+[5.632s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm2_steering_axis.STL
+[5.632s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm4_base.STL
+[5.633s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/base_link.STL
+[5.645s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm2_arm.STL
+[5.646s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm1_brake_enc.STL
+[5.648s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm3_steering_axis.STL
+[5.648s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm3_brake_enc.STL
+[5.650s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm1_steering_axis.STL
+[5.650s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm3_base.STL
+[5.650s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm4_wheel.STL
+[5.651s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm1_base.STL
+[5.651s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm3_wheel.STL
+[5.652s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm1_wheel.STL
+[5.652s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2
+[5.652s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm4_arm.STL
+[5.653s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm2_wheel.STL
+[5.654s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm4_steering_axis.STL
+[5.654s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm2_base.STL
+[5.655s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm1_arm.STL
+[5.657s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm4_brake_enc.STL
+[5.659s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm3_arm.STL
+[5.660s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm2_steering_axis.STL
+[5.661s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm4_base.STL
+[5.662s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/base_link.STL
+[5.680s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm2_arm.STL
+[5.681s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm1_brake_enc.STL
+[5.683s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm3_steering_axis.STL
+[5.684s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm3_brake_enc.STL
+[5.686s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm1_steering_axis.STL
+[5.686s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm3_base.STL
+[5.687s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm4_wheel.STL
+[5.688s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm1_base.STL
+[5.689s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm3_wheel.STL
+[5.689s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm1_wheel.STL
+[5.690s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/visual_v2/wm2_brake_enc.STL
+[5.693s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_visual/wm2_brake_enc.STL
+[5.694s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision
+[5.694s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm4_arm.STL
+[5.695s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm2_wheel.STL
+[5.695s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm4_steering_axis.STL
+[5.696s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm2_base.STL
+[5.696s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm1_arm.STL
+[5.697s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm4_brake_enc.STL
+[5.699s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm3_arm.STL
+[5.700s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm2_steering_axis.STL
+[5.700s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm4_base.STL
+[5.701s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/base_link.STL
+[5.713s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm2_arm.STL
+[5.713s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm1_brake_enc.STL
+[5.716s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm3_steering_axis.STL
+[5.716s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm3_brake_enc.STL
+[5.718s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm1_steering_axis.STL
+[5.718s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm3_base.STL
+[5.719s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm4_wheel.STL
+[5.720s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2
+[5.720s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm4_arm.STL
+[5.720s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm2_wheel.STL
+[5.720s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm4_steering_axis.STL
+[5.720s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm2_base.STL
+[5.720s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm1_arm.STL
+[5.721s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm1_break_enc.STL
+[5.721s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm3_break_enc.STL
+[5.721s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm3_arm.STL
+[5.721s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm2_steering_axis.STL
+[5.721s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm4_base.STL
+[5.721s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/base_link.STL
+[5.722s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm2_arm.STL
+[5.722s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm3_steering_axis.STL
+[5.722s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm1_steering_axis.STL
+[5.722s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm3_base.STL
+[5.722s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm4_wheel.STL
+[5.722s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm1_base.STL
+[5.723s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm2_break_enc.STL
+[5.723s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm3_wheel.STL
+[5.723s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm1_wheel.STL
+[5.723s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/collision_v2/wm4_break_enc.STL
+[5.723s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm1_base.STL
+[5.723s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm3_wheel.STL
+[5.723s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm1_wheel.STL
+[5.724s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//meshes_collision/wm2_brake_enc.STL
+[5.727s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//worlds
+[5.727s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim//worlds/warehouse.world
+[5.727s] -- Installing: /home/rhys/ws_snow/install/snow_sim/lib/snow_sim/example_effort
+[5.728s] -- Set runtime path of "/home/rhys/ws_snow/install/snow_sim/lib/snow_sim/example_effort" to ""
+[5.728s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/ament_index/resource_index/package_run_dependencies/snow_sim
+[5.729s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/ament_index/resource_index/parent_prefix_path/snow_sim
+[5.729s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/environment/ament_prefix_path.sh
+[5.729s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/environment/ament_prefix_path.dsv
+[5.729s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/environment/path.sh
+[5.729s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/environment/path.dsv
+[5.729s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/local_setup.bash
+[5.730s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/local_setup.sh
+[5.730s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/local_setup.zsh
+[5.730s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/local_setup.dsv
+[5.730s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.dsv
+[5.730s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/ament_index/resource_index/packages/snow_sim
+[5.730s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/cmake/snow_simConfig.cmake
+[5.730s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/cmake/snow_simConfig-version.cmake
+[5.730s] -- Installing: /home/rhys/ws_snow/install/snow_sim/share/snow_sim/package.xml
+[5.735s] Invoked command in '/home/rhys/ws_snow/build/snow_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_sim

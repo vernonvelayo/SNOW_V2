@@ -1,0 +1,6 @@
+Invoking command in '/home/bern/ws_snow/build/hard_con': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bern/ws_snow/src/hard_con -DCMAKE_INSTALL_PREFIX=/home/bern/ws_snow/install/hard_con
+Invoked command in '/home/bern/ws_snow/build/hard_con' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bern/ws_snow/src/hard_con -DCMAKE_INSTALL_PREFIX=/home/bern/ws_snow/install/hard_con
+Invoking command in '/home/bern/ws_snow/build/hard_con': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/hard_con -- -j12 -l12
+Invoked command in '/home/bern/ws_snow/build/hard_con' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/hard_con -- -j12 -l12
+Invoking command in '/home/bern/ws_snow/build/hard_con': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/hard_con
+Invoked command in '/home/bern/ws_snow/build/hard_con' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/hard_con

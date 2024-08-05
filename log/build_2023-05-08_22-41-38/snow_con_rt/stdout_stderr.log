@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:187:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinte[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  187 |       bool isHardcon, [01;35m[Kdouble *inte[m[K)
+      |                       [01;35m[K~~~~~~~~^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double, double*, double, double, bool)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:344:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinte[m[K’ was not declared in this scope; did you mean ‘[01m[Kint[m[K’?
+  344 |         [01;31m[Kinte[m[K[i] = pWheel[i];
+      |         [01;31m[K^~~~[m[K
+      |         [32m[Kint[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="origins">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-4.1633E-17 1.6653E-16 0.043197"
+        rpy="0 0 0" />
+      <mass
+        value="0.404" />
+      <inertia
+        ixx="0.0016645"
+        ixy="0"
+        ixz="-4.1834E-20"
+        iyy="0.0016645"
+        iyz="-5.6476E-21"
+        izz="0.0031794" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="wm1_base">
+    <inertial>
+      <origin
+        xyz="0.0079537 0.054623 0.026567"
+        rpy="0 0 0" />
+      <mass
+        value="0.10699" />
+      <inertia
+        ixx="0.00010709"
+        ixy="-1.188E-05"
+        ixz="9.328E-07"
+        iyy="0.00010709"
+        iyz="9.328E-07"
+        izz="0.00010158" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm1_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm1_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_link_to_wm1_base"
+    type="fixed">
+    <origin
+      xyz="0.10377 0.057099 0.014"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm1_base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm1_brake_enc">
+    <inertial>
+      <origin
+        xyz="0 0 0.02335"
+        rpy="0 0 0" />
+      <mass
+        value="0.4207" />
+      <inertia
+        ixx="0.0001606"
+        ixy="0"
+        ixz="3.9151E-37"
+        iyy="0.0001606"
+        iyz="-3.9151E-37"
+        izz="0.00016828" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm1_brake_enc.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm1_brake_enc.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm1_base_to_brake_enc"
+    type="fixed">
+    <origin
+      xyz="0.024749 0.071418 0.058"
+      rpy="0 0 0" />
+    <parent
+      link="wm1_base" />
+    <child
+      link="wm1_brake_enc" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm1_steering_axis">
+    <inertial>
+      <origin
+        xyz="5.55111512312578E-17 5.55111512312578E-17 0.051"
+        rpy="0 0 0" />
+      <mass
+        value="0.0731981137116207" />
+      <inertia
+        ixx="6.37411004153637E-05"
+        ixy="0"
+        ixz="-1.94435145871703E-38"
+        iyy="6.37411004153637E-05"
+        iyz="-1.2707676790361E-38"
+        izz="5.56671654776875E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm1_steering_axis.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm1_steering_axis.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm1_base_to_steering_axis"
+    type="revolute">
+    <origin
+      xyz="0.024749 0.071418 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm1_base" />
+    <child
+      link="wm1_steering_axis" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-0.78540" upper="2.35619"
+      effort="1000"
+      velocity="0.5" />
+    <dynamics 
+      damping="1.00" 
+      friction="1.00"/>
+  </joint>
+  <link
+    name="wm1_arm">
+    <inertial>
+      <origin
+        xyz="0 0.0452411538608407 0.0356051741170328"
+        rpy="0 0 0" />
+      <mass
+        value="0.227000002375456" />
+      <inertia
+        ixx="0.000265950540638682"
+        ixy="1.0842021724855E-19"
+        ixz="1.6940658945086E-20"
+        iyy="0.00010668622732319"
+        iyz="-2.88941576121302E-05"
+        izz="0.000250933288543902" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm1_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm1_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm1_steering_axis_to_arm"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm1_steering_axis" />
+    <child
+      link="wm1_arm" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm1_wheel">
+    <inertial>
+      <origin
+        xyz="-5.55111512312578E-17 0 0.026186515924616"
+        rpy="0 0 0" />
+      <mass
+        value="0.181984990172736" />
+      <inertia
+        ixx="8.45674967392E-05"
+        ixy="9.3034778650349E-22"
+        ixz="3.3881317890172E-21"
+        iyy="8.45674967392E-05"
+        iyz="3.86792799261022E-22"
+        izz="0.000159439730943568" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 3.14159265358979 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm1_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 3.14159265358979 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm1_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm1_arm_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0 0.0884500000000001 0.03"
+      rpy="-1.5707963267949 3.14159265358979 3.14159265358979" />
+    <parent
+      link="wm1_arm" />
+    <child
+      link="wm1_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="wm2_base">
+    <inertial>
+      <origin
+        xyz="0.0546227553283528 -0.00795370777004065 0.0265672262517407"
+        rpy="0 0 0" />
+      <mass
+        value="0.10699000447605" />
+      <inertia
+        ixx="0.000107088332273698"
+        ixy="1.18802505025781E-05"
+        ixz="9.32799649935097E-07"
+        iyy="0.000107088332273698"
+        iyz="-9.32799649935091E-07"
+        izz="0.000101581821488797" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm2_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm2_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_link_to_wm2_base"
+    type="fixed">
+    <origin
+      xyz="0.0570988725808137 -0.103767920139126 0.014"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm2_base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm2_brake_enc">
+    <inertial>
+      <origin
+        xyz="0 -2.77555756156289E-17 0.02335"
+        rpy="0 0 0" />
+      <mass
+        value="0.420699883079902" />
+      <inertia
+        ixx="0.000160598323950158"
+        ixy="-1.35525271560688E-20"
+        ixz="-1.9623051723885E-36"
+        iyy="0.000160598323950158"
+        iyz="1.17928417727503E-36"
+        izz="0.000168279953231961" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm2_brake_enc.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm2_brake_enc.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm2_base_to_brake_enc"
+    type="fixed">
+    <origin
+      xyz="0.0714177848998414 -0.0247487373415292 0.058"
+      rpy="0 0 0" />
+    <parent
+      link="wm2_base" />
+    <child
+      link="wm2_brake_enc" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm2_steering_axis">
+    <inertial>
+      <origin
+        xyz="5.55111512312578E-17 2.77555756156289E-17 0.051"
+        rpy="0 0 0" />
+      <mass
+        value="0.0731981137116207" />
+      <inertia
+        ixx="6.37411004153636E-05"
+        ixy="0"
+        ixz="-2.03996247049784E-39"
+        iyy="6.37411004153636E-05"
+        iyz="6.64677121861692E-38"
+        izz="5.56671654776875E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm2_steering_axis.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm2_steering_axis.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm2_base_to_steering_axis"
+    type="revolute">
+    <origin
+      xyz="0.071418 -0.024749 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm2_base" />
+    <child
+      link="wm2_steering_axis" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.78540" upper="2.35619"
+      effort="1000"
+      velocity="0" />
+    <dynamics 
+      damping="1.00" 
+      friction="1.00"/>
+  </joint>
+  <link
+    name="wm2_arm">
+    <inertial>
+      <origin
+        xyz="-2.77555756156289E-17 -0.0452411538608405 0.0356051741170328"
+        rpy="0 0 0" />
+      <mass
+        value="0.227000002375456" />
+      <inertia
+        ixx="0.000265950540638682"
+        ixy="3.72694496791892E-20"
+        ixz="-2.20228566286118E-20"
+        iyy="0.00010668622732319"
+        iyz="2.88941576121302E-05"
+        izz="0.000250933288543901" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm2_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm2_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm2_steering_axis_to_arm"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm2_steering_axis" />
+    <child
+      link="wm2_arm" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm2_wheel">
+    <inertial>
+      <origin
+        xyz="-2.77555756156289E-17 0 0.026186515924616"
+        rpy="0 0 0" />
+      <mass
+        value="0.181984990172736" />
+      <inertia
+        ixx="8.45674967392002E-05"
+        ixy="-1.40260743323936E-21"
+        ixz="1.35525271560688E-20"
+        iyy="8.45674967392002E-05"
+        iyz="-3.56898784271633E-21"
+        izz="0.000159439730943568" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm2_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm2_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm2_arm_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0 -0.0884499999999999 0.03"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="wm2_arm" />
+    <child
+      link="wm2_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="wm3_base">
+    <inertial>
+      <origin
+        xyz="-0.00795370777004027 -0.0546227553283529 0.0265672262517407"
+        rpy="0 0 0" />
+      <mass
+        value="0.10699000447605" />
+      <inertia
+        ixx="0.000107088332273698"
+        ixy="-1.18802505025781E-05"
+        ixz="-9.32799649935088E-07"
+        iyy="0.000107088332273697"
+        iyz="-9.3279964993511E-07"
+        izz="0.000101581821488797" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm3_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm3_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_link_to_wm3_base"
+    type="fixed">
+    <origin
+      xyz="-0.103767920139127 -0.0570988725808137 0.014"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm3_base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm3_brake_enc">
+    <inertial>
+      <origin
+        xyz="0 0 0.02335"
+        rpy="0 0 0" />
+      <mass
+        value="0.420699883079902" />
+      <inertia
+        ixx="0.000160598323950158"
+        ixy="1.35525271560688E-20"
+        ixz="-3.48117094068921E-21"
+        iyy="0.000160598323950158"
+        iyz="-3.48117094068926E-21"
+        izz="0.000168279953231961" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm3_brake_enc.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm3_brake_enc.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm3_base_to_brake_enc"
+    type="fixed">
+    <origin
+      xyz="-0.0247487373415287 -0.0714177848998415 0.058"
+      rpy="0 0 0" />
+    <parent
+      link="wm3_base" />
+    <child
+      link="wm3_brake_enc" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm3_steering_axis">
+    <inertial>
+      <origin
+        xyz="0 0 0.051"
+        rpy="0 0 0" />
+      <mass
+        value="0.0731981137116207" />
+      <inertia
+        ixx="6.37411004153636E-05"
+        ixy="0"
+        ixz="1.1946615562955E-22"
+        iyy="6.37411004153636E-05"
+        iyz="1.1946615562955E-22"
+        izz="5.56671654776875E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm3_steering_axis.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm3_steering_axis.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm3_base_to_steering_axis"
+    type="revolute">
+    <origin
+      xyz="-0.024749 -0.071418 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm3_base" />
+    <child
+      link="wm3_steering_axis" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-0.78540" upper="2.35619"
+      effort="1000"
+      velocity="0.5" />
+    <dynamics 
+      damping="1.00" 
+      friction="1.00"/>
+  </joint>
+  <link
+    name="wm3_arm">
+    <inertial>
+      <origin
+        xyz="-1.11022302462516E-16 -0.0452411538608407 0.0356051741170328"
+        rpy="0 0 0" />
+      <mass
+        value="0.227000002375456" />
+      <inertia
+        ixx="0.000265950540638682"
+        ixy="-4.74338450462408E-20"
+        ixz="1.01643953670516E-20"
+        iyy="0.00010668622732319"
+        iyz="2.88941576121302E-05"
+        izz="0.000250933288543902" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm3_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm3_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm3_steering_axis_to_arm"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm3_steering_axis" />
+    <child
+      link="wm3_arm" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm3_wheel">
+    <inertial>
+      <origin
+        xyz="-6.93889390390723E-18 0 0.026186515924616"
+        rpy="0 0 0" />
+      <mass
+        value="0.181984990172736" />
+      <inertia
+        ixx="8.45674967392003E-05"
+        ixy="4.11050436514867E-22"
+        ixz="-1.01643953670516E-20"
+        iyy="8.45674967392003E-05"
+        iyz="-1.30168642705453E-21"
+        izz="0.000159439730943568" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm3_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm3_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm3_arm_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0 -0.0884500000000001 0.03"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="wm3_arm" />
+    <child
+      link="wm3_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="wm4_base">
+    <inertial>
+      <origin
+        xyz="-0.0546227553283528 0.00795370777004067 0.0265672262517407"
+        rpy="0 0 0" />
+      <mass
+        value="0.10699000447605" />
+      <inertia
+        ixx="0.000107088332273698"
+        ixy="1.18802505025781E-05"
+        ixz="-9.32799649935107E-07"
+        iyy="0.000107088332273698"
+        iyz="9.32799649935107E-07"
+        izz="0.000101581821488797" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm4_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm4_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_link_to_wm4_base"
+    type="fixed">
+    <origin
+      xyz="-0.0570988725808137 0.103767920139126 0.014"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm4_base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm4_brake_enc">
+    <inertial>
+      <origin
+        xyz="0 0 0.02335"
+        rpy="0 0 0" />
+      <mass
+        value="0.420699883079902" />
+      <inertia
+        ixx="0.000160598323950158"
+        ixy="0"
+        ixz="3.91510497556737E-37"
+        iyy="0.000160598323950158"
+        iyz="3.91510497556737E-37"
+        izz="0.000168279953231961" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm4_brake_enc.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm4_brake_enc.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm4_base_to_brake_enc"
+    type="fixed">
+    <origin
+      xyz="-0.071418 0.024749 0.058"
+      rpy="0 0 0" />
+    <parent
+      link="wm4_base" />
+    <child
+      link="wm4_brake_enc" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm4_steering_axis">
+    <inertial>
+      <origin
+        xyz="0 5.55111512312578E-17 0.051"
+        rpy="0 0 0" />
+      <mass
+        value="0.0731981137116207" />
+      <inertia
+        ixx="6.37411004153636E-05"
+        ixy="0"
+        ixz="3.05315330573938E-37"
+        iyy="6.37411004153636E-05"
+        iyz="-4.3552003288063E-39"
+        izz="5.56671654776874E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm4_steering_axis.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm4_steering_axis.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm4_base_to_steering_axis"
+    type="revolute">
+    <origin
+      xyz="-0.071418 0.024749 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm4_base" />
+    <child
+      link="wm4_steering_axis" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.78540" upper="2.35619"
+      effort="1000"
+      velocity="0.5" />
+    <dynamics 
+      damping="1.00" 
+      friction="1.00"/>
+  </joint>
+  <link
+    name="wm4_arm">
+    <inertial>
+      <origin
+        xyz="1.94289029309402E-16 0.0452411538608405 0.0356051741170328"
+        rpy="0 0 0" />
+      <mass
+        value="0.227000002375456" />
+      <inertia
+        ixx="0.000265950540638681"
+        ixy="1.28749007982654E-19"
+        ixz="-1.6940658945086E-21"
+        iyy="0.00010668622732319"
+        iyz="-2.88941576121301E-05"
+        izz="0.000250933288543901" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm4_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm4_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm4_steering_axis_to_arm"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="wm4_steering_axis" />
+    <child
+      link="wm4_arm" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wm4_wheel">
+    <inertial>
+      <origin
+        xyz="-1.38777878078145E-16 0 0.026186515924616"
+        rpy="0 0 0" />
+      <mass
+        value="0.181984990172736" />
+      <inertia
+        ixx="8.45674967392002E-05"
+        ixy="-1.83071147550886E-21"
+        ixz="1.6940658945086E-20"
+        iyy="8.45674967392002E-05"
+        iyz="-1.13542698972972E-21"
+        izz="0.000159439730943568" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 3.14159265358979 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm4_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 3.14159265358979 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find snow_sim)/meshes_v2/wm4_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm4_arm_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0 0.08845 0.03"
+      rpy="-1.5707963267949 3.14159265358979 3.14159265358979"/>
+    <parent
+      link="wm4_arm" />
+    <child
+      link="wm4_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <joint name="wm1_base_to_steering_axis">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm1_arm_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm2_base_to_steering_axis">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+
+    <joint name="wm4_base_to_steering_axis">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000<
+    <joint name="wm2_arm_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm3_base_to_steering_axis">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm3_arm_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm4_base_to_steering_axis">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="wm4_arm_to_wheel">
+      <command_interface name="effort">
+        <param name="min">-1000</param>
+        <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find snow_sim)/config/snow_v3.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+
+</robot>

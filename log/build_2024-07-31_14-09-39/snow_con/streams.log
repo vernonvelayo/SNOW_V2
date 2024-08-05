@@ -1,0 +1,17 @@
+[0.014s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[0.177s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:341:7:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[0.177s]   341 |       /*
+[0.177s]       |        
+[1.464s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.464s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:132:11:[m[K [01;31m[Kerror: [m[K‘[01m[KnStep[m[K’ was not declared in this scope
+[1.464s]   132 |           [01;31m[KnStep[m[K = STEP2;
+[1.464s]       |           [01;31m[K^~~~~[m[K
+[1.465s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:75:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KstopPosition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.465s]    75 |     double [01;35m[KstopPosition[m[K[4];
+[1.465s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[2.988s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[2.988s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[2.988s] gmake: *** [Makefile:146: all] Error 2
+[2.991s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12

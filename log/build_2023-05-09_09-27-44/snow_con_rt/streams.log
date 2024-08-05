@@ -1,0 +1,57 @@
+[0.022s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.097s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[2.104s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double, double*, double*, double*, double, double, bool)[m[K’:
+[2.104s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:204:10:[m[K [01;31m[Kerror: [m[K‘[01m[KINIT[m[K’ was not declared in this scope
+[2.104s]   204 |     case [01;31m[KINIT[m[K:
+[2.104s]       |          [01;31m[K^~~~[m[K
+[2.104s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:204:5:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[K<expression error>[m[K’ not within a switch statement
+[2.104s]   204 |     [01;31m[Kcase[m[K INIT:
+[2.104s]       |     [01;31m[K^~~~[m[K
+[2.107s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:206:7:[m[K [01;31m[Kerror: [m[K‘[01m[KnState[m[K’ was not declared in this scope
+[2.108s]   206 |       [01;31m[KnState[m[K = START;
+[2.108s]       |       [01;31m[K^~~~~~[m[K
+[2.111s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:206:16:[m[K [01;31m[Kerror: [m[K‘[01m[KSTART[m[K’ was not declared in this scope; did you mean ‘[01m[KERESTART[m[K’?
+[2.111s]   206 |       nState = [01;31m[KSTART[m[K;
+[2.112s]       |                [01;31m[K^~~~~[m[K
+[2.112s]       |                [32m[KERESTART[m[K
+[2.117s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:209:7:[m[K [01;31m[Kerror: [m[K‘[01m[KtargetVelocity[m[K’ was not declared in this scope
+[2.118s]   209 |       [01;31m[KtargetVelocity[m[K = 3.0; // set target torque
+[2.118s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.122s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:212:11:[m[K [01;31m[Kerror: [m[K‘[01m[KframeID[m[K’ was not declared in this scope
+[2.122s]   212 |       if ([01;31m[KframeID[m[K == "")
+[2.122s]       |           [01;31m[K^~~~~~~[m[K
+[2.127s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:215:9:[m[K [01;31m[Kerror: [m[K‘[01m[KwheelRadius[m[K’ was not declared in this scope
+[2.127s]   215 |         [01;31m[KwheelRadius[m[K = 0.044;    // model wheel radius
+[2.127s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.133s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:216:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcenterToWheel[m[K’ was not declared in this scope
+[2.133s]   216 |         [01;31m[KcenterToWheel[m[K = 0.3064; // model center to wheel
+[2.133s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.138s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:222:9:[m[K [01;31m[Kerror: [m[K‘[01m[KwheelRadius[m[K’ was not declared in this scope
+[2.138s]   222 |         [01;31m[KwheelRadius[m[K = 0.0435;    // actual wheel radius
+[2.138s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.144s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:223:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcenterToWheel[m[K’ was not declared in this scope
+[2.144s]   223 |         [01;31m[KcenterToWheel[m[K = 0.29863; // actual center to wheel (used for rotation)
+[2.144s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.144s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:227:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[2.144s]   227 |       [01;31m[Kbreak[m[K;
+[2.144s]       |       [01;31m[K^~~~~[m[K
+[2.148s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:230:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTART[m[K’ was not declared in this scope; did you mean ‘[01m[KERESTART[m[K’?
+[2.148s]   230 |     case [01;31m[KSTART[m[K:
+[2.148s]       |          [01;31m[K^~~~~[m[K
+[2.148s]       |          [32m[KERESTART[m[K
+[2.148s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:230:5:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[K<expression error>[m[K’ not within a switch statement
+[2.148s]   230 |     [01;31m[Kcase[m[K START:
+[2.148s]       |     [01;31m[K^~~~[m[K
+[2.152s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:234:9:[m[K [01;31m[Kerror: [m[K‘[01m[KnState[m[K’ was not declared in this scope
+[2.152s]   234 |         [01;31m[KnState[m[K = STEP3;
+[2.152s]       |         [01;31m[K^~~~~~[m[K
+[2.155s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:234:18:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP3[m[K’ was not declared in this scope
+[2.156s]   234 |         nState = [01;31m[KSTEP3[m[K;
+[2.156s]       |                  [01;31m[K^~~~~[m[K
+[2.156s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:237:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[2.156s]   237 |       [01;31m[Kbreak[m[K;
+[2.156s]       |       [01;31m[K^~~~~[m[K
+[4.195s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[4.196s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[4.196s] gmake: *** [Makefile:134: all] Error 2
+[4.200s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

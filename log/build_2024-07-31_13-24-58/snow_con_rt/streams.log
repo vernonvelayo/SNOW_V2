@@ -1,0 +1,76 @@
+[0.015s] Invoking command in '/home/bern/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bern/ws_snow/src/snow_con_rt -DCMAKE_INSTALL_PREFIX=/home/bern/ws_snow/install/snow_con_rt
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.207s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.311s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.320s] -- Detecting CXX compile features
+[0.321s] -- Detecting CXX compile features - done
+[0.323s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.426s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.491s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.526s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.529s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.537s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.564s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.620s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.623s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.697s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.717s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.757s] -- Looking for pthread.h
+[0.807s] -- Looking for pthread.h - found
+[0.807s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.854s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.856s] -- Found Threads: TRUE  
+[0.979s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.080s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.132s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.132s] -- Configured cppcheck include dirs: 
+[1.132s] -- Configured cppcheck exclude dirs and/or files: 
+[1.132s] -- Added test 'lint_cmake' to check CMake code style
+[1.133s] -- Added test 'uncrustify' to check C / C++ code style
+[1.133s] -- Configured uncrustify additional arguments: 
+[1.134s] -- Added test 'xmllint' to check XML markup files
+[1.134s] -- Configuring done
+[1.140s] -- Generating done
+[1.141s] -- Build files have been written to: /home/bern/ws_snow/build/snow_con_rt
+[1.148s] Invoked command in '/home/bern/ws_snow/build/snow_con_rt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bern/ws_snow/src/snow_con_rt -DCMAKE_INSTALL_PREFIX=/home/bern/ws_snow/install/snow_con_rt
+[1.149s] Invoking command in '/home/bern/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con_rt -- -j12 -l12
+[1.180s] [ 40%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.180s] [ 40%] [32mBuilding CXX object CMakeFiles/listener.dir/src/utility.cpp.o[0m
+[1.183s] [ 80%] [32mBuilding CXX object CMakeFiles/listener.dir/src/kbhit.cpp.o[0m
+[1.184s] [ 80%] [32mBuilding CXX object CMakeFiles/listener.dir/src/eso.cpp.o[0m
+[2.797s] [01m[K/home/bern/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.797s] [01m[K/home/bern/ws_snow/src/snow_con_rt/src/main.cpp:1003:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktstartmove[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.797s]  1003 |     static double [01;35m[Ktstartmove[m[K;
+[2.797s]       |                   [01;35m[K^~~~~~~~~~[m[K
+[6.783s] [100%] [32m[1mLinking CXX executable listener[0m
+[7.077s] [100%] Built target listener
+[7.090s] Invoked command in '/home/bern/ws_snow/build/snow_con_rt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con_rt -- -j12 -l12
+[7.109s] Invoking command in '/home/bern/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/snow_con_rt
+[7.114s] -- Install configuration: ""
+[7.114s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/lib/snow_con_rt/listener
+[7.116s] -- Set runtime path of "/home/bern/ws_snow/install/snow_con_rt/lib/snow_con_rt/listener" to ""
+[7.117s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/ament_index/resource_index/package_run_dependencies/snow_con_rt
+[7.117s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/ament_index/resource_index/parent_prefix_path/snow_con_rt
+[7.117s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/environment/ament_prefix_path.sh
+[7.118s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/environment/ament_prefix_path.dsv
+[7.118s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/environment/path.sh
+[7.118s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/environment/path.dsv
+[7.118s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/local_setup.bash
+[7.118s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/local_setup.sh
+[7.119s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/local_setup.zsh
+[7.119s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/local_setup.dsv
+[7.119s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/package.dsv
+[7.119s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/ament_index/resource_index/packages/snow_con_rt
+[7.120s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/cmake/snow_con_rtConfig.cmake
+[7.120s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/cmake/snow_con_rtConfig-version.cmake
+[7.120s] -- Installing: /home/bern/ws_snow/install/snow_con_rt/share/snow_con_rt/package.xml
+[7.121s] Invoked command in '/home/bern/ws_snow/build/snow_con_rt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/snow_con_rt

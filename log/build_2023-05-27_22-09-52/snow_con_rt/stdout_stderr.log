@@ -1,0 +1,284 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1537:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+ 1537 |     [01;31m[Kif[m[K (wait)
+      |     [01;31m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1539:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+ 1539 |     [01;31m[Kelse[m[K
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:12:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+ 1542 |     printf([01;31m[K"Step: %i\t hard_con?=%i\n"[m[K, pState - 1, isHardcon);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kprintf[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+ 1542 |     [01;31m[Kprintf[m[K("Step: %i\t hard_con?=%i\n", pState - 1, isHardcon);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1545:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+ 1545 |     [01;31m[Kif[m[K(isHardcon) {
+      |     [01;31m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1551:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+ 1551 |     [01;31m[Kif[m[K (pos == 1)
+      |     [01;31m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1578:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+ 1578 |     [01;31m[Kelse[m[K if (pos == 0)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1592:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+ 1592 |     [01;31m[Kelse[m[K if (pos == 3)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1617:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+ 1617 |     [01;31m[Kelse[m[K
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1628:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+ 1628 |     [01;31m[Kif[m[K(isHardcon) {
+      |     [01;31m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1640:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+ 1640 |     [01;31m[Kcommands[m[K.data.push_back(uArm[0]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1641:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+ 1641 |     [01;31m[Kcommands[m[K.data.push_back(uArm[1]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1642:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+ 1642 |     [01;31m[Kcommands[m[K.data.push_back(uArm[2]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1643:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+ 1643 |     [01;31m[Kcommands[m[K.data.push_back(uArm[3]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1645:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+ 1645 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[0]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1646:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+ 1646 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[1]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1647:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+ 1647 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[2]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1648:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+ 1648 |     [01;31m[Kcommands[m[K.data.push_back(uWheel[3]);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1650:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+ 1650 |     [01;31m[Kpublisher_[m[K->publish(commands);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1653:18:[m[K [01;31m[Kerror: [m[K‘[01m[KpArm[m[K’ has not been declared
+ 1653 |     print_joints([01;31m[KpArm[m[K, vArm, pWheel, vWheel, t, pState-1);
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1653:24:[m[K [01;31m[Kerror: [m[K‘[01m[KvArm[m[K’ has not been declared
+ 1653 |     print_joints(pArm, [01;31m[KvArm[m[K, pWheel, vWheel, t, pState-1);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1653:30:[m[K [01;31m[Kerror: [m[K‘[01m[KpWheel[m[K’ has not been declared
+ 1653 |     print_joints(pArm, vArm, [01;31m[KpWheel[m[K, vWheel, t, pState-1);
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1653:38:[m[K [01;31m[Kerror: [m[K‘[01m[KvWheel[m[K’ has not been declared
+ 1653 |     print_joints(pArm, vArm, pWheel, [01;31m[KvWheel[m[K, t, pState-1);
+      |                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1653:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ has not been declared
+ 1653 |     print_joints(pArm, vArm, pWheel, vWheel, [01;31m[Kt[m[K, pState-1);
+      |                                              [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1653:49:[m[K [01;31m[Kerror: [m[K‘[01m[KpState[m[K’ has not been declared
+ 1653 |     print_joints(pArm, vArm, pWheel, vWheel, t, [01;31m[KpState[m[K-1);
+      |                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1653:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K-[m[K’ token
+ 1653 |     print_joints(pArm, vArm, pWheel, vWheel, t, pState[01;31m[K-[m[K1);
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1653:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kprint_joints[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+ 1653 |     [01;31m[Kprint_joints[m[K(pArm, vArm, pWheel, vWheel, t, pState-1);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1654:20:[m[K [01;31m[Kerror: [m[K‘[01m[KuArm[m[K’ has not been declared
+ 1654 |     print_commands([01;31m[KuArm[m[K, uWheel, t, pState);
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1654:26:[m[K [01;31m[Kerror: [m[K‘[01m[KuWheel[m[K’ has not been declared
+ 1654 |     print_commands(uArm, [01;31m[KuWheel[m[K, t, pState);
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1654:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ has not been declared
+ 1654 |     print_commands(uArm, uWheel, [01;31m[Kt[m[K, pState);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1654:37:[m[K [01;31m[Kerror: [m[K‘[01m[KpState[m[K’ has not been declared
+ 1654 |     print_commands(uArm, uWheel, t, [01;31m[KpState[m[K);
+      |                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1654:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kprint_commands[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+ 1654 |     [01;31m[Kprint_commands[m[K(uArm, uWheel, t, pState);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1656:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kd[m[K’ has not been declared
+ 1656 |     print_targets([01;31m[Kd[m[K,v, pState - 1,t);
+      |                   [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1656:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ has not been declared
+ 1656 |     print_targets(d,[01;31m[Kv[m[K, pState - 1,t);
+      |                     [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1656:24:[m[K [01;31m[Kerror: [m[K‘[01m[KpState[m[K’ has not been declared
+ 1656 |     print_targets(d,v, [01;31m[KpState[m[K - 1,t);
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1656:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K-[m[K’ token
+ 1656 |     print_targets(d,v, pState [01;31m[K-[m[K 1,t);
+      |                               [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1656:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kprint_targets[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+ 1656 |     [01;31m[Kprint_targets[m[K(d,v, pState - 1,t);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   56 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   59 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>("/effort_controllers/commands", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::swivelEach(double*, double*, double, double*, double*, double*, double, double*, bool, double*)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:351:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::printf(const char [8], double&)[m[K’
+  351 |     [01;31m[Kprintf("ct=%.2f", currentTime)[m[K;
+      |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint MinimalSubscriber::printf(int)[m[K’
+ 1542 |     [01;36m[Kprintf[m[K("Step: %i\t hard_con?=%i\n", pState - 1, isHardcon);
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:396:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::printf(const char [13], int&)[m[K’
+  396 |     [01;31m[Kprintf("  SET = %d  ",set)[m[K;
+      |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint MinimalSubscriber::printf(int)[m[K’
+ 1542 |     [01;36m[Kprintf[m[K("Step: %i\t hard_con?=%i\n", pState - 1, isHardcon);
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:521:8:[m[K [01;31m[Kerror: [m[K‘[01m[KX[m[K’ was not declared in this scope
+  521 |       {[01;31m[KX[m[K
+      |        [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:539:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::printf(const char [16], double&, double&)[m[K’
+  539 |     [01;31m[Kprintf("ct=%.2f ta=%.3f", currentTime, targetAngle)[m[K;
+      |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint MinimalSubscriber::printf(int)[m[K’
+ 1542 |     [01;36m[Kprintf[m[K("Step: %i\t hard_con?=%i\n", pState - 1, isHardcon);
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:573:13:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::printf(const char [35], int&, double&, int&, double&, int&, double&)[m[K’
+  573 |       [01;31m[Kprintf("d[%d]=%.3f,v[%d]=%.3f,a[%d]=%.3f  ", i, d[i], i, v[i], i, a[i])[m[K;
+      |       [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint MinimalSubscriber::printf(int)[m[K’
+ 1542 |     [01;36m[Kprintf[m[K("Step: %i\t hard_con?=%i\n", pState - 1, isHardcon);
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 7 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double*, double*, double, double, bool)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:678:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::printf(const char [16], double&, double*&)[m[K’
+  678 |     [01;31m[Kprintf("ct=%.2f ta=%f  ", currentTime, targetAngle)[m[K;
+      |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint MinimalSubscriber::printf(int)[m[K’
+ 1542 |     [01;36m[Kprintf[m[K("Step: %i\t hard_con?=%i\n", pState - 1, isHardcon);
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:708:13:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::printf(const char [16], int&, double&, double)[m[K’
+  708 |       [01;31m[Kprintf("%d=%.3f , %.3f\t", i, adjustedTargetPosition[i], s[i] * targetPosition + d0[i])[m[K;
+      |       [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint MinimalSubscriber::printf(int)[m[K’
+ 1542 |     [01;36m[Kprintf[m[K("Step: %i\t hard_con?=%i\n", pState - 1, isHardcon);
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveToAPoint(double, double, double, double, double, double*, double*, double*, double*, double, bool, double*, double*, double*, double*, double*)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:907:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kdouble*[m[K’
+  907 |       if (moveRobot(s, v, pArm, uArm, t, d, pWheel, [01;31m[KtargetAngle[m[K, vArm, targetPosition, targetVelocity, isHardcon))
+      |                                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                                     [01;31m[K|[m[K
+      |                                                     [01;31m[Kdouble[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:622:15:[m[K [01;36m[Knote: [m[K  initializing argument 8 of ‘[01m[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double*, double*, double, double, bool)[m[K’
+  622 |       [01;36m[Kdouble *targetAngle[m[K,
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:947:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kdouble*[m[K’
+  947 |       if (moveRobot(s, v, pArm, uArm, t, d, pWheel, [01;31m[KtargetAngle[m[K, vArm, targetPosition, targetVelocity, isHardcon))
+      |                                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                                     [01;31m[K|[m[K
+      |                                                     [01;31m[Kdouble[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:622:15:[m[K [01;36m[Knote: [m[K  initializing argument 8 of ‘[01m[Kbool MinimalSubscriber::moveRobot(double*, double*, double*, double*, double, double*, double*, double*, double*, double, double, bool)[m[K’
+  622 |       [01;36m[Kdouble *targetAngle[m[K,
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:725:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kquadrant[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  725 |     static int [01;35m[Kquadrant[m[K = 0;
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1066:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP10[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+ 1066 |     switch [01;35m[K([m[KpState)
+      |            [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1066:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP11[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1066:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KWAIT[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1066:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KOPEN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1066:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KEND[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1455:5:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[KSTEP10[m[K’ not within a switch statement
+ 1455 |     [01;31m[Kcase[m[K STEP10:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1474:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+ 1474 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1478:5:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[KSTEP11[m[K’ not within a switch statement
+ 1478 |     [01;31m[Kcase[m[K STEP11:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1496:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+ 1496 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1499:5:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[KWAIT[m[K’ not within a switch statement
+ 1499 |     [01;31m[Kcase[m[K WAIT:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1510:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+ 1510 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1513:5:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[KOPEN[m[K’ not within a switch statement
+ 1513 |     [01;31m[Kcase[m[K OPEN:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1518:15:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::printf(const char [27], int&, double&, int&, double&)[m[K’
+ 1518 |         [01;31m[Kprintf("pW[%d]=%.3f, pA[%d]=%.3f  ", i, pWheel[i], i, pArm[i])[m[K;
+      |         [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint MinimalSubscriber::printf(int)[m[K’
+ 1542 |     [01;36m[Kprintf[m[K("Step: %i\t hard_con?=%i\n", pState - 1, isHardcon);
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1521:14:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+ 1521 |       printf([01;31m[K"---------------OPEN-----------------"[m[K);
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |              [01;31m[K|[m[K
+      |              [01;31m[Kconst char*[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:12:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint MinimalSubscriber::printf(int)[m[K’
+ 1542 |     printf([01;36m[K"Step: %i\t hard_con?=%i\n"[m[K, pState - 1, isHardcon);
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1523:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+ 1523 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1526:5:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[KEND[m[K’ not within a switch statement
+ 1526 |     [01;31m[Kcase[m[K END:
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1531:14:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+ 1531 |       printf([01;31m[K"---------------END-----------------"[m[K);
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |              [01;31m[K|[m[K
+      |              [01;31m[Kconst char*[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1542:12:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint MinimalSubscriber::printf(int)[m[K’
+ 1542 |     printf([01;36m[K"Step: %i\t hard_con?=%i\n"[m[K, pState - 1, isHardcon);
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1532:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+ 1532 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:988:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ku[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  988 |     static double [01;35m[Ku[m[K[4];
+      |                   [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1005:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinte[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1005 |     static double [01;35m[Kinte[m[K[4], e[4], de[4], ePrev[4];
+      |                   [01;35m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1005:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ke[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1005 |     static double inte[4], [01;35m[Ke[m[K[4], de[4], ePrev[4];
+      |                            [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1005:34:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kde[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1005 |     static double inte[4], e[4], [01;35m[Kde[m[K[4], ePrev[4];
+      |                                  [01;35m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1005:41:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KePrev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1005 |     static double inte[4], e[4], de[4], [01;35m[KePrev[m[K[4];
+      |                                         [01;35m[K^~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1006:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KswivelControl[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1006 |     static int [01;35m[KswivelControl[m[K[4];
+      |                [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1007:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KESO[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1007 |     static double [01;35m[KESO[m[K[4];
+      |                   [01;35m[K^~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K At global scope:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1659:3:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::JointState_<std::allocator<void> >, sensor_msgs::msg::JointState_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+ 1659 |   [01;31m[Krclcpp[m[K::Subscription<sensor_msgs::msg::JointState>::SharedPtr subscription_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1662:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ 1662 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

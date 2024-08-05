@@ -1,0 +1,64 @@
+[0.014s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.460s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[1.460s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:116:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.460s]   116 |       int [01;35m[Ki[m[K, j;
+[1.460s]       |           [01;35m[K^[m[K
+[1.460s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:116:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.460s]   116 |       int i, [01;35m[Kj[m[K;
+[1.460s]       |              [01;35m[K^[m[K
+[1.462s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.463s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:152:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kposition[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.463s]   152 |       static double [01;35m[Kposition[m[K = 0;
+[1.463s]       |                     [01;35m[K^~~~~~~~[m[K
+[1.463s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:153:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvelocity[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.463s]   153 |       static double [01;35m[Kvelocity[m[K = 0;
+[1.463s]       |                     [01;35m[K^~~~~~~~[m[K
+[1.463s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:154:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.463s]   154 |       static double [01;35m[Kc[m[K;
+[1.463s]       |                     [01;35m[K^[m[K
+[1.463s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:155:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.463s]   155 |       static int [01;35m[Kstep[m[K = 0;
+[1.463s]       |                  [01;35m[K^~~~[m[K
+[1.463s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:164:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KdStartAngle[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.463s]   164 |       static double [01;35m[KdStartAngle[m[K[4];
+[1.463s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[1.463s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:166:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.463s]   166 |       static double [01;35m[Kendposition[m[K = 0;
+[1.463s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[1.463s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:170:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelRotate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.463s]   170 |       static float [01;35m[KcVwheelRotate[m[K;
+[1.463s]       |                    [01;35m[K^~~~~~~~~~~~~[m[K
+[1.463s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:171:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPwheelRotate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.463s]   171 |       static float [01;35m[KcPwheelRotate[m[K;
+[1.463s]       |                    [01;35m[K^~~~~~~~~~~~~[m[K
+[1.463s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:174:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.463s]   174 |       static float [01;35m[KcVwheelBrake[m[K;
+[1.463s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[1.463s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:175:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.463s]   175 |       static float [01;35m[KcPArmBrake[m[K;
+[1.463s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[5.262s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.524s] [100%] Built target listener
+[5.531s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[5.553s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/snow_con
+[5.561s] -- Install configuration: ""
+[5.561s] -- Installing: /home/bern/ws_snow/install/snow_con/lib/snow_con/listener
+[5.564s] -- Set runtime path of "/home/bern/ws_snow/install/snow_con/lib/snow_con/listener" to ""
+[5.564s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/package_run_dependencies/snow_con
+[5.564s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/parent_prefix_path/snow_con
+[5.564s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.sh
+[5.564s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.dsv
+[5.564s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/path.sh
+[5.564s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/path.dsv
+[5.564s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.bash
+[5.564s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.sh
+[5.564s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.zsh
+[5.564s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.dsv
+[5.565s] -- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/package.dsv
+[5.565s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/packages/snow_con
+[5.565s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig.cmake
+[5.565s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig-version.cmake
+[5.565s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/package.xml
+[5.566s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/snow_con

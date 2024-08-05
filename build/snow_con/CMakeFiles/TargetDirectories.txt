@@ -1,0 +1,10 @@
+/home/bern/ws_snow/build/snow_con/CMakeFiles/uninstall.dir
+/home/bern/ws_snow/build/snow_con/CMakeFiles/snow_con_uninstall.dir
+/home/bern/ws_snow/build/snow_con/CMakeFiles/listener.dir
+/home/bern/ws_snow/build/snow_con/CMakeFiles/test.dir
+/home/bern/ws_snow/build/snow_con/CMakeFiles/edit_cache.dir
+/home/bern/ws_snow/build/snow_con/CMakeFiles/rebuild_cache.dir
+/home/bern/ws_snow/build/snow_con/CMakeFiles/list_install_components.dir
+/home/bern/ws_snow/build/snow_con/CMakeFiles/install.dir
+/home/bern/ws_snow/build/snow_con/CMakeFiles/install/local.dir
+/home/bern/ws_snow/build/snow_con/CMakeFiles/install/strip.dir

@@ -1,0 +1,14 @@
+[0.022s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.124s] [ 40%] [32mBuilding CXX object CMakeFiles/listener.dir/src/kbhit.cpp.o[0m
+[0.124s] [ 40%] [32mBuilding CXX object CMakeFiles/listener.dir/src/utility.cpp.o[0m
+[0.125s] [ 60%] [32mBuilding CXX object CMakeFiles/listener.dir/src/eso.cpp.o[0m
+[0.136s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/utility.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcurses.h: No such file or directory
+[0.136s]     3 | #include [01;31m[K<curses.h>[m[K
+[0.136s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.136s] compilation terminated.
+[0.137s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:90: CMakeFiles/listener.dir/src/utility.cpp.o] Error 1
+[0.137s] gmake[2]: *** Waiting for unfinished jobs....
+[0.273s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[0.273s] gmake: *** [Makefile:134: all] Error 2
+[0.276s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

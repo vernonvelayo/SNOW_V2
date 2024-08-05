@@ -1,0 +1,11 @@
+[0.032s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.086s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.945s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’:
+[1.945s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:219:19:[m[K [01;31m[Kerror: [m[K‘[01m[KpWheel[m[K’ was not declared in this scope
+[1.945s]   219 |         inte[i] = [01;31m[KpWheel[m[K[i];
+[1.945s]       |                   [01;31m[K^~~~~~[m[K
+[3.994s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[3.994s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[3.994s] gmake: *** [Makefile:134: all] Error 2
+[3.998s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

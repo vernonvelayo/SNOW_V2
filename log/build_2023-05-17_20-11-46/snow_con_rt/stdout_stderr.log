@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveToAPoint(double, double, double, double, double, double*, double*, double*, double*, double, bool, double*, double*, double*, double*, double*)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:671:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kquadrant[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  671 |     static int [01;35m[Kquadrant[m[K = 0;
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:672:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KisComplete[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  672 |     static bool [01;35m[KisComplete[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1270:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP10[m[K’ was not declared in this scope; did you mean ‘[01m[KSTEP1[m[K’?
+ 1270 |     case [01;31m[KSTEP10[m[K:
+      |          [01;31m[K^~~~~~[m[K
+      |          [32m[KSTEP1[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1294:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP12[m[K’ was not declared in this scope; did you mean ‘[01m[KSTEP2[m[K’?
+ 1294 |     case [01;31m[KSTEP12[m[K:
+      |          [01;31m[K^~~~~~[m[K
+      |          [32m[KSTEP2[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2

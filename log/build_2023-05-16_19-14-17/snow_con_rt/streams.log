@@ -1,0 +1,48 @@
+[0.033s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.132s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[2.959s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::getNextStateSign(double*, int, double, double, double)[m[K’:
+[2.959s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:209:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.959s]   209 | uble *nStateSign, int state, double torqueDirection, [01;35m[Kdouble x[m[K, double y)
+[2.959s]       |                                                      [01;35m[K~~~~~~~^[m[K
+[2.959s] 
+[2.960s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:209:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.960s]   209 | ble *nStateSign, int state, double torqueDirection, double x, [01;35m[Kdouble y[m[K)
+[2.960s]       |                                                               [01;35m[K~~~~~~~^[m[K
+[2.960s] 
+[2.961s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveToAPoint(double, double, double, double*, double*, double*, double, bool, int*, double*, double*, double*)[m[K’:
+[2.962s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:591:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[2.962s]   591 |     if(wait)[01;31m[K:[m[K
+[2.962s]       |             [01;31m[K^[m[K
+[2.979s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:602:9:[m[K [01;31m[Kerror: [m[K‘[01m[KtargetAngle[m[K’ was not declared in this scope
+[2.979s]   602 |         [01;31m[KtargetAngle[m[K = 0; // M_PI/4.0;
+[2.979s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.986s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:603:9:[m[K [01;31m[Kerror: [m[K‘[01m[KtargetTime[m[K’ was not declared in this scope; did you mean ‘[01m[KwaitTime[m[K’?
+[2.986s]   603 |         [01;31m[KtargetTime[m[K = 2.0;
+[2.986s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.987s]       |         [32m[KwaitTime[m[K
+[2.994s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:604:9:[m[K [01;31m[Kerror: [m[K‘[01m[KnStateSign[m[K’ was not declared in this scope
+[2.994s]   604 |         [01;31m[KnStateSign[m[K[0] = 1.0;
+[2.994s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.994s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:531:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kquadrant[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.994s]   531 |     static int [01;35m[Kquadrant[m[K = 0;
+[2.995s]       |                [01;35m[K^~~~~~~~[m[K
+[2.995s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:525:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtargetVelocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.995s]   525 |       [01;35m[Kdouble targetVelocity[m[K,
+[2.995s]       |       [01;35m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.995s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:526:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KvArm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.995s]   526 |       double *pArm, [01;35m[Kdouble *vArm[m[K, double *uArm,
+[2.996s]       |                     [01;35m[K~~~~~~~~^~~~[m[K
+[2.996s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:528:12:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.996s]   528 |       [01;35m[Kint *pos[m[K,
+[2.996s]       |       [01;35m[K~~~~~^~~[m[K
+[2.999s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.999s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:733:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP7[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[2.999s]   733 |     switch [01;35m[K([m[KpState)
+[2.999s]       |            [01;35m[K^[m[K
+[2.999s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:733:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP8[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[2.999s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:733:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP9[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[5.938s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[5.938s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[5.938s] gmake: *** [Makefile:134: all] Error 2
+[5.942s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

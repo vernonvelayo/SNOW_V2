@@ -1,0 +1,2 @@
+[0.024s] Invoking command in '/home/rhys/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con -- -j12 -l12
+[0.095s] [100%] Built target listener

@@ -1,0 +1,1348 @@
+[0.026s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.082s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.895s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[1.895s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:122:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.895s]   122 |     int [01;35m[Ki[m[K, j;
+[1.896s]       |         [01;35m[K^[m[K
+[1.896s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:122:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.896s]   122 |     int i, [01;35m[Kj[m[K;
+[1.896s]       |            [01;35m[K^[m[K
+[1.898s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.898s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Klong int[m[K’)
+[1.898s]   263 |     if(msg->header.frame_id [01;31m[K=[m[K= NULL)
+[1.898s]       |                             [01;31m[K^[m[K
+[1.904s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[1.905s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[1.905s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.905s] [01m[K/usr/include/c++/11/bits/stl_pair.h:466:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+[1.905s]   466 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[1.905s]       |     [01;36m[K^~~~~~~~[m[K
+[1.905s] [01m[K/usr/include/c++/11/bits/stl_pair.h:466:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.905s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.906s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.907s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.907s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.907s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.908s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.908s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.908s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.908s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.908s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.909s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.909s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[1.909s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.909s]       |                                [01;36m[K^~~~[m[K
+[1.910s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.910s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[1.910s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.910s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:419:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+[1.910s]   419 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+[1.910s]       |     [01;36m[K^~~~~~~~[m[K
+[1.910s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:419:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.911s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.911s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.911s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.911s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.911s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.911s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.911s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.911s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.912s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.912s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.912s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.912s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[1.913s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.913s]       |                                [01;36m[K^~~~[m[K
+[1.913s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.913s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[1.913s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.913s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:458:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[1.913s]   458 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+[1.913s]       |     [01;36m[K^~~~~~~~[m[K
+[1.914s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:458:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.914s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.914s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.914s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.914s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.914s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.914s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.914s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.915s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.915s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.915s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.915s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.916s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[1.916s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.916s]       |                                [01;36m[K^~~~[m[K
+[1.916s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.916s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[1.916s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.916s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1533:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[1.916s]  1533 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+[1.917s]       |     [01;36m[K^~~~~~~~[m[K
+[1.917s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1533:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.917s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.917s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.917s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.917s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.917s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.919s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.919s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.919s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[1.919s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.919s]       |                                [01;36m[K^~~~[m[K
+[1.919s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.919s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[1.919s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.920s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1601:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+[1.920s]  1601 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+[1.920s]       |     [01;36m[K^~~~~~~~[m[K
+[1.920s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1601:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.920s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.920s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.920s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.920s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.921s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.921s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.921s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.921s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.921s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.921s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.922s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.922s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[1.922s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.922s]       |                                [01;36m[K^~~~[m[K
+[1.922s] In file included from [01m[K/usr/include/c++/11/memory:64[m[K,
+[1.922s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.923s] [01m[K/usr/include/c++/11/bits/allocator.h:218:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)[m[K’
+[1.923s]   218 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+[1.923s]       |     [01;36m[K^~~~~~~~[m[K
+[1.923s] [01m[K/usr/include/c++/11/bits/allocator.h:218:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.923s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.923s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.923s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.923s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.924s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.924s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.924s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.924s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.924s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.924s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.925s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.925s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.925s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::allocator<_Tp1>[m[K’
+[1.925s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.925s]       |                                [01;36m[K^~~~[m[K
+[1.925s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[1.925s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[1.925s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.926s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.926s] [01m[K/usr/include/c++/11/array:276:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+[1.926s]   276 |     [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+[1.926s]       |     [01;36m[K^~~~~~~~[m[K
+[1.926s] [01m[K/usr/include/c++/11/array:276:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.926s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.926s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.926s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.927s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.927s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.927s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.927s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.927s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.927s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.927s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.928s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.928s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[1.928s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.928s]       |                                [01;36m[K^~~~[m[K
+[1.928s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[1.928s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.929s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.929s] [01m[K/usr/include/c++/11/tuple:1528:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)[m[K’
+[1.929s]  1528 |     [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+[1.929s]       |     [01;36m[K^~~~~~~~[m[K
+[1.929s] [01m[K/usr/include/c++/11/tuple:1528:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.929s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.929s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.929s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.930s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.930s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.930s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.930s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.930s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.930s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.930s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.930s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.931s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.931s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.931s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.931s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.931s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+[1.931s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.931s]       |                                [01;36m[K^~~~[m[K
+[1.931s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.931s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.932s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:753:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+[1.932s]   753 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+[1.932s]       |     [01;36m[K^~~~~~~~[m[K
+[1.932s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:753:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.932s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.932s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.932s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.932s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.934s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.934s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[1.934s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.934s]       |                                [01;36m[K^~~~[m[K
+[1.934s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.934s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.935s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:760:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+[1.935s]   760 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+[1.935s]       |     [01;36m[K^~~~~~~~[m[K
+[1.935s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:760:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.935s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.935s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.935s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.935s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.935s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.937s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.937s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[1.937s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.937s]       |                                [01;36m[K^~~~[m[K
+[1.937s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.937s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.937s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:767:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+[1.938s]   767 |     [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+[1.938s]       |     [01;36m[K^~~~~~~~[m[K
+[1.938s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:767:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.938s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.938s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.938s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.938s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.938s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.939s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.939s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.939s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.939s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.939s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.940s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.940s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.940s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Klong int[m[K’
+[1.940s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.940s]       |                                [01;36m[K^~~~[m[K
+[1.940s] In file included from [01m[K/usr/include/c++/11/iosfwd:40[m[K,
+[1.940s]                  from [01m[K/usr/include/c++/11/bits/shared_ptr.h:52[m[K,
+[1.940s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.941s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.941s] [01m[K/usr/include/c++/11/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)[m[K’
+[1.941s]   222 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+[1.941s]       |     [01;36m[K^~~~~~~~[m[K
+[1.941s] [01m[K/usr/include/c++/11/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.941s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.941s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.941s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.942s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.942s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.942s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.942s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.942s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.942s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.942s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.943s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.943s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+[1.943s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.943s]       |                                [01;36m[K^~~~[m[K
+[1.944s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[1.944s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.944s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.944s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+[1.944s]  1410 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+[1.944s]       |     [01;36m[K^~~~~~~~[m[K
+[1.944s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.944s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.945s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.945s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.945s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.945s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.945s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.945s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.945s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.945s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.946s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.946s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.946s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+[1.946s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.947s]       |                                [01;36m[K^~~~[m[K
+[1.947s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[1.947s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.947s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.947s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+[1.947s]  1416 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[1.947s]       |     [01;36m[K^~~~~~~~[m[K
+[1.947s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.948s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.948s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.948s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.948s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.948s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.948s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.948s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.949s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.949s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.949s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.949s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.949s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[1.950s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.950s]       |                                [01;36m[K^~~~[m[K
+[1.950s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[1.950s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.950s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.950s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[1.950s]  1436 |     [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[1.950s]       |     [01;36m[K^~~~~~~~[m[K
+[1.950s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.950s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.951s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.951s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.952s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.952s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.952s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.952s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Klong int[m[K’
+[1.952s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.952s]       |                                [01;36m[K^~~~[m[K
+[1.952s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.952s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.952s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:437:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+[1.953s]   437 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[1.953s]       |     [01;36m[K^~~~~~~~[m[K
+[1.953s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:437:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.953s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.953s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.953s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.953s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.953s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.954s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.955s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.955s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.955s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.955s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[1.955s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.955s]       |                                [01;36m[K^~~~[m[K
+[1.955s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.955s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.956s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:443:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+[1.956s]   443 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[1.956s]       |     [01;36m[K^~~~~~~~[m[K
+[1.956s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:443:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.956s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.956s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.956s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.956s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.957s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.957s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.957s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.957s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.957s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.957s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.958s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.958s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.958s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.958s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[1.958s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.958s]       |                                [01;36m[K^~~~[m[K
+[1.958s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.959s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[1.959s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:464:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+[1.959s]   464 |     [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[1.959s]       |     [01;36m[K^~~~~~~~[m[K
+[1.959s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:464:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.959s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.959s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.960s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.960s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.960s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.960s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.960s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.960s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.960s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.960s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.960s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.960s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.960s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.961s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[1.961s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.961s]       |                                [01;36m[K^~~~[m[K
+[1.961s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[1.961s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.961s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[1.961s] [01m[K/usr/include/c++/11/string_view:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)[m[K’
+[1.961s]   535 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[1.961s]       |     [01;36m[K^~~~~~~~[m[K
+[1.962s] [01m[K/usr/include/c++/11/string_view:535:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.962s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.962s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.962s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.962s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.962s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.962s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.963s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.963s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.963s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.963s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.963s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.963s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.963s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.963s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.963s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.964s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[1.964s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.964s]       |                                [01;36m[K^~~~[m[K
+[1.964s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[1.964s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.964s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[1.964s] [01m[K/usr/include/c++/11/string_view:541:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)[m[K’
+[1.964s]   541 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[1.964s]       |     [01;36m[K^~~~~~~~[m[K
+[1.964s] [01m[K/usr/include/c++/11/string_view:541:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.965s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.965s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.965s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.965s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.965s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.965s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.965s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.966s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.966s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.966s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.966s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.967s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[1.967s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.967s]       |                                [01;36m[K^~~~[m[K
+[1.967s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[1.967s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.967s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[1.967s] [01m[K/usr/include/c++/11/string_view:564:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)[m[K’
+[1.967s]   564 |     [01;36m[Koperator[m[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+[1.968s]       |     [01;36m[K^~~~~~~~[m[K
+[1.968s] [01m[K/usr/include/c++/11/string_view:564:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.968s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.968s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.969s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.969s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.969s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.969s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.969s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.969s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.969s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.969s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.969s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[Klong int[m[K’
+[1.970s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.970s]       |                                [01;36m[K^~~~[m[K
+[1.970s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.970s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[1.970s] [01m[K/usr/include/c++/11/bits/basic_string.h:6226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[1.970s]  6226 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[1.970s]       |     [01;36m[K^~~~~~~~[m[K
+[1.970s] [01m[K/usr/include/c++/11/bits/basic_string.h:6226:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.971s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.971s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.971s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.971s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.971s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.971s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.971s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.971s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.972s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.972s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.972s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.973s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Klong int[m[K’
+[1.973s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.973s]       |                                [01;36m[K^~~~[m[K
+[1.973s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.973s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[1.973s] [01m[K/usr/include/c++/11/bits/basic_string.h:6234:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)[m[K’
+[1.973s]  6234 |     [01;36m[Koperator[m[K==(const basic_string<_CharT>& __lhs,
+[1.973s]       |     [01;36m[K^~~~~~~~[m[K
+[1.974s] [01m[K/usr/include/c++/11/bits/basic_string.h:6234:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.974s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.974s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.974s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.974s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.974s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.974s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.974s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.975s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.975s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.975s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.975s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.976s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT>[m[K’ and ‘[01m[Klong int[m[K’
+[1.976s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.976s]       |                                [01;36m[K^~~~[m[K
+[1.976s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.976s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[1.976s] [01m[K/usr/include/c++/11/bits/basic_string.h:6248:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[1.976s]  6248 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[1.976s]       |     [01;36m[K^~~~~~~~[m[K
+[1.977s] [01m[K/usr/include/c++/11/bits/basic_string.h:6248:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.977s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.977s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.978s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.978s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.978s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.978s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Klong int[m[K’
+[1.979s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.979s]       |                                [01;36m[K^~~~[m[K
+[1.979s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.979s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:2[m[K:
+[1.979s] [01m[K/usr/include/c++/11/bits/basic_string.h:6289:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[1.979s]  6289 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+[1.979s]       |     [01;36m[K^~~~~~~~[m[K
+[1.979s] [01m[K/usr/include/c++/11/bits/basic_string.h:6289:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.980s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.980s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.981s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.981s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.981s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.981s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+[1.982s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.982s]       |                                [01;36m[K^~~~[m[K
+[1.982s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[1.982s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:3[m[K:
+[1.982s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1892:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+[1.982s]  1892 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[1.982s]       |     [01;36m[K^~~~~~~~[m[K
+[1.982s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1892:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.982s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.983s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.984s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.984s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.984s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.984s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.984s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[1.984s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.984s]       |                                [01;36m[K^~~~[m[K
+[1.984s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[1.984s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:4[m[K:
+[1.985s] [01m[K/usr/include/c++/11/bits/std_function.h:718:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)[m[K’
+[1.985s]   718 |     [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+[1.985s]       |     [01;36m[K^~~~~~~~[m[K
+[1.985s] [01m[K/usr/include/c++/11/bits/std_function.h:718:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.985s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.985s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.985s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.985s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.985s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.985s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.986s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.986s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.986s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.986s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.986s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.986s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+[1.986s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.986s]       |                                [01;36m[K^~~~[m[K
+[1.986s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[1.986s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:4[m[K:
+[1.986s] [01m[K/usr/include/c++/11/bits/std_function.h:725:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)[m[K’
+[1.987s]   725 |     [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+[1.987s]       |     [01;36m[K^~~~~~~~[m[K
+[1.987s] [01m[K/usr/include/c++/11/bits/std_function.h:725:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.987s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.987s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.987s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.987s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’ and ‘[01m[Klong int[m[K’
+[1.987s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.987s]       |                                [01;36m[K^~~~[m[K
+[1.987s] In file included from [01m[K/usr/include/c++/11/unordered_map:47[m[K,
+[1.988s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[1.988s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:4[m[K:
+[1.988s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2134:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[1.988s]  2134 |     [01;36m[Koperator[m[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[1.988s]       |     [01;36m[K^~~~~~~~[m[K
+[1.988s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.988s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.988s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.988s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.989s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[1.989s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.989s]       |                                [01;36m[K^~~~[m[K
+[1.989s] In file included from [01m[K/usr/include/c++/11/unordered_map:47[m[K,
+[1.989s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[1.989s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:4[m[K:
+[1.989s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[1.989s]  2148 |     [01;36m[Koperator[m[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[1.989s]       |     [01;36m[K^~~~~~~~[m[K
+[1.989s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.989s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.989s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.990s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.990s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[1.990s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.990s]       |                                [01;36m[K^~~~[m[K
+[1.990s] In file included from [01m[K/usr/include/c++/11/bits/locale_facets.h:48[m[K,
+[1.990s]                  from [01m[K/usr/include/c++/11/bits/basic_ios.h:37[m[K,
+[1.990s]                  from [01m[K/usr/include/c++/11/ios:44[m[K,
+[1.990s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[1.990s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[1.990s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:5[m[K:
+[1.990s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)[m[K’
+[1.990s]   226 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+[1.990s]       |     [01;36m[K^~~~~~~~[m[K
+[1.990s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.990s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.990s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.991s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.991s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+[1.991s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.991s]       |                                [01;36m[K^~~~[m[K
+[1.991s] In file included from [01m[K/usr/include/c++/11/set:61[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.991s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.991s] [01m[K/usr/include/c++/11/bits/stl_set.h:985:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)[m[K’
+[1.991s]   985 |     [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+[1.992s]       |     [01;36m[K^~~~~~~~[m[K
+[1.992s] [01m[K/usr/include/c++/11/bits/stl_set.h:985:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.992s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.992s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.992s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.992s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+[1.992s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.992s]       |                                [01;36m[K^~~~[m[K
+[1.992s] In file included from [01m[K/usr/include/c++/11/set:62[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.993s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.993s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:971:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)[m[K’
+[1.993s]   971 |     [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+[1.993s]       |     [01;36m[K^~~~~~~~[m[K
+[1.993s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:971:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.993s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.993s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.993s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.994s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+[1.994s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.994s]       |                                [01;36m[K^~~~[m[K
+[1.994s] In file included from [01m[K/usr/include/c++/11/list:63[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.994s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.994s] [01m[K/usr/include/c++/11/bits/stl_list.h:1995:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+[1.994s]  1995 |     [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[1.994s]       |     [01;36m[K^~~~~~~~[m[K
+[1.994s] [01m[K/usr/include/c++/11/bits/stl_list.h:1995:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.994s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.994s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.995s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.995s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[1.995s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.995s]       |                                [01;36m[K^~~~[m[K
+[1.995s] In file included from [01m[K/usr/include/c++/11/map:61[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.995s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.995s] [01m[K/usr/include/c++/11/bits/stl_map.h:1463:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[1.995s]  1463 |     [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[1.995s]       |     [01;36m[K^~~~~~~~[m[K
+[1.995s] [01m[K/usr/include/c++/11/bits/stl_map.h:1463:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.995s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.996s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.996s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.996s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+[1.996s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.996s]       |                                [01;36m[K^~~~[m[K
+[1.996s] In file included from [01m[K/usr/include/c++/11/map:62[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.997s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.997s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[1.997s]  1128 |     [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[1.997s]       |     [01;36m[K^~~~~~~~[m[K
+[1.997s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.997s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.997s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.997s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.997s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+[1.997s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.998s]       |                                [01;36m[K^~~~[m[K
+[1.998s] In file included from [01m[K/usr/include/c++/11/unordered_set:47[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.998s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.998s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1804:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[1.998s]  1804 |     [01;36m[Koperator[m[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+[1.998s]       |     [01;36m[K^~~~~~~~[m[K
+[1.998s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1804:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.998s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.998s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.998s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.999s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.999s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.999s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[1.999s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[1.999s]       |                                [01;36m[K^~~~[m[K
+[1.999s] In file included from [01m[K/usr/include/c++/11/unordered_set:47[m[K,
+[1.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26[m[K,
+[1.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[1.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.999s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[1.999s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1818:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[1.999s]  1818 |     [01;36m[Koperator[m[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+[1.999s]       |     [01;36m[K^~~~~~~~[m[K
+[1.999s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1818:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.999s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[2.000s]                  from [01m[K/usr/include/string.h:462[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.000s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.000s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[2.000s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[2.000s]       |                                [01;36m[K^~~~[m[K
+[2.000s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.001s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.001s] [01m[K/usr/include/c++/11/optional:1045:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)[m[K’
+[2.001s]  1045 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+[2.001s]       |     [01;36m[K^~~~~~~~[m[K
+[2.001s] [01m[K/usr/include/c++/11/optional:1045:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.001s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[2.001s]                  from [01m[K/usr/include/string.h:462[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.002s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.002s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[2.002s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[2.002s]       |                                [01;36m[K^~~~[m[K
+[2.002s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.002s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.002s] [01m[K/usr/include/c++/11/optional:1105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)[m[K’
+[2.002s]  1105 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept
+[2.002s]       |     [01;36m[K^~~~~~~~[m[K
+[2.002s] [01m[K/usr/include/c++/11/optional:1105:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.003s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[2.003s]                  from [01m[K/usr/include/string.h:462[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.003s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.003s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[2.003s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[2.003s]       |                                [01;36m[K^~~~[m[K
+[2.003s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.004s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.004s] [01m[K/usr/include/c++/11/optional:1116:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)[m[K’
+[2.004s]  1116 |     [01;36m[Koperator[m[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept
+[2.004s]       |     [01;36m[K^~~~~~~~[m[K
+[2.004s] [01m[K/usr/include/c++/11/optional:1116:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.004s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[2.004s]                  from [01m[K/usr/include/string.h:462[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.005s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.005s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[2.005s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[2.005s]       |                                [01;36m[K^~~~[m[K
+[2.005s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.005s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.005s] [01m[K/usr/include/c++/11/optional:1173:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const _Up&)[m[K’
+[2.005s]  1173 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const _Up& __rhs)
+[2.005s]       |     [01;36m[K^~~~~~~~[m[K
+[2.006s] [01m[K/usr/include/c++/11/optional:1173:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.006s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[2.006s]                  from [01m[K/usr/include/string.h:462[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.006s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.006s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[2.006s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[2.006s]       |                                [01;36m[K^~~~[m[K
+[2.006s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.007s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.007s] [01m[K/usr/include/c++/11/optional:1179:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::operator==(const _Up&, const std::optional<_Tp>&)[m[K’
+[2.007s]  1179 |     [01;36m[Koperator[m[K==(const _Up& __lhs, const optional<_Tp>& __rhs)
+[2.007s]       |     [01;36m[K^~~~~~~~[m[K
+[2.007s] [01m[K/usr/include/c++/11/optional:1179:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.007s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[2.007s]                  from [01m[K/usr/include/string.h:462[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.008s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.008s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[2.008s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[2.008s]       |                                [01;36m[K^~~~[m[K
+[2.008s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.008s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.008s] [01m[K/usr/include/c++/11/variant:1249:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)[m[K’
+[2.008s]  1249 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+[2.009s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.009s] [01m[K/usr/include/c++/11/variant:1249:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.009s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[2.009s]                  from [01m[K/usr/include/string.h:462[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.009s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.009s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+[2.009s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[2.009s]       |                                [01;36m[K^~~~[m[K
+[2.009s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[2.010s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[2.010s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[2.010s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1121:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)[m[K’
+[2.010s]  1121 |     [01;36m[Koperator[m[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+[2.010s]       |     [01;36m[K^~~~~~~~[m[K
+[2.010s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1121:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.010s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[2.010s]                  from [01m[K/usr/include/string.h:462[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.010s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.010s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.010s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+[2.011s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[2.011s]       |                                [01;36m[K^~~~[m[K
+[2.011s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[2.011s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[2.011s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[2.011s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1129:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+[2.011s]  1129 |     [01;36m[Koperator[m[K==(const __normal_iterator<_Iterator, _Container>& __lhs,
+[2.011s]       |     [01;36m[K^~~~~~~~[m[K
+[2.011s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1129:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.011s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[2.011s]                  from [01m[K/usr/include/string.h:462[m[K,
+[2.011s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[2.011s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[2.011s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[2.011s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[2.011s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[2.011s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[2.011s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[2.011s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[2.011s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[2.011s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.012s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.012s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.012s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.012s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+[2.012s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[2.012s]       |                                [01;36m[K^~~~[m[K
+[2.012s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[2.012s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[2.012s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[2.012s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[2.012s] [01m[K/usr/include/c++/11/ext/new_allocator.h:183:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)[m[K’
+[2.012s]   183 |         [01;36m[Koperator[m[K==(const new_allocator&, const new_allocator<_Up>&)
+[2.012s]       |         [01;36m[K^~~~~~~~[m[K
+[2.012s] [01m[K/usr/include/c++/11/ext/new_allocator.h:183:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.012s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[2.012s]                  from [01m[K/usr/include/string.h:462[m[K,
+[2.012s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[2.012s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[2.012s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[2.012s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[2.012s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[2.012s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[2.013s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[2.013s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[2.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[2.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.013s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.013s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:263:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst __gnu_cxx::new_allocator<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[2.013s]   263 |     if(msg->header.frame_id == [01;36m[KNULL[m[K)
+[2.013s]       |                                [01;36m[K^~~~[m[K
+[2.013s] In file included from [01m[K/usr/include/c++/11/bits/ios_base.h:46[m[K,
+[2.013s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[2.013s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[2.013s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[2.013s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:5[m[K:
+[2.013s] [01m[K/usr/include/c++/11/system_error:362:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_code&)[m[K’
+[2.013s]   362 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+[2.013s]       |   [01;36m[K^~~~~~~~[m[K
+[2.013s] [01m[K/usr/include/c++/11/system_error:362:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[2.013s]   362 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[2.013s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.014s] [01m[K/usr/include/c++/11/system_error:368:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_condition&)[m[K’
+[2.014s]   368 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+[2.014s]       |   [01;36m[K^~~~~~~~[m[K
+[2.014s] [01m[K/usr/include/c++/11/system_error:368:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[2.014s]   368 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+[2.014s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.014s] [01m[K/usr/include/c++/11/system_error:376:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_condition&)[m[K’
+[2.014s]   376 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+[2.014s]       |   [01;36m[K^~~~~~~~[m[K
+[2.014s] [01m[K/usr/include/c++/11/system_error:376:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[2.014s]   376 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+[2.014s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.014s] [01m[K/usr/include/c++/11/system_error:408:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_code&)[m[K’
+[2.014s]   408 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+[2.014s]       |   [01;36m[K^~~~~~~~[m[K
+[2.014s] [01m[K/usr/include/c++/11/system_error:408:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[2.014s]   408 |   operator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+[2.014s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.014s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.014s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.015s] [01m[K/usr/include/c++/11/bits/std_thread.h:281:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(std::thread::id, std::thread::id)[m[K’
+[2.015s]   281 |   [01;36m[Koperator[m[K==(thread::id __x, thread::id __y) noexcept
+[2.015s]       |   [01;36m[K^~~~~~~~[m[K
+[2.015s] [01m[K/usr/include/c++/11/bits/std_thread.h:281:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd::thread::id[m[K’
+[2.015s]   281 |   operator==([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+[2.015s]       |              [01;36m[K~~~~~~~~~~~^~~[m[K
+[2.015s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[2.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.015s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:11[m[K:
+[2.015s] [01m[K/usr/include/c++/11/variant:1256:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::operator==(std::monostate, std::monostate)[m[K’
+[2.015s]  1256 |   constexpr bool [01;36m[Koperator[m[K==(monostate, monostate) noexcept { return true; }
+[2.015s]       |                  [01;36m[K^~~~~~~~[m[K
+[2.015s] [01m[K/usr/include/c++/11/variant:1256:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd::monostate[m[K’
+[2.016s]  1256 |   constexpr bool operator==([01;36m[Kmonostate[m[K, monostate) noexcept { return true; }
+[2.016s]       |                             [01;36m[K^~~~~~~~~[m[K
+[2.016s] In file included from [01m[K/usr/include/c++/11/memory:64[m[K,
+[2.016s]                  from [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1[m[K:
+[2.016s] [01m[K/usr/include/c++/11/bits/allocator.h:204:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::allocator<char>&, const std::allocator<char>&)[m[K’
+[2.016s]   204 |       [01;36m[Koperator[m[K==(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+[2.016s]       |       [01;36m[K^~~~~~~~[m[K
+[2.016s] [01m[K/usr/include/c++/11/bits/allocator.h:204:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::allocator<char>&[m[K’
+[2.016s]   204 |       operator==([01;36m[Kconst allocator&[m[K, const allocator&) _GLIBCXX_NOTHROW
+[2.016s]       |                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.016s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:185:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsetESO[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.016s]   185 |     static bool [01;35m[KsetESO[m[K = true;
+[2.016s]       |                 [01;35m[K^~~~~~[m[K
+[2.016s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:188:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.016s]   188 |     static double [01;35m[Kc[m[K;
+[2.016s]       |                   [01;35m[K^[m[K
+[2.016s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:189:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.016s]   189 |     static int [01;35m[Kstep[m[K = 0;
+[2.016s]       |                [01;35m[K^~~~[m[K
+[2.016s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:190:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.016s]   190 |     double [01;35m[Krw[m[K = 0.044;
+[2.016s]       |            [01;35m[K^~[m[K
+[2.017s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:198:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdstartpos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.017s]   198 |     static double [01;35m[Kdstartpos[m[K[4];
+[2.017s]       |                   [01;35m[K^~~~~~~~~[m[K
+[2.017s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:200:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.017s]   200 |     static double [01;35m[Kendposition[m[K = 0;
+[2.017s]       |                   [01;35m[K^~~~~~~~~~~[m[K
+[2.017s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:207:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.017s]   207 |     static float [01;35m[KcVwheelBrake[m[K;
+[2.017s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[2.017s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:208:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.017s]   208 |     static float [01;35m[KcPArmBrake[m[K;
+[2.017s]       |                  [01;35m[K^~~~~~~~~~[m[K
+[2.017s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:273:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.017s]   273 |     static double [01;35m[Kinc[m[K;
+[2.017s]       |                   [01;35m[K^~~[m[K
+[2.017s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:274:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.017s]   274 |     static int [01;35m[Kj[m[K;
+[2.017s]       |                [01;35m[K^[m[K
+[3.927s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[3.928s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[3.928s] gmake: *** [Makefile:134: all] Error 2
+[3.930s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

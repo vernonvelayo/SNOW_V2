@@ -1,0 +1,4 @@
+source;share/snow_con_rt/local_setup.bash
+source;share/snow_con_rt/local_setup.dsv
+source;share/snow_con_rt/local_setup.sh
+source;share/snow_con_rt/local_setup.zsh

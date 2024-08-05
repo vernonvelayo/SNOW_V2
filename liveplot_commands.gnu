@@ -1,0 +1,25 @@
+set yrange [-8:8]
+set autoscale x
+set datafile separator ","
+set xlabel "Time (s)"
+set grid	
+set xtics 1
+
+set title "Wheel Effort"
+
+set multiplot layout 2,1
+
+set ylabel "Torque (nm)"
+
+plot 	"commands.csv" using 1:2 with lines title "uWheel[0]" lw 3, "commands.csv" using 1:3 with lines title "uWheel[1]" lw 3, "commands.csv" using 1:4 with lines title "uWheel[2]" lw 3, "commands.csv" using 1:5 with lines title "uWheel[3]" lw 3,  "joint_state.csv" using 1:18 with lines title "pState"  lw 3
+
+set title "Arm Effort"
+set ylabel "Torque (nm)"
+
+plot 	"commands.csv" using 1:6 with lines title "uArm[0]" lw 3, "commands.csv" using 1:7 with lines title "uArm[1]" lw 3, "commands.csv" using 1:8 with lines title "uArm[2]" lw 3, "commands.csv" using 1:9 with lines title "uArm[3]"  lw 3
+
+
+
+
+
+

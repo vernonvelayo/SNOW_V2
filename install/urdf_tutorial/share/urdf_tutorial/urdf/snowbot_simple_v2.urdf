@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="snowbot_simple_v2">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-1.04083408558608E-17 1.73472347597681E-17 0.042"
+        rpy="0 0 0" />
+      <mass
+        value="2.282808" />
+      <inertia
+        ixx="0.013361138208"
+        ixy="6.93889390390723E-18"
+        ixz="1.47114300475217E-19"
+        iyy="0.013361138208"
+        iyz="2.59416064392457E-19"
+        izz="0.025300928752" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="wm1">
+    <inertial>
+      <origin
+        xyz="0.030218305843952 0.0302183058439579 -0.0229933385881073"
+        rpy="0 0 0" />
+      <mass
+        value="0.241464642114672" />
+      <inertia
+        ixx="0.000179391049281745"
+        ixy="-8.91594811879763E-05"
+        ixz="-6.8543930200036E-08"
+        iyy="0.000179391049281745"
+        iyz="-6.85439302000436E-08"
+        izz="0.000273896352939588" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_to_wm1"
+    type="revolute">
+    <origin
+      xyz="-0.12869 -0.12869 0.065"
+      rpy="0 0 -2.3562" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.36"
+      upper="0.79"
+      effort="1000"
+      velocity="0.5" />
+  </joint>
+  <link
+    name="wm1_wheel">
+    <inertial>
+      <origin
+        xyz="0 2.77555756156289E-17 0.004"
+        rpy="0 0 0" />
+      <mass
+        value="0.0486569870187987" />
+      <inertia
+        ixx="2.38094856478655E-05"
+        ixy="6.21902212626134E-21"
+        ixz="2.67235124741584E-21"
+        iyy="2.38094856478655E-05"
+        iyz="0"
+        izz="4.70999634341971E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm1_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm1_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm1_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0.0784888527117062 0.0784888527117122 -0.021"
+      rpy="0.785398163397448 1.5707963267949 0" />
+    <parent
+      link="wm1" />
+    <child
+      link="wm1_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="wm2">
+    <inertial>
+      <origin
+        xyz="0.0302183058439524 -0.0302183058439524 -0.0229933385881073"
+        rpy="0 0 0" />
+      <mass
+        value="0.241464642114672" />
+      <inertia
+        ixx="0.000179391049281746"
+        ixy="8.91594811879764E-05"
+        ixz="-6.854393020004E-08"
+        iyy="0.000179391049281746"
+        iyz="6.85439302000435E-08"
+        izz="0.000273896352939589" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_to_wm2"
+    type="revolute">
+    <origin
+      xyz="0.12869 -0.12869 0.065"
+      rpy="0 0 -0.7854" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.79"
+      upper="2.36"
+      effort="1000"
+      velocity="0.5" />
+  </joint>
+  <link
+    name="wm2_wheel">
+    <inertial>
+      <origin
+        xyz="0 -1.38777878078145E-17 0.00399999999999989"
+        rpy="0 0 0" />
+      <mass
+        value="0.0486569870187986" />
+      <inertia
+        ixx="2.38094856478654E-05"
+        ixy="-7.29961465462049E-22"
+        ixz="4.86687582809085E-22"
+        iyy="2.38094856478654E-05"
+        iyz="1.6940658945086E-21"
+        izz="4.7099963434197E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm2_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm2_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm2_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0.0784888527117069 -0.0784888527117068 -0.021"
+      rpy="0.785398163397448 1.5707963267949 0" />
+    <parent
+      link="wm2" />
+    <child
+      link="wm2_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="wm3">
+    <inertial>
+      <origin
+        xyz="0.0302183058439524 0.0302183058439524 -0.0229933385881073"
+        rpy="0 0 0" />
+      <mass
+        value="0.241464642114672" />
+      <inertia
+        ixx="0.000179391049281746"
+        ixy="-8.91594811879764E-05"
+        ixz="-6.85439302000299E-08"
+        iyy="0.000179391049281746"
+        iyz="-6.85439302000106E-08"
+        izz="0.000273896352939588" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_to_wm3"
+    type="revolute">
+    <origin
+      xyz="0.12869 0.12869 0.065"
+      rpy="0 0 0.7854" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.36"
+      upper="0.79"
+      effort="1000"
+      velocity="0.5" />
+  </joint>
+  <link
+    name="wm3_wheel">
+    <inertial>
+      <origin
+        xyz="0 2.77555756156289E-17 0.00399999999999998"
+        rpy="0 0 0" />
+      <mass
+        value="0.0486569870187988" />
+      <inertia
+        ixx="2.38094856478655E-05"
+        ixy="-5.12844721888724E-22"
+        ixz="-3.00079622659878E-22"
+        iyy="2.38094856478655E-05"
+        iyz="5.0821976835258E-21"
+        izz="4.70999634341972E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm3_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm3_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm3_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0.0784888527117068 0.0784888527117068 -0.0209999999999999"
+      rpy="0.785398163397448 1.5707963267949 0" />
+    <parent
+      link="wm3" />
+    <child
+      link="wm3_wheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="wm4">
+    <inertial>
+      <origin
+        xyz="0.0302183058439516 -0.0302183058439552 -0.0229933385881074"
+        rpy="0 0 0" />
+      <mass
+        value="0.241464642114672" />
+      <inertia
+        ixx="0.000179391049281746"
+        ixy="8.91594811879764E-05"
+        ixz="-6.85439302000238E-08"
+        iyy="0.000179391049281746"
+        iyz="6.85439302000307E-08"
+        izz="0.000273896352939589" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_to_wm4"
+    type="revolute">
+    <origin
+      xyz="-0.12869 0.12869 0.065"
+      rpy="0 0 2.3562" />
+    <parent
+      link="base_link" />
+    <child
+      link="wm4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.79"
+      upper="2.36"
+      effort="1000"
+      velocity="0.5" />
+  </joint>
+  <link
+    name="wm4_wheel">
+    <inertial>
+      <origin
+        xyz="3.46944695195361E-18 -0.00282842712474617 0.00282842712474618"
+        rpy="0 0 0" />
+      <mass
+        value="0.0486569870187986" />
+      <inertia
+        ixx="2.38094856478655E-05"
+        ixy="-1.22246265460503E-21"
+        ixz="-5.6468863150286E-23"
+        iyy="3.54547245410313E-05"
+        iyz="-1.16452388931658E-05"
+        izz="3.54547245410313E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm4_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find urdf_tutorial)/meshes/wm4_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wm4_to_wheel"
+    type="continuous">
+    <origin
+      xyz="0.0784888527117057 -0.0784888527117094 -0.021"
+      rpy="0 1.5707963267949 0" />
+    <parent
+      link="wm4" />
+    <child
+      link="wm4_wheel" />
+    <axis
+      xyz="0 0.707106781186547 -0.707106781186548" />
+  </joint>
+</robot>

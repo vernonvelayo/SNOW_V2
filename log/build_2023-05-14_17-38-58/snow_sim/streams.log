@@ -1,0 +1,4 @@
+[0.023s] Invoking command in '/home/rhys/ws_snow/build/snow_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_sim -- -j12 -l12
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[3.628s] [100%] [32m[1mLinking CXX executable example_effort[0m
+[3.904s] [100%] Built target example_effort

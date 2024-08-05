@@ -1,0 +1,8 @@
+source;share/snow_con/hook/cmake_prefix_path.ps1
+source;share/snow_con/hook/cmake_prefix_path.dsv
+source;share/snow_con/hook/cmake_prefix_path.sh
+source;share/snow_con/local_setup.bash
+source;share/snow_con/local_setup.dsv
+source;share/snow_con/local_setup.ps1
+source;share/snow_con/local_setup.sh
+source;share/snow_con/local_setup.zsh

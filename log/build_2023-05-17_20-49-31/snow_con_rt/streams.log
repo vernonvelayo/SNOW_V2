@@ -1,0 +1,25 @@
+[0.051s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.144s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[2.865s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveToAPoint(double, double, double, double, double, double*, double*, double*, double*, double, bool, double*, double*, double*, double*, double*)[m[K’:
+[2.866s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:671:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kquadrant[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.866s]   671 |     static int [01;35m[Kquadrant[m[K = 0;
+[2.866s]       |                [01;35m[K^~~~~~~~[m[K
+[2.866s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:672:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KisComplete[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.866s]   672 |     static bool [01;35m[KisComplete[m[K;
+[2.866s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[2.870s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.870s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1287:5:[m[K [01;31m[Kerror: [m[Kduplicate case value
+[2.870s]  1287 |     [01;31m[Kcase[m[K STEP9:
+[2.871s]       |     [01;31m[K^~~~[m[K
+[2.871s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1255:5:[m[K [01;36m[Knote: [m[Kpreviously used here
+[2.871s]  1255 |     [01;36m[Kcase[m[K STEP9:
+[2.871s]       |     [01;36m[K^~~~[m[K
+[2.871s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1008:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP10[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[2.872s]  1008 |     switch [01;35m[K([m[KpState)
+[2.872s]       |            [01;35m[K^[m[K
+[2.872s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:1008:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP11[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[5.813s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[5.813s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[5.814s] gmake: *** [Makefile:134: all] Error 2
+[5.817s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

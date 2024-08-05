@@ -1,0 +1,16 @@
+/home/bern/ws_snow/install/snow_con/lib/snow_con/listener
+/home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/package_run_dependencies/snow_con
+/home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/parent_prefix_path/snow_con
+/home/bern/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.sh
+/home/bern/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.dsv
+/home/bern/ws_snow/install/snow_con/share/snow_con/environment/path.sh
+/home/bern/ws_snow/install/snow_con/share/snow_con/environment/path.dsv
+/home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.bash
+/home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.sh
+/home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.zsh
+/home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.dsv
+/home/bern/ws_snow/install/snow_con/share/snow_con/package.dsv
+/home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/packages/snow_con
+/home/bern/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig.cmake
+/home/bern/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig-version.cmake
+/home/bern/ws_snow/install/snow_con/share/snow_con/package.xml

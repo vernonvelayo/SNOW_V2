@@ -1,0 +1,24 @@
+[0.045s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.129s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[2.999s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.999s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:881:15:[m[K [01;31m[Kerror: [m[K‘[01m[KpGain[m[K’ was not declared in this scope
+[2.999s]   881 |       u[0] = -[01;31m[KpGain[m[K * (pArm[0] - d[0]) - vGain * (vArm[0] - v[0]);
+[3.000s]       |               [01;31m[K^~~~~[m[K
+[3.005s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:881:42:[m[K [01;31m[Kerror: [m[K‘[01m[KvGain[m[K’ was not declared in this scope
+[3.005s]   881 |       u[0] = -pGain * (pArm[0] - d[0]) - [01;31m[KvGain[m[K * (vArm[0] - v[0]);
+[3.005s]       |                                          [01;31m[K^~~~~[m[K
+[3.011s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:915:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp[m[K’ was not declared in this scope
+[3.011s]   915 |         uWheel[i] = -[01;31m[Kkp[m[K * (e[i]) - ki * inte[i] - 0.0 * de[i];
+[3.011s]       |                      [01;31m[K^~[m[K
+[3.016s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:915:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kki[m[K’ was not declared in this scope; did you mean ‘[01m[Ki[m[K’?
+[3.016s]   915 |         uWheel[i] = -kp * (e[i]) - [01;31m[Kki[m[K * inte[i] - 0.0 * de[i];
+[3.017s]       |                                    [01;31m[K^~[m[K
+[3.017s]       |                                    [32m[Ki[m[K
+[3.017s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:506:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtAngle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.017s]   506 |     static double [01;35m[KtAngle[m[K[4];
+[3.017s]       |                   [01;35m[K^~~~~~[m[K
+[5.956s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[5.956s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[5.957s] gmake: *** [Makefile:134: all] Error 2
+[5.960s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

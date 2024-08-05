@@ -1,0 +1,5 @@
+[0.016s] Invoking command in '/home/bern/ws_snow/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/urdf_tutorial -- -j12 -l12
+[0.023s] [0mCMake Error: The current CMakeCache.txt directory /home/bern/ws_snow/build/urdf_tutorial/CMakeCache.txt is different than the directory /home/rhys/ws_snow/build/urdf_tutorial where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.032s] [0mCMake Error: The source directory "/home/rhys/ws_snow/src/urdf_tutorial" does not exist.
+[0.032s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.033s] gmake: *** [Makefile:213: cmake_check_build_system] Error 1

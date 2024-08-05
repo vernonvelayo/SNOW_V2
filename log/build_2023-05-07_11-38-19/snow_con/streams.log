@@ -1,0 +1,71 @@
+[0.041s] Invoking command in '/home/rhys/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con -- -j12 -l12
+[0.095s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.301s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.345s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.348s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.356s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.497s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.497s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.894s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.075s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.160s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.160s] -- Configured cppcheck include dirs: 
+[1.160s] -- Configured cppcheck exclude dirs and/or files: 
+[1.161s] -- Added test 'lint_cmake' to check CMake code style
+[1.163s] -- Added test 'uncrustify' to check C / C++ code style
+[1.163s] -- Configured uncrustify additional arguments: 
+[1.163s] -- Added test 'xmllint' to check XML markup files
+[1.165s] -- Configuring done
+[1.179s] -- Generating done
+[1.181s] -- Build files have been written to: /home/rhys/ws_snow/build/snow_con
+[1.212s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.232s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[4.135s] [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[4.136s] [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:116:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.136s]   116 |       int [01;35m[Ki[m[K, j;
+[4.136s]       |           [01;35m[K^[m[K
+[4.136s] [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:116:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.136s]   116 |       int i, [01;35m[Kj[m[K;
+[4.136s]       |              [01;35m[K^[m[K
+[4.142s] [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.142s] [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:248:14:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP3[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.142s]   248 |       switch [01;35m[K([m[KpState) {
+[4.142s]       |              [01;35m[K^[m[K
+[4.143s] [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:154:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.143s]   154 |       static double [01;35m[Kc[m[K;
+[4.143s]       |                     [01;35m[K^[m[K
+[4.143s] [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:155:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.143s]   155 |       static int [01;35m[Kstep[m[K = 0;
+[4.143s]       |                  [01;35m[K^~~~[m[K
+[4.143s] [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:174:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.144s]   174 |       static float [01;35m[KcVwheelBrake[m[K;
+[4.144s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[4.144s] [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:175:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.144s]   175 |       static float [01;35m[KcPArmBrake[m[K;
+[4.144s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[10.175s] [100%] [32m[1mLinking CXX executable listener[0m
+[10.738s] [100%] Built target listener
+[10.748s] Invoked command in '/home/rhys/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con -- -j12 -l12
+[10.773s] Invoking command in '/home/rhys/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_con
+[10.784s] -- Install configuration: ""
+[10.785s] -- Installing: /home/rhys/ws_snow/install/snow_con/lib/snow_con/listener
+[10.793s] -- Set runtime path of "/home/rhys/ws_snow/install/snow_con/lib/snow_con/listener" to ""
+[10.793s] -- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/ament_index/resource_index/package_run_dependencies/snow_con
+[10.793s] -- Installing: /home/rhys/ws_snow/install/snow_con/share/ament_index/resource_index/parent_prefix_path/snow_con
+[10.794s] -- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.sh
+[10.795s] -- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.dsv
+[10.796s] -- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/environment/path.sh
+[10.796s] -- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/environment/path.dsv
+[10.796s] -- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/local_setup.bash
+[10.796s] -- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/local_setup.sh
+[10.796s] -- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/local_setup.zsh
+[10.796s] -- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/local_setup.dsv
+[10.797s] -- Installing: /home/rhys/ws_snow/install/snow_con/share/snow_con/package.dsv
+[10.797s] -- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/ament_index/resource_index/packages/snow_con
+[10.797s] -- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig.cmake
+[10.797s] -- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig-version.cmake
+[10.797s] -- Up-to-date: /home/rhys/ws_snow/install/snow_con/share/snow_con/package.xml
+[10.804s] Invoked command in '/home/rhys/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhys/ws_snow/build/snow_con

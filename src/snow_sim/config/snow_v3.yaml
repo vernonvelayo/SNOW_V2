@@ -1,0 +1,27 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    effort_controllers:
+      type: effort_controllers/JointGroupEffortController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+effort_controllers:
+  ros__parameters:
+    joints:
+      - wm1_base_to_steering_axis
+      - wm2_base_to_steering_axis
+      - wm3_base_to_steering_axis
+      - wm4_base_to_steering_axis
+      - wm1_arm_to_wheel
+      - wm2_arm_to_wheel
+      - wm3_arm_to_wheel
+      - wm4_arm_to_wheel
+    command_interfaces:
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+      - effort

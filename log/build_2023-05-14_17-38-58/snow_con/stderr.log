@@ -1,0 +1,23 @@
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:116:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  116 |       int [01;35m[Ki[m[K, j;
+      |           [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:116:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  116 |       int i, [01;35m[Kj[m[K;
+      |              [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:248:14:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP3[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  248 |       switch [01;35m[K([m[KpState) {
+      |              [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:154:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  154 |       static double [01;35m[Kc[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:155:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  155 |       static int [01;35m[Kstep[m[K = 0;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:174:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  174 |       static float [01;35m[KcVwheelBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:175:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  175 |       static float [01;35m[KcPArmBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~[m[K

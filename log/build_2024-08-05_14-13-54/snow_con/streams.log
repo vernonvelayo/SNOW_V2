@@ -1,0 +1,91 @@
+[0.015s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.527s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::initialize_state()[m[K’:
+[1.527s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:61:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[1.527s]    61 |             static double [01;35m[Kd[m[K[i] = 0;
+[1.527s]       |                           [01;35m[K^[m[K
+[1.527s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:61:34:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+[1.527s]    61 |             static double d[i] = [01;31m[K0[m[K;
+[1.527s]       |                                  [01;31m[K^[m[K
+[1.527s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:61:27:[m[K [01;31m[Kerror: [m[Kstorage size of ‘[01m[Kd[m[K’ isn’t constant
+[1.528s]    61 |             static double [01;31m[Kd[m[K[i] = 0;
+[1.528s]       |                           [01;31m[K^[m[K
+[1.528s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:62:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[1.528s]    62 |             static double [01;35m[Kv[m[K[i] = 0;
+[1.528s]       |                           [01;35m[K^[m[K
+[1.528s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:62:34:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+[1.528s]    62 |             static double v[i] = [01;31m[K0[m[K;
+[1.528s]       |                                  [01;31m[K^[m[K
+[1.528s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:62:27:[m[K [01;31m[Kerror: [m[Kstorage size of ‘[01m[Kv[m[K’ isn’t constant
+[1.528s]    62 |             static double [01;31m[Kv[m[K[i] = 0;
+[1.528s]       |                           [01;31m[K^[m[K
+[1.529s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:63:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdstartpos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[1.529s]    63 |             static double [01;35m[Kdstartpos[m[K[i] = 0;
+[1.529s]       |                           [01;35m[K^~~~~~~~~[m[K
+[1.529s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:63:42:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+[1.529s]    63 |             static double dstartpos[i] = [01;31m[K0[m[K;
+[1.529s]       |                                          [01;31m[K^[m[K
+[1.529s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:63:27:[m[K [01;31m[Kerror: [m[Kstorage size of ‘[01m[Kdstartpos[m[K’ isn’t constant
+[1.529s]    63 |             static double [01;31m[Kdstartpos[m[K[i] = 0;
+[1.529s]       |                           [01;31m[K^~~~~~~~~[m[K
+[1.530s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:64:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KdStartAngle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[1.530s]    64 |             static double [01;35m[KdStartAngle[m[K[i] = 0;
+[1.530s]       |                           [01;35m[K^~~~~~~~~~~[m[K
+[1.530s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:64:44:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+[1.530s]    64 |             static double dStartAngle[i] = [01;31m[K0[m[K;
+[1.530s]       |                                            [01;31m[K^[m[K
+[1.530s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:64:27:[m[K [01;31m[Kerror: [m[Kstorage size of ‘[01m[KdStartAngle[m[K’ isn’t constant
+[1.530s]    64 |             static double [01;31m[KdStartAngle[m[K[i] = 0;
+[1.530s]       |                           [01;31m[K^~~~~~~~~~~[m[K
+[1.530s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:67:16:[m[K [01;31m[Kerror: [m[K‘[01m[KpState[m[K’ does not name a type
+[1.530s]    67 |         static [01;31m[KpState[m[K = INIT;
+[1.530s]       |                [01;31m[K^~~~~~[m[K
+[1.531s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:68:16:[m[K [01;31m[Kerror: [m[K‘[01m[KnState[m[K’ does not name a type
+[1.531s]    68 |         static [01;31m[KnState[m[K = INIT;
+[1.531s]       |                [01;31m[K^~~~~~[m[K
+[1.531s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:69:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kwait[m[K’ does not name a type
+[1.531s]    69 |         static [01;31m[Kwait[m[K = false;
+[1.531s]       |                [01;31m[K^~~~[m[K
+[1.531s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:55:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktstartmove[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.531s]    55 |         static double [01;35m[Ktstartmove[m[K = 0;
+[1.531s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[1.531s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:56:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvelocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.531s]    56 |         static double [01;35m[Kvelocity[m[K = 0;
+[1.531s]       |                       [01;35m[K^~~~~~~~[m[K
+[1.531s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:57:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.532s]    57 |         static double [01;35m[Kposition[m[K = 0;
+[1.532s]       |                       [01;35m[K^~~~~~~~[m[K
+[1.532s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[1.532s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:137:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.532s]   137 |       int [01;35m[Ki[m[K, j;
+[1.532s]       |           [01;35m[K^[m[K
+[1.532s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:137:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.532s]   137 |       int i, [01;35m[Kj[m[K;
+[1.532s]       |              [01;35m[K^[m[K
+[1.533s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.534s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:175:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.534s]   175 |       static double [01;35m[Kc[m[K;
+[1.534s]       |                     [01;35m[K^[m[K
+[1.534s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:176:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.534s]   176 |       static int [01;35m[Kstep[m[K = 0;
+[1.534s]       |                  [01;35m[K^~~~[m[K
+[1.534s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:187:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.534s]   187 |       static double [01;35m[Kendposition[m[K = 0;
+[1.534s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[1.534s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:191:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelRotate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.534s]   191 |       static float [01;35m[KcVwheelRotate[m[K;
+[1.534s]       |                    [01;35m[K^~~~~~~~~~~~~[m[K
+[1.534s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:192:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPwheelRotate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.534s]   192 |       static float [01;35m[KcPwheelRotate[m[K;
+[1.534s]       |                    [01;35m[K^~~~~~~~~~~~~[m[K
+[1.534s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:195:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.534s]   195 |       static float [01;35m[KcVwheelBrake[m[K;
+[1.534s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[1.534s] [01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:196:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.534s]   196 |       static float [01;35m[KcPArmBrake[m[K;
+[1.534s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[3.113s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[3.113s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[3.113s] gmake: *** [Makefile:146: all] Error 2
+[3.115s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12

@@ -1,0 +1,31 @@
+[0.026s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.080s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.921s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveToAPoint(double, double, double, double, double, double*, double*, double*, double*, double, bool, double*, double*, double*, double*, double*)[m[K’:
+[1.921s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:838:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::swivel(double*&, double*&, double&, double*&, double*&, double*&, double&, double&, bool&, double [4])[m[K’
+[1.921s]   838 |       if ([01;31m[Kswivel(pArm, uArm, t, d, v, a, targetTime, targetAngle, isHardcon, nStateSign)[m[K)
+[1.921s]       |           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.922s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’
+[1.922s]   433 |   bool [01;36m[Kswivel[m[K(
+[1.922s]       |        [01;36m[K^~~~~~[m[K
+[1.929s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[K  candidate expects 11 arguments, 10 provided
+[1.929s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:859:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::swivel(double*&, double*&, double&, double*&, double*&, double*&, double&, double&, bool&, double [4])[m[K’
+[1.929s]   859 |       if ([01;31m[Kswivel(pArm, uArm, t, d, v, a, targetTime, targetAngle, isHardcon, nStateSign)[m[K)
+[1.930s]       |           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.930s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’
+[1.930s]   433 |   bool [01;36m[Kswivel[m[K(
+[1.930s]       |        [01;36m[K^~~~~~[m[K
+[1.930s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[K  candidate expects 11 arguments, 10 provided
+[1.930s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:878:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::swivel(double*&, double*&, double&, double*&, double*&, double*&, double&, double&, bool&, double [4])[m[K’
+[1.930s]   878 |       if ([01;31m[Kswivel(pArm, uArm, t, d, v, a, targetTime, targetAngle, isHardcon, nStateSign)[m[K)
+[1.931s]       |           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.931s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool MinimalSubscriber::swivel(double*, double*, double*, double, double*, double*, double*, double, double, bool, double*)[m[K’
+[1.931s]   433 |   bool [01;36m[Kswivel[m[K(
+[1.931s]       |        [01;36m[K^~~~~~[m[K
+[1.931s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:433:8:[m[K [01;36m[Knote: [m[K  candidate expects 11 arguments, 10 provided
+[1.932s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:724:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kquadrant[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.932s]   724 |     static int [01;35m[Kquadrant[m[K = 0;
+[1.932s]       |                [01;35m[K^~~~~~~~[m[K
+[3.954s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[3.955s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[3.955s] gmake: *** [Makefile:134: all] Error 2
+[3.959s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

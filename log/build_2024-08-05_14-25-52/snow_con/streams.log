@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.048s] [100%] Built target listener
+[0.054s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/snow_con -- -j12 -l12
+[0.071s] Invoking command in '/home/bern/ws_snow/build/snow_con': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/snow_con
+[0.084s] -- Install configuration: ""
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/lib/snow_con/listener
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/package_run_dependencies/snow_con
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/parent_prefix_path/snow_con
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/path.sh
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/environment/path.dsv
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.bash
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.sh
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.zsh
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/local_setup.dsv
+[0.084s] -- Installing: /home/bern/ws_snow/install/snow_con/share/snow_con/package.dsv
+[0.084s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/ament_index/resource_index/packages/snow_con
+[0.085s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig.cmake
+[0.085s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/cmake/snow_conConfig-version.cmake
+[0.085s] -- Up-to-date: /home/bern/ws_snow/install/snow_con/share/snow_con/package.xml
+[0.114s] Invoked command in '/home/bern/ws_snow/build/snow_con' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/snow_con

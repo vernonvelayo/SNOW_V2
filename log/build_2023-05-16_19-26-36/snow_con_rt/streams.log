@@ -1,0 +1,80 @@
+[0.032s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.114s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[2.930s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::getNextStateSign(double*, int, double, double, double)[m[K’:
+[2.930s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:209:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.930s]   209 | le *nStateSign, int state, double rotationDirection, [01;35m[Kdouble x[m[K, double y)
+[2.930s]       |                                                      [01;35m[K~~~~~~~^[m[K
+[2.931s] 
+[2.931s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:209:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.931s]   209 | e *nStateSign, int state, double rotationDirection, double x, [01;35m[Kdouble y[m[K)
+[2.931s]       |                                                               [01;35m[K~~~~~~~^[m[K
+[2.931s] 
+[2.932s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kbool MinimalSubscriber::moveToAPoint(double, double, double, double*, double*, double*, double, bool, int*, double*, double*, double*)[m[K’:
+[2.933s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:543:19:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble targetVelocity[m[K’ shadows a parameter
+[2.933s]   543 |     static double [01;31m[KtargetVelocity[m[K;
+[2.933s]       |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.933s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:525:14:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble targetVelocity[m[K’ previously declared here
+[2.933s]   525 |       [01;36m[Kdouble targetVelocity[m[K,
+[2.933s]       |       [01;36m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.939s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:594:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP3[m[K’ was not declared in this scope; did you mean ‘[01m[KSTEPS[m[K’?
+[2.939s]   594 |           path[0] = [01;31m[KSTEP3[m[K;
+[2.939s]       |                     [01;31m[K^~~~~[m[K
+[2.939s]       |                     [32m[KSTEPS[m[K
+[2.944s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:595:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP2[m[K’ was not declared in this scope; did you mean ‘[01m[KSTEPS[m[K’?
+[2.944s]   595 |           path[1] = [01;31m[KSTEP2[m[K;
+[2.945s]       |                     [01;31m[K^~~~~[m[K
+[2.945s]       |                     [32m[KSTEPS[m[K
+[2.950s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:596:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP1[m[K’ was not declared in this scope; did you mean ‘[01m[KSTEPS[m[K’?
+[2.950s]   596 |           path[2] = [01;31m[KSTEP1[m[K;
+[2.950s]       |                     [01;31m[K^~~~~[m[K
+[2.950s]       |                     [32m[KSTEPS[m[K
+[2.955s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:599:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP3[m[K’ was not declared in this scope; did you mean ‘[01m[KSTEPS[m[K’?
+[2.955s]   599 |           path[0] = [01;31m[KSTEP3[m[K;
+[2.956s]       |                     [01;31m[K^~~~~[m[K
+[2.956s]       |                     [32m[KSTEPS[m[K
+[2.961s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:600:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP2[m[K’ was not declared in this scope; did you mean ‘[01m[KSTEPS[m[K’?
+[2.961s]   600 |           path[1] = [01;31m[KSTEP2[m[K;
+[2.961s]       |                     [01;31m[K^~~~~[m[K
+[2.961s]       |                     [32m[KSTEPS[m[K
+[2.966s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:601:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP1[m[K’ was not declared in this scope; did you mean ‘[01m[KSTEPS[m[K’?
+[2.967s]   601 |           path[2] = [01;31m[KSTEP1[m[K;
+[2.967s]       |                     [01;31m[K^~~~~[m[K
+[2.967s]       |                     [32m[KSTEPS[m[K
+[2.974s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:624:9:[m[K [01;31m[Kerror: [m[K‘[01m[KnStateSign[m[K’ was not declared in this scope
+[2.975s]   624 |         [01;31m[KnStateSign[m[K[0] = 1.0;
+[2.975s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.982s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:644:9:[m[K [01;31m[Kerror: [m[K‘[01m[KnStateSign[m[K’ was not declared in this scope
+[2.982s]   644 |         [01;31m[KnStateSign[m[K[0] = 1.0;
+[2.983s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.990s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:662:9:[m[K [01;31m[Kerror: [m[K‘[01m[KnStateSign[m[K’ was not declared in this scope
+[2.991s]   662 |         [01;31m[KnStateSign[m[K[0] = rotationDirection;
+[2.991s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.991s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:531:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kquadrant[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.991s]   531 |     static int [01;35m[Kquadrant[m[K = 0;
+[2.991s]       |                [01;35m[K^~~~~~~~[m[K
+[2.992s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:542:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtargetPosition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.992s]   542 |     static double [01;35m[KtargetPosition[m[K;
+[2.992s]       |                   [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.992s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:543:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtargetVelocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.992s]   543 |     static double [01;35m[KtargetVelocity[m[K;
+[2.992s]       |                   [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.992s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:525:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtargetVelocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.992s]   525 |       [01;35m[Kdouble targetVelocity[m[K,
+[2.993s]       |       [01;35m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.993s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:526:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KvArm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.993s]   526 |       double *pArm, [01;35m[Kdouble *vArm[m[K, double *uArm,
+[2.993s]       |                     [01;35m[K~~~~~~~~^~~~[m[K
+[2.993s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:528:12:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.993s]   528 |       [01;35m[Kint *pos[m[K,
+[2.993s]       |       [01;35m[K~~~~~^~~[m[K
+[2.995s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.995s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:789:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP7[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[2.995s]   789 |     switch [01;35m[K([m[KpState)
+[2.995s]       |            [01;35m[K^[m[K
+[2.995s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:789:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP8[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[2.995s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:789:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTEP9[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[5.651s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[5.651s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[5.651s] gmake: *** [Makefile:134: all] Error 2
+[5.655s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

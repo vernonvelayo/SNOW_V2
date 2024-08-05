@@ -1,0 +1,115 @@
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:510:14:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+  510 |              /* // torque limiter
+      |               
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:532:12:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K/[m[K’ token
+  532 |         } *[01;31m[K/[m[K
+      |            [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:580:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  580 |       }
+      |        [01;31m[K^[m[K
+      |        [32m[K;[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:39:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   39 |       [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krmw_subscription_t[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:44:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   44 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>("/effort_controllers/commands", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:116:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  116 |       int [01;35m[Ki[m[K, j;
+      |           [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:116:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  116 |       int i, [01;35m[Kj[m[K;
+      |              [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:313:13:[m[K [01;31m[Kerror: [m[K‘[01m[KprevState[m[K’ was not declared in this scope; did you mean ‘[01m[KpState[m[K’?
+  313 |             [01;31m[KprevState[m[K = 5;
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[KpState[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:520:22:[m[K [01;31m[Kerror: [m[K‘[01m[KSTEP6[m[K’ was not declared in this scope; did you mean ‘[01m[KSTEP1[m[K’?
+  520 |             nState = [01;31m[KSTEP6[m[K;
+      |                      [01;31m[K^~~~~[m[K
+      |                      [32m[KSTEP1[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:531:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  531 |           [01;31m[Kbreak[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:154:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  154 |       static double [01;35m[Kc[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:155:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  155 |       static int [01;35m[Kstep[m[K = 0;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:159:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  159 |       int [01;35m[Kpos[m[K = 0;
+      |           [01;35m[K^~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:166:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  166 |       static double [01;35m[Kendposition[m[K = 0;
+      |                     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:174:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  174 |       static float [01;35m[KcVwheelBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:175:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  175 |       static float [01;35m[KcPArmBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:177:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KdqD[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  177 |       static double [01;35m[KdqD[m[K[4];
+      |                     [01;35m[K^~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:178:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KdsJD[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  178 |       static double [01;35m[KdsJD[m[K[4];
+      |                     [01;35m[K^~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:179:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsJD[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  179 |       static double [01;35m[KsJD[m[K[4];
+      |                     [01;35m[K^~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K At global scope:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:582:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  582 |       [01;31m[Kif[m[K (pos == 1)  {
+      |       [01;31m[K^~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:626:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  626 |       [01;31m[Kcommands[m[K.data.push_back(uArm[0]);
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:627:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  627 |       [01;31m[Kcommands[m[K.data.push_back(uArm[1]);
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:628:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  628 |       [01;31m[Kcommands[m[K.data.push_back(uArm[2]);
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:629:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  629 |       [01;31m[Kcommands[m[K.data.push_back(uArm[3]);
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:630:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  630 |       [01;31m[Kcommands[m[K.data.push_back( uWheel[0] );
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:631:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  631 |       [01;31m[Kcommands[m[K.data.push_back( uWheel[1] );
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:632:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  632 |       [01;31m[Kcommands[m[K.data.push_back( uWheel[2] );
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:633:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands[m[K’ does not name a type
+  633 |       [01;31m[Kcommands[m[K.data.push_back( uWheel[3]);
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:636:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+  636 |       [01;31m[Kpublisher_[m[K->publish(commands);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:638:19:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  638 |       print_joints[01;31m[K([m[KpArm,vArm,pWheel,vWheel,t, pState);
+      |                   [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:639:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  639 |       print_commands[01;31m[K([m[KuArm, uWheel, t, pState) ;
+      |                     [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:640:20:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  640 |       print_latency[01;31m[K([m[Kt);
+      |                    [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:642:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  642 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:648:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  648 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

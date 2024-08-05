@@ -1,0 +1,17 @@
+[0.027s] Invoking command in '/home/rhys/ws_snow/build/snow_con_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.075s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[1.936s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.936s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:665:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kbreak[m[K’
+[1.936s]   665 |       [01;31m[Kbreak[m[K;
+[1.936s]       |       [01;31m[K^~~~~[m[K
+[3.792s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:662:7:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[3.793s]   662 |       [01;35m[Kif[m[K (waitTime(t,1.0))
+[3.793s]       |       [01;35m[K^~[m[K
+[3.793s] [01m[K/home/rhys/ws_snow/src/snow_con_rt/src/main.cpp:668:5:[m[K [01;36m[Knote: [m[Khere
+[3.793s]   668 |     [01;36m[Kcase[m[K OPEN:
+[3.793s]       |     [01;36m[K^~~~[m[K
+[3.974s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[3.974s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[3.975s] gmake: *** [Makefile:134: all] Error 2
+[3.977s] Invoked command in '/home/rhys/ws_snow/build/snow_con_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ws_snow/build/snow_con_rt -- -j12 -l12

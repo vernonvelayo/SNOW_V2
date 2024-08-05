@@ -1,0 +1,8 @@
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:277:24:[m[K [01;31m[Kerror: [m[K‘[01m[KcPwheelBrake[m[K’ was not declared in this scope; did you mean ‘[01m[KcVwheelBrake[m[K’?
+  277 |           uWheel[i] = -[01;31m[KcPwheelBrake[m[K * (pWheel[i] - d[i]) + -cVwheelBrake * (vWheel[i] - v[i]);
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+      |                        [32m[KcVwheelBrake[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

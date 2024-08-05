@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/listener.dir/src/kbhit.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/listener.dir/src/utility.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/listener.dir/src/eso.cpp.o[0m

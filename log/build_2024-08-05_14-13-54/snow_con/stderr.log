@@ -1,0 +1,87 @@
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::initialize_state()[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:61:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   61 |             static double [01;35m[Kd[m[K[i] = 0;
+      |                           [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:61:34:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+   61 |             static double d[i] = [01;31m[K0[m[K;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:61:27:[m[K [01;31m[Kerror: [m[Kstorage size of ‘[01m[Kd[m[K’ isn’t constant
+   61 |             static double [01;31m[Kd[m[K[i] = 0;
+      |                           [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:62:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   62 |             static double [01;35m[Kv[m[K[i] = 0;
+      |                           [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:62:34:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+   62 |             static double v[i] = [01;31m[K0[m[K;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:62:27:[m[K [01;31m[Kerror: [m[Kstorage size of ‘[01m[Kv[m[K’ isn’t constant
+   62 |             static double [01;31m[Kv[m[K[i] = 0;
+      |                           [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:63:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdstartpos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   63 |             static double [01;35m[Kdstartpos[m[K[i] = 0;
+      |                           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:63:42:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+   63 |             static double dstartpos[i] = [01;31m[K0[m[K;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:63:27:[m[K [01;31m[Kerror: [m[Kstorage size of ‘[01m[Kdstartpos[m[K’ isn’t constant
+   63 |             static double [01;31m[Kdstartpos[m[K[i] = 0;
+      |                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:64:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KdStartAngle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   64 |             static double [01;35m[KdStartAngle[m[K[i] = 0;
+      |                           [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:64:44:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+   64 |             static double dStartAngle[i] = [01;31m[K0[m[K;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:64:27:[m[K [01;31m[Kerror: [m[Kstorage size of ‘[01m[KdStartAngle[m[K’ isn’t constant
+   64 |             static double [01;31m[KdStartAngle[m[K[i] = 0;
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:67:16:[m[K [01;31m[Kerror: [m[K‘[01m[KpState[m[K’ does not name a type
+   67 |         static [01;31m[KpState[m[K = INIT;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:68:16:[m[K [01;31m[Kerror: [m[K‘[01m[KnState[m[K’ does not name a type
+   68 |         static [01;31m[KnState[m[K = INIT;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:69:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kwait[m[K’ does not name a type
+   69 |         static [01;31m[Kwait[m[K = false;
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:55:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktstartmove[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   55 |         static double [01;35m[Ktstartmove[m[K = 0;
+      |                       [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:56:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvelocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   56 |         static double [01;35m[Kvelocity[m[K = 0;
+      |                       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:57:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   57 |         static double [01;35m[Kposition[m[K = 0;
+      |                       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:137:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  137 |       int [01;35m[Ki[m[K, j;
+      |           [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:137:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  137 |       int i, [01;35m[Kj[m[K;
+      |              [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:175:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  175 |       static double [01;35m[Kc[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:176:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  176 |       static int [01;35m[Kstep[m[K = 0;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:187:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  187 |       static double [01;35m[Kendposition[m[K = 0;
+      |                     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:191:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelRotate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  191 |       static float [01;35m[KcVwheelRotate[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:192:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPwheelRotate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  192 |       static float [01;35m[KcPwheelRotate[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:195:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  195 |       static float [01;35m[KcVwheelBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bern/ws_snow/src/snow_con/src/main.cpp:196:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  196 |       static float [01;35m[KcPArmBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+Invoking command in '/home/bern/ws_snow/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/urdf_tutorial -- -j12 -l12
+Invoked command in '/home/bern/ws_snow/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bern/ws_snow/build/urdf_tutorial -- -j12 -l12
+Invoking command in '/home/bern/ws_snow/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/urdf_tutorial
+Invoked command in '/home/bern/ws_snow/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bern/ws_snow/build/urdf_tutorial

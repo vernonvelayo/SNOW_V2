@@ -1,0 +1,183 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:14:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kds[m[K’ does not name a type; did you mean ‘[01m[Kdt[m[K’?
+   14 | [01;31m[Kds[m[K
+      | [01;31m[K^~[m[K
+      | [32m[Kdt[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:[m[K In constructor ‘[01m[KESO::ESO(double, double)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:39:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KESO[m[K’ does not have any field named ‘[01m[Kb[m[K’
+   39 |       [01;31m[Kb[m[K(bConstructor),
+      |       [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:[m[K In member function ‘[01m[Kvirtual void ESO::predict(double, double, double)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:104:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kb[m[K’ was not declared in this scope
+  104 |       dqHat = dqHat + dt*(fHat + L[1]*e + [01;31m[Kb[m[K*u );
+      |                                           [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:[m[K In member function ‘[01m[Kvirtual double ESO_PSI::hCalc()[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:154:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::dq[m[K’ is private within this context
+  154 |       ddqHat.calculate([01;31m[Kdq[m[K);
+      |                        [01;31m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:20:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   20 |     double [01;36m[Kdq[m[K;//velocity
+      |            [01;36m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:[m[K In member function ‘[01m[Kvirtual double ESO_PSI::eCalc()[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:163:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::q[m[K’ is private within this context
+  163 |       eLocal =([01;31m[Kq[m[K-qHat);
+      |                [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:19:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   19 |     double [01;36m[Kq[m[K;//position
+      |            [01;36m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:163:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::qHat[m[K’ is private within this context
+  163 |       eLocal =(q-[01;31m[KqHat[m[K);
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:22:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   22 |     double [01;36m[KqHat[m[K;//position estimate
+      |            [01;36m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:[m[K In member function ‘[01m[Kvirtual double ESO_THETA_BAR::hCalc()[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:201:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::dq[m[K’ is private within this context
+  201 |       return (0.0*esoPsiBarP->[01;31m[Kdq[m[K + b*esoPsiBarP->dU);
+      |                               [01;31m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:20:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   20 |     double [01;36m[Kdq[m[K;//velocity
+      |            [01;36m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:201:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kb[m[K’ was not declared in this scope
+  201 |       return (0.0*esoPsiBarP->dq + [01;31m[Kb[m[K*esoPsiBarP->dU);
+      |                                    [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:201:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::dU[m[K’ is private within this context
+  201 |       return (0.0*esoPsiBarP->dq + b*esoPsiBarP->[01;31m[KdU[m[K);
+      |                                                  [01;31m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:29:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   29 |     double [01;36m[KdU[m[K;//input
+      |            [01;36m[K^~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:[m[K In member function ‘[01m[Kvirtual double ESO_THETA_BAR::eCalc()[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:206:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::q[m[K’ is private within this context
+  206 |       return saturate( ([01;31m[Kq[m[K-qHat), 0.08);
+      |                         [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:19:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   19 |     double [01;36m[Kq[m[K;//position
+      |            [01;36m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:206:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::qHat[m[K’ is private within this context
+  206 |       return saturate( (q-[01;31m[KqHat[m[K), 0.08);
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:22:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   22 |     double [01;36m[KqHat[m[K;//position estimate
+      |            [01;36m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::print_latency(double)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:116:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  116 |       int [01;35m[Ki[m[K, j;
+      |           [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:116:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  116 |       int i, [01;35m[Kj[m[K;
+      |              [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:219:22:[m[K [01;31m[Kerror: [m[K‘[01m[KESO::ESO(double, double)[m[K’ is private within this context
+  219 |       ESO eso0(100,20[01;31m[K)[m[K;
+      |                      [01;31m[K^[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:35:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     [01;36m[KESO[m[K(
+      |     [01;36m[K^~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:220:22:[m[K [01;31m[Kerror: [m[K‘[01m[KESO::ESO(double, double)[m[K’ is private within this context
+  220 |       ESO eso1(100,20[01;31m[K)[m[K;
+      |                      [01;31m[K^[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:35:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     [01;36m[KESO[m[K(
+      |     [01;36m[K^~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:221:22:[m[K [01;31m[Kerror: [m[K‘[01m[KESO::ESO(double, double)[m[K’ is private within this context
+  221 |       ESO eso2(100,20[01;31m[K)[m[K;
+      |                      [01;31m[K^[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:35:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     [01;36m[KESO[m[K(
+      |     [01;36m[K^~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:222:22:[m[K [01;31m[Kerror: [m[K‘[01m[KESO::ESO(double, double)[m[K’ is private within this context
+  222 |       ESO eso3(100,20[01;31m[K)[m[K;
+      |                      [01;31m[K^[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:35:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     [01;36m[KESO[m[K(
+      |     [01;36m[K^~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:224:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual void ESO::predict(double, double, double)[m[K’ is private within this context
+  224 |       [01;31m[Keso0.predict(pArm[0],0,vArm[0])[m[K;
+      |       [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:83:18:[m[K [01;36m[Knote: [m[Kdeclared private here
+   83 |     virtual void [01;36m[Kpredict[m[K(double qM, double dqM, double uM)
+      |                  [01;36m[K^~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:225:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual void ESO::predict(double, double, double)[m[K’ is private within this context
+  225 |       [01;31m[Keso1.predict(pArm[1],0,vArm[1])[m[K;
+      |       [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:83:18:[m[K [01;36m[Knote: [m[Kdeclared private here
+   83 |     virtual void [01;36m[Kpredict[m[K(double qM, double dqM, double uM)
+      |                  [01;36m[K^~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:226:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual void ESO::predict(double, double, double)[m[K’ is private within this context
+  226 |       [01;31m[Keso2.predict(pArm[2],0,vArm[2])[m[K;
+      |       [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:83:18:[m[K [01;36m[Knote: [m[Kdeclared private here
+   83 |     virtual void [01;36m[Kpredict[m[K(double qM, double dqM, double uM)
+      |                  [01;36m[K^~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:227:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual void ESO::predict(double, double, double)[m[K’ is private within this context
+  227 |       [01;31m[Keso3.predict(pArm[3],0,vArm[3])[m[K;
+      |       [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:83:18:[m[K [01;36m[Knote: [m[Kdeclared private here
+   83 |     virtual void [01;36m[Kpredict[m[K(double qM, double dqM, double uM)
+      |                  [01;36m[K^~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:587:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::fHat[m[K’ is private within this context
+  587 |         dqD[0] -= eso0.[01;31m[KfHat[m[K/eso0.b;
+      |                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:24:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   24 |     double [01;36m[KfHat[m[K;//function estimate
+      |            [01;36m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:587:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ESO[m[K’ has no member named ‘[01m[Kb[m[K’
+  587 |         dqD[0] -= eso0.fHat/eso0.[01;31m[Kb[m[K;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:590:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::fHat[m[K’ is private within this context
+  590 |         dqD[1] -= eso1.[01;31m[KfHat[m[K/eso1.b;
+      |                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:24:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   24 |     double [01;36m[KfHat[m[K;//function estimate
+      |            [01;36m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:590:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ESO[m[K’ has no member named ‘[01m[Kb[m[K’
+  590 |         dqD[1] -= eso1.fHat/eso1.[01;31m[Kb[m[K;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:593:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::fHat[m[K’ is private within this context
+  593 |         dqD[2] -= eso2.[01;31m[KfHat[m[K/eso2.b;
+      |                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:24:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   24 |     double [01;36m[KfHat[m[K;//function estimate
+      |            [01;36m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:593:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ESO[m[K’ has no member named ‘[01m[Kb[m[K’
+  593 |         dqD[2] -= eso2.fHat/eso2.[01;31m[Kb[m[K;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:596:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble ESO::fHat[m[K’ is private within this context
+  596 |         dqD[3] -= eso3.[01;31m[KfHat[m[K/eso3.b;
+      |                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:9[m[K:
+[01m[K/home/rhys/ws_snow/src/snow_con/src/eso.h:24:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   24 |     double [01;36m[KfHat[m[K;//function estimate
+      |            [01;36m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:596:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ESO[m[K’ has no member named ‘[01m[Kb[m[K’
+  596 |         dqD[3] -= eso3.fHat/eso3.[01;31m[Kb[m[K;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:154:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  154 |       static double [01;35m[Kc[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:155:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  155 |       static int [01;35m[Kstep[m[K = 0;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:174:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcVwheelBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  174 |       static float [01;35m[KcVwheelBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rhys/ws_snow/src/snow_con/src/main.cpp:175:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcPArmBrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  175 |       static float [01;35m[KcPArmBrake[m[K;
+      |                    [01;35m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:134: all] Error 2
