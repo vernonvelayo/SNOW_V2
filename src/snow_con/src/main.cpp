@@ -227,7 +227,7 @@ class MinimalSubscriber : public rclcpp::Node
       {
         INIT, 
         START,
-        STEP1,
+        STEP1,    // move by 1m along +x axis
         //STEP2,   move by 1m along -x axis
         //STEP3,   arms swivel -90deg
         //STEP4,   move by 1m along +y axis
